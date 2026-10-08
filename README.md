@@ -19,7 +19,7 @@ Coverage is still partial where a source could not be retrieved. A reviewed sect
 The deployable source is also provided in `gazette-source.zip`. Extract it to obtain `dist/`, `data/`, `scripts/` and `tests/`.
 
 ```sh
-unzip -o gazette-source.zip
+unzip -oq gazette-source.zip 'dist/*' 'scripts/*' 'tests/*'
 python scripts/build-open-data.py
 node --check dist/app.js
 node tests/history.cjs
@@ -28,7 +28,7 @@ node tests/cluster-core.cjs
 node tests/ui-smoke.cjs
 ```
 
-Canonical textbook curation lives in `data/profile_reviews.json`; `scripts/build-open-data.py` regenerates the evidence tables and site data together. Keep the direct `data/` files and the deployment archive synchronized. The GitHub Pages workflow extracts the archive, runs the checks and deploys `dist/` through `scripts/prepare-pages.cjs`.
+Canonical textbook curation lives in `data/profile_reviews.json`; `scripts/build-open-data.py` regenerates the evidence tables and site data together. The direct `data/` files are authoritative. The GitHub Pages workflow extracts application code from the archive, rebuilds the website data from the repository tables, runs the checks and deploys `dist/` through `scripts/prepare-pages.cjs`.
 
 ## Attribution
 

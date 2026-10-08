@@ -21,9 +21,10 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Extract source package
-        run: unzip -oq gazette-source.zip
+        run: unzip -oq gazette-source.zip 'dist/*' 'scripts/*' 'tests/*'
       - name: Check atlas behavior and data
         run: |
+          python scripts/build-open-data.py
           node --check dist/app.js
           node tests/history.cjs
           node tests/textbooks.cjs
