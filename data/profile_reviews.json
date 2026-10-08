@@ -28864,6 +28864,27 @@
             "value": null
           },
           "titleFamily": "みんなの日本語"
+        },
+        {
+          "title": "やさしい日本語",
+          "titleFamily": "やさしい日本語",
+          "sourceTitle": "やさしい日本語",
+          "stage": "Higher",
+          "page": 3,
+          "sourcePages": [
+            3
+          ],
+          "evidenceStatus": "historical_use",
+          "note": "Text from NHK Radio Japan’s Persian-language course was used; use is described in the past tense.",
+          "sourceSection": "4. 学習環境 — 教材",
+          "sourceUrl": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/afghanistan_2.pdf",
+          "sourceYear": 2025,
+          "verifiedOn": "2026-10-08",
+          "materialType": "course_text",
+          "adoption": {
+            "status": "not_reported",
+            "value": null
+          }
         }
       ],
       "verifiedOn": "2026-10-08"
@@ -30775,14 +30796,14 @@
         {
           "title": "みんなの日本語",
           "sourceTitle": "みんなの日本語",
-          "stage": "Higher",
+          "stage": "Multiple stages",
           "page": 4,
           "sourcePages": [
             4
           ],
           "evidenceStatus": "reported_use",
           "note": "Named in the textbook subsection for this setting. No national adoption rate is established.",
-          "sourceSection": "4. 学習環境 — 教材 / Higher",
+          "sourceSection": "4. 学習環境 — 教材 / 複数段階",
           "sourceUrl": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf",
           "sourceYear": 2025,
           "verifiedOn": "2026-10-08",
@@ -30813,6 +30834,48 @@
             "value": null
           },
           "titleFamily": "みんなの日本語"
+        },
+        {
+          "title": "MARUGOTO",
+          "titleFamily": "MARUGOTO",
+          "sourceTitle": "MARUGOTO",
+          "stage": "Multiple stages",
+          "page": 4,
+          "sourcePages": [
+            4
+          ],
+          "evidenceStatus": "reported_use",
+          "note": "JF online learning material named in the multiple-stage subsection; not proof of physical textbook adoption.",
+          "sourceSection": "4. 学習環境 — 教材",
+          "sourceUrl": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf",
+          "sourceYear": 2025,
+          "verifiedOn": "2026-10-08",
+          "materialType": "digital_resource",
+          "adoption": {
+            "status": "not_reported",
+            "value": null
+          }
+        },
+        {
+          "title": "IRODORI",
+          "titleFamily": "IRODORI",
+          "sourceTitle": "IRODORI",
+          "stage": "Multiple stages",
+          "page": 4,
+          "sourcePages": [
+            4
+          ],
+          "evidenceStatus": "reported_use",
+          "note": "JF online learning material named in the multiple-stage subsection; no national adoption percentage.",
+          "sourceSection": "4. 学習環境 — 教材",
+          "sourceUrl": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf",
+          "sourceYear": 2025,
+          "verifiedOn": "2026-10-08",
+          "materialType": "digital_resource",
+          "adoption": {
+            "status": "not_reported",
+            "value": null
+          }
         }
       ],
       "verifiedOn": "2026-10-08"

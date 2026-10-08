@@ -2,7 +2,7 @@
 
 Version 0.2.0 · 8 October 2026. Source: The Japan Foundation (JF), edited and structured by Kotoba Atlas. Independent project; not an official JF dataset.
 
-This release links 1,296 material observations across 123 country/area profiles. 166 profiles were reviewed; consult `review_coverage.csv` for the remaining sources and exact review scope. Missing evidence does **not** mean no textbook is used. The review targets the 教材 subsection; some reviews also cover adjacent digital resources, as recorded in their scope. It is not an exhaustive bibliography of every title anywhere in every PDF.
+This release links 1,299 material observations across 123 country/area profiles. 166 profiles were reviewed; consult `review_coverage.csv` for the remaining sources and exact review scope. Missing evidence does **not** mean no textbook is used. The review targets the 教材 subsection; some reviews also cover adjacent digital resources, as recorded in their scope. It is not an exhaustive bibliography of every title anywhere in every PDF.
 
 ## Tables
 

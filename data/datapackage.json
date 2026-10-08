@@ -24,29 +24,29 @@
       "name": "titles_csv",
       "path": "titles.csv",
       "format": "csv",
-      "bytes": 104581,
-      "hash": "sha256:2d8fad1d58d52f0237c3e69777d0ccd2e01de4c65624b5d5e9e493bf461b5876"
+      "bytes": 104817,
+      "hash": "sha256:ca2d027f1c35364272548a0bc19f347c0a046f1a49c0f88bcb16e8b949861b94"
     },
     {
       "name": "textbook_evidence_csv",
       "path": "textbook_evidence.csv",
       "format": "csv",
-      "bytes": 650463,
-      "hash": "sha256:87d5272c05ffc08dfd00c7a4f73ab53ac30fa171788b6f7fb3ebf543d495a933"
+      "bytes": 651785,
+      "hash": "sha256:9a8951d7c037536f9117b2672671b3ec754a8730945da400ba37ed5c497030d5"
     },
     {
       "name": "textbook_evidence_json",
       "path": "textbook_evidence.json",
       "format": "json",
-      "bytes": 1238047,
-      "hash": "sha256:b121807a507bdf49635153e33d905a8b9b06948fc75f952407338bb094e04892"
+      "bytes": 1240716,
+      "hash": "sha256:d0e4ed8737db4b7f4968a0da67c597490999e809f6397c9f49755cfa3a84f052"
     },
     {
       "name": "review_coverage_csv",
       "path": "review_coverage.csv",
       "format": "csv",
       "bytes": 49178,
-      "hash": "sha256:758b9a39b29be573e571cdcc9685788d7ab1720fa490e941e077ec0e38ec89f2"
+      "hash": "sha256:328c1507d61247188c83a1369e0cefc29b52a3086c50777d5a1a4178c91a6e7f"
     },
     {
       "name": "sources_csv",
@@ -80,12 +80,12 @@
       "name": "profile_reviews_json",
       "path": "profile_reviews.json",
       "format": "json",
-      "bytes": 1267836,
-      "hash": "sha256:8aa9b474e4ba7b85aa09ae4353e60b3955cb4faa8574ae5ec0565c84811a6658"
+      "bytes": 1270232,
+      "hash": "sha256:fede696a06c2ed5fd6b789f9ae99cf8fe1889a6be4a5f43c99bc8c6bed905d67"
     }
   ],
   "counts": {
-    "totalRecords": 1296,
+    "totalRecords": 1299,
     "profilesWithNamedMaterials": 123,
     "reviewedProfiles": 166
   }

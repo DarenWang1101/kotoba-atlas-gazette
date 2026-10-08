@@ -32480,6 +32480,32 @@
     "reviewed_on": "2026-10-08"
   },
   {
+    "evidence_id": "evidence-a7facb6033d86e9c",
+    "area_id": "AF",
+    "title_id": "title-50ff8a6b3cd6cff2",
+    "display_title": "やさしい日本語",
+    "title_family": "やさしい日本語",
+    "source_title": "やさしい日本語",
+    "source_title_variants": [],
+    "education_setting": "Higher",
+    "setting_detail": null,
+    "evidence_type": "historical_use",
+    "material_type": "course_text",
+    "source_id": "jf-profile-2025-AF",
+    "source_url": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/afghanistan_2.pdf",
+    "profile_edition": 2025,
+    "pdf_pages": [
+      3
+    ],
+    "section": "4. 学習環境 — 教材",
+    "note": "Text from NHK Radio Japan’s Persian-language course was used; use is described in the past tense.",
+    "adoption": {
+      "status": "not_reported",
+      "value": null
+    },
+    "reviewed_on": "2026-10-08"
+  },
+  {
     "evidence_id": "evidence-de5cd5999a96df0f",
     "area_id": "AE",
     "title_id": "title-8aa09f4ed7be068d",
@@ -34483,14 +34509,14 @@
     "reviewed_on": "2026-10-08"
   },
   {
-    "evidence_id": "evidence-2fce9b1161e8b790",
+    "evidence_id": "evidence-643f08b3cd222ec1",
     "area_id": "MA",
     "title_id": "title-5cdf7e72cd95edca",
     "display_title": "みんなの日本語",
     "title_family": "みんなの日本語",
     "source_title": "みんなの日本語",
     "source_title_variants": [],
-    "education_setting": "Higher",
+    "education_setting": "Multiple stages",
     "setting_detail": null,
     "evidence_type": "reported_use",
     "material_type": "named_material",
@@ -34500,7 +34526,7 @@
     "pdf_pages": [
       4
     ],
-    "section": "4. 学習環境 — 教材 / Higher",
+    "section": "4. 学習環境 — 教材 / 複数段階",
     "note": "Named in the textbook subsection for this setting. No national adoption rate is established.",
     "adoption": {
       "status": "not_reported",
@@ -34528,6 +34554,58 @@
     ],
     "section": "4. 学習環境 — 教材 / Other",
     "note": "Named in the textbook subsection for this setting. No national adoption rate is established.",
+    "adoption": {
+      "status": "not_reported",
+      "value": null
+    },
+    "reviewed_on": "2026-10-08"
+  },
+  {
+    "evidence_id": "evidence-4b2398c7b05ae4fa",
+    "area_id": "MA",
+    "title_id": "title-1f5bbf53c90ba692",
+    "display_title": "MARUGOTO",
+    "title_family": "MARUGOTO",
+    "source_title": "MARUGOTO",
+    "source_title_variants": [],
+    "education_setting": "Multiple stages",
+    "setting_detail": null,
+    "evidence_type": "reported_use",
+    "material_type": "digital_resource",
+    "source_id": "jf-profile-2025-MA",
+    "source_url": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf",
+    "profile_edition": 2025,
+    "pdf_pages": [
+      4
+    ],
+    "section": "4. 学習環境 — 教材",
+    "note": "JF online learning material named in the multiple-stage subsection; not proof of physical textbook adoption.",
+    "adoption": {
+      "status": "not_reported",
+      "value": null
+    },
+    "reviewed_on": "2026-10-08"
+  },
+  {
+    "evidence_id": "evidence-c640f174380f62fe",
+    "area_id": "MA",
+    "title_id": "title-d509d88d848bd422",
+    "display_title": "IRODORI",
+    "title_family": "IRODORI",
+    "source_title": "IRODORI",
+    "source_title_variants": [],
+    "education_setting": "Multiple stages",
+    "setting_detail": null,
+    "evidence_type": "reported_use",
+    "material_type": "digital_resource",
+    "source_id": "jf-profile-2025-MA",
+    "source_url": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf",
+    "profile_edition": 2025,
+    "pdf_pages": [
+      4
+    ],
+    "section": "4. 学習環境 — 教材",
+    "note": "JF online learning material named in the multiple-stage subsection; no national adoption percentage.",
     "adoption": {
       "status": "not_reported",
       "value": null
