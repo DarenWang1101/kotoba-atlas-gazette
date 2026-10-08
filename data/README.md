@@ -1,6 +1,6 @@
 # Kotoba Atlas: JF survey and material evidence
 
-Version 0.2.0 · 8 October 2026. Source: The Japan Foundation (JF), edited and structured by Kotoba Atlas. Independent project; not an official JF dataset.
+Version 0.3.0 · 9 October 2026. Source: The Japan Foundation (JF), edited and structured by Kotoba Atlas. Independent project; not an official JF dataset.
 
 This release links 1,299 material observations across 123 country/area profiles. 166 profiles were reviewed; consult `review_coverage.csv` for the remaining sources and exact review scope. Missing evidence does **not** mean no textbook is used. The review targets the 教材 subsection; some reviews also cover adjacent digital resources, as recorded in their scope. It is not an exhaustive bibliography of every title anywhere in every PDF.
 
@@ -14,7 +14,7 @@ This release links 1,299 material observations across 123 country/area profiles.
 - `survey_observations.csv`: long-form country/area counts for 2006, 2009, 2012, 2015, 2018, 2021 and 2024.
 - `survey_waves.json`: original panel with source URLs, category definitions, totals and comparability notes. This release retains the previously validated panel rather than claiming a new cell-by-cell survey audit.
 - `quantitative_evidence.json`: separate scoped response-share and usage observations, with original populations and denominators. Profile-level adoption observations also remain nested under `adoption` in the textbook table.
-- `areas.csv` / `.json`: atlas area identifiers and 2024 baseline metadata. IDs are atlas keys, not a guaranteed ISO vocabulary; historical aliases are preserved.
+- `areas.csv` / `.json`: atlas area identifiers and 2024 baseline metadata. Published table and site identifiers normalize legacy DY → BJ (Benin) and HV → BF (Burkina Faso). Original input JSON retains those aliases; generated rows retain sourceAreaId where changed.
 - `datapackage.json`: file inventory, byte counts and SHA-256 checksums.
 
 ## Reading the evidence
@@ -28,6 +28,35 @@ The source title preserves the PDF wording, with layout whitespace normalized. D
 ## Historical comparisons
 
 Missing cells are null (JSON) or empty (CSV), not zero. Explicit reported zeros remain zero. The 2006 primary/secondary categories are not artificially split. The 2009/2012 multiple-stage category remains distinct. Teacher counting changed across waves; read each wave's notes before interpreting growth. These are repeated institutional surveys, not a fixed panel. Present-day map geometry is not historical boundary evidence. Unimported questionnaire categories are outside this release.
+
+## Ratios and population denominators
+
+Six measures are available on the map and timeline: learners/teacher, learners/institution, teachers/institution, and each of the three counts per 100,000 residents. A ratio is null when its denominator is missing or zero. A reported zero numerator remains zero. Region/world ratios divide sums over matched valid areas, not averages of area ratios; their coverage accompanies the result. Teacher definitions differ across survey waves. These measures describe surveyed institutional education relative to staffing or the whole resident population, not classroom size or proficiency.
+
+Wikipedia was checked first. Its worldwide table does not cover all seven exact survey years, so World Bank indicator SP.POP.TOTL supplies 200 areas and Wikipedia's Demographics of Taiwan supplies Taiwan. Taiwan uses annual average population rounded to thousands; World Bank generally uses midyear population estimates. Matching year does not imply identical reference date or survey population. China excludes Hong Kong, Macao and Taiwan in the World Bank series; each is joined separately. Cook Islands, Niue and Vatican City remain missing. Coverage: 201 of 204 atlas areas, 1,407 of 1,428 area-year records. No interpolation or nearest-year substitution.
+
+- `population.json` / `population.csv`: all area-year denominators, including missing rows, geographical notes, basis and source identifiers. Join `canonical_iso2` to generated survey `area_id`; `area_id` in the population inputs preserves legacy atlas keys.
+- `population_sources.json`: source URLs, attribution and retrieval metadata. Population estimates may be revised; the published snapshot is frozen.
+- `ratio_observations.csv`: all six derived measures, original numerator/denominator, multiplier and source links for every survey row.
+
+## Encoded textbook features and clustering
+
+`textbook_features.json` stores the default cohort's full vocabulary, document frequencies, inverse-document frequencies and normalized vectors. A document is one country/area. Only `reported_use` evidence enters; digital resources, websites and curriculum standards are excluded. Deduplicate titles across settings. Family keys use NFKC normalization, lower case and whitespace removal; they do not establish edition or ISBN equivalence. Retain titles appearing in at least two cohort areas. Binary presence uses weight 1; TF–IDF uses binary TF × (log((1 + N)/(1 + document frequency)) + 1), where N is the number of areas with reported-use title evidence. Both are L2 normalized and compared by cosine distance. Missing or empty vectors are unavailable, not zero evidence of use.
+
+Each selected group has equal weight in the mixed distance. Numeric counts and ratios use log(1+x), cohort range scaling and within-group means; stages use mean absolute differences in learner shares; region/script/review status use mismatch; textbook settings use Jaccard distance. Missing groups are omitted pairwise; incomparable pairs stop the run. Title features are a single group, so a large vocabulary cannot overwhelm numeric groups.
+
+`cluster_evaluation.json` compares 84 configurations on the same 108-area complete analysis cohort: three count/ratio feature combinations, two encodings, average linkage or deterministic alternating k-medoids, and k=2…8. Eligibility requires each cluster ≥5% of the cohort (at least 3 areas) and the largest ≤75%. Selection maximizes the equal-weight mean of silhouette and stability (adjusted Rand index across five deterministic 80% subsamples); tie breaks prefer silhouette, then fewer clusters. All transformations are refit within each subsample.
+
+`cluster_default.json` saves the winning settings, exact input hash, assignments, medoids and metrics: education counts + stages + TF–IDF, average linkage, k=2, clusters of 29/79, silhouette 0.197 and mean stability 0.833. This is the best eligible result under these declared criteria, not externally validated country types. Ratios remain selectable; missing profiles and editorial family matching affect results, and 2025 profiles are not a synchronous 2024 textbook census. Silhouettes across feature spaces are only an exploratory comparison. Contemporary textbook features are disabled on historical survey waves.
+
+Reproduce from the repository root:
+
+```sh
+python scripts/build-open-data.py
+node scripts/select-cluster-default.cjs
+python scripts/build-open-data.py
+node tests/ratios.cjs
+```
 
 ## Readability and future contributions
 

@@ -1160,15 +1160,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2006,CF,jf-survey-2006,中央アフリカ,Central African Republic,Africa,secondary,,persons,True
 2006,CF,jf-survey-2006,中央アフリカ,Central African Republic,Africa,higher,0,persons,False
 2006,CF,jf-survey-2006,中央アフリカ,Central African Republic,Africa,other,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,institutions,1,institutions,False
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,teachers,2,persons,False
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,learners,130,persons,False
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,school,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,multipleStage,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,primary,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,secondary,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,higher,,persons,True
-2006,DY,jf-survey-2006,ベナン,Benin,Africa,other,130,persons,False
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,institutions,1,institutions,False
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,teachers,2,persons,False
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,learners,130,persons,False
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,school,,persons,True
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,multipleStage,,persons,True
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,primary,,persons,True
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,secondary,,persons,True
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,higher,,persons,True
+2006,BJ,jf-survey-2006,ベナン,Benin,Africa,other,130,persons,False
 2006,BW,jf-survey-2006,ボツワナ,Botswana,Africa,institutions,1,institutions,False
 2006,BW,jf-survey-2006,ボツワナ,Botswana,Africa,teachers,2,persons,False
 2006,BW,jf-survey-2006,ボツワナ,Botswana,Africa,learners,10,persons,False
@@ -3590,15 +3590,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2012,CF,jf-survey-2012,149,Central African Republic,Africa,secondary,0,persons,False
 2012,CF,jf-survey-2012,149,Central African Republic,Africa,higher,85,persons,False
 2012,CF,jf-survey-2012,149,Central African Republic,Africa,other,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,institutions,1,institutions,False
-2012,DY,jf-survey-2012,150,Benin,Africa,teachers,1,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,learners,94,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,school,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,multipleStage,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,primary,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,secondary,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,higher,0,persons,False
-2012,DY,jf-survey-2012,150,Benin,Africa,other,94,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,institutions,1,institutions,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,teachers,1,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,learners,94,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,school,0,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,multipleStage,0,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,primary,0,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,secondary,0,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,higher,0,persons,False
+2012,BJ,jf-survey-2012,150,Benin,Africa,other,94,persons,False
 2012,MG,jf-survey-2012,151,Madagascar,Africa,institutions,12,institutions,False
 2012,MG,jf-survey-2012,151,Madagascar,Africa,teachers,20,persons,False
 2012,MG,jf-survey-2012,151,Madagascar,Africa,learners,1397,persons,False
@@ -4877,15 +4877,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2015,CF,jf-survey-2015,155,Central African Republic,Africa,secondary,0,persons,False
 2015,CF,jf-survey-2015,155,Central African Republic,Africa,higher,0,persons,False
 2015,CF,jf-survey-2015,155,Central African Republic,Africa,other,,persons,True
-2015,DY,jf-survey-2015,156,Benin,Africa,institutions,1,institutions,False
-2015,DY,jf-survey-2015,156,Benin,Africa,teachers,1,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,learners,122,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,school,0,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,multipleStage,,persons,True
-2015,DY,jf-survey-2015,156,Benin,Africa,primary,0,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,secondary,0,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,higher,0,persons,False
-2015,DY,jf-survey-2015,156,Benin,Africa,other,122,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,institutions,1,institutions,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,teachers,1,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,learners,122,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,school,0,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,multipleStage,,persons,True
+2015,BJ,jf-survey-2015,156,Benin,Africa,primary,0,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,secondary,0,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,higher,0,persons,False
+2015,BJ,jf-survey-2015,156,Benin,Africa,other,122,persons,False
 2015,MG,jf-survey-2015,157,Madagascar,Africa,institutions,15,institutions,False
 2015,MG,jf-survey-2015,157,Madagascar,Africa,teachers,28,persons,False
 2015,MG,jf-survey-2015,157,Madagascar,Africa,learners,1537,persons,False
@@ -6182,15 +6182,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2018,TZ,jf-survey-2018,156,Tanzania,Africa,secondary,0,persons,False
 2018,TZ,jf-survey-2018,156,Tanzania,Africa,higher,108,persons,False
 2018,TZ,jf-survey-2018,156,Tanzania,Africa,other,0,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,institutions,1,institutions,False
-2018,DY,jf-survey-2018,157,Benin,Africa,teachers,2,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,learners,225,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,school,0,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,multipleStage,,persons,True
-2018,DY,jf-survey-2018,157,Benin,Africa,primary,0,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,secondary,0,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,higher,0,persons,False
-2018,DY,jf-survey-2018,157,Benin,Africa,other,225,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,institutions,1,institutions,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,teachers,2,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,learners,225,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,school,0,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,multipleStage,,persons,True
+2018,BJ,jf-survey-2018,157,Benin,Africa,primary,0,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,secondary,0,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,higher,0,persons,False
+2018,BJ,jf-survey-2018,157,Benin,Africa,other,225,persons,False
 2018,MG,jf-survey-2018,158,Madagascar,Africa,institutions,20,institutions,False
 2018,MG,jf-survey-2018,158,Madagascar,Africa,teachers,47,persons,False
 2018,MG,jf-survey-2018,158,Madagascar,Africa,learners,2532,persons,False
@@ -7451,24 +7451,24 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2021,NG,jf-survey-2021,151,Nigeria,Africa,secondary,0,persons,False
 2021,NG,jf-survey-2021,151,Nigeria,Africa,higher,596,persons,False
 2021,NG,jf-survey-2021,151,Nigeria,Africa,other,0,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,institutions,1,institutions,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,teachers,2,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,learners,9,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,school,0,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,multipleStage,,persons,True
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,primary,0,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,secondary,0,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,higher,0,persons,False
-2021,HV,jf-survey-2021,152,Burkina Faso,Africa,other,9,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,institutions,1,institutions,False
-2021,DY,jf-survey-2021,153,Benin,Africa,teachers,1,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,learners,142,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,school,0,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,multipleStage,,persons,True
-2021,DY,jf-survey-2021,153,Benin,Africa,primary,0,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,secondary,0,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,higher,0,persons,False
-2021,DY,jf-survey-2021,153,Benin,Africa,other,142,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,institutions,1,institutions,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,teachers,2,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,learners,9,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,school,0,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,multipleStage,,persons,True
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,primary,0,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,secondary,0,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,higher,0,persons,False
+2021,BF,jf-survey-2021,152,Burkina Faso,Africa,other,9,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,institutions,1,institutions,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,teachers,1,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,learners,142,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,school,0,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,multipleStage,,persons,True
+2021,BJ,jf-survey-2021,153,Benin,Africa,primary,0,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,secondary,0,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,higher,0,persons,False
+2021,BJ,jf-survey-2021,153,Benin,Africa,other,142,persons,False
 2021,MG,jf-survey-2021,154,Madagascar,Africa,institutions,19,institutions,False
 2021,MG,jf-survey-2021,154,Madagascar,Africa,teachers,37,persons,False
 2021,MG,jf-survey-2021,154,Madagascar,Africa,learners,2413,persons,False
@@ -9188,15 +9188,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2024,NE,jf-survey-2024,,Niger,Africa,secondary,0,persons,False
 2024,NE,jf-survey-2024,,Niger,Africa,higher,0,persons,False
 2024,NE,jf-survey-2024,,Niger,Africa,other,0,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,institutions,1,institutions,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,teachers,3,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,learners,30,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,school,0,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,multipleStage,,persons,True
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,primary,0,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,secondary,0,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,higher,0,persons,False
-2024,HV,jf-survey-2024,,Burkina Faso,Africa,other,30,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,institutions,1,institutions,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,teachers,3,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,learners,30,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,school,0,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,multipleStage,,persons,True
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,primary,0,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,secondary,0,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,higher,0,persons,False
+2024,BF,jf-survey-2024,,Burkina Faso,Africa,other,30,persons,False
 2024,BI,jf-survey-2024,,Burundi,Africa,institutions,0,institutions,False
 2024,BI,jf-survey-2024,,Burundi,Africa,teachers,0,persons,False
 2024,BI,jf-survey-2024,,Burundi,Africa,learners,0,persons,False
@@ -9206,15 +9206,15 @@ survey_year,area_id,source_id,source_row,area_name,region,measure,value,unit,mis
 2024,BI,jf-survey-2024,,Burundi,Africa,secondary,0,persons,False
 2024,BI,jf-survey-2024,,Burundi,Africa,higher,0,persons,False
 2024,BI,jf-survey-2024,,Burundi,Africa,other,0,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,institutions,1,institutions,False
-2024,DY,jf-survey-2024,,Benin,Africa,teachers,2,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,learners,256,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,school,0,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,multipleStage,,persons,True
-2024,DY,jf-survey-2024,,Benin,Africa,primary,0,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,secondary,0,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,higher,0,persons,False
-2024,DY,jf-survey-2024,,Benin,Africa,other,256,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,institutions,1,institutions,False
+2024,BJ,jf-survey-2024,,Benin,Africa,teachers,2,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,learners,256,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,school,0,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,multipleStage,,persons,True
+2024,BJ,jf-survey-2024,,Benin,Africa,primary,0,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,secondary,0,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,higher,0,persons,False
+2024,BJ,jf-survey-2024,,Benin,Africa,other,256,persons,False
 2024,BW,jf-survey-2024,,Botswana,Africa,institutions,0,institutions,False
 2024,BW,jf-survey-2024,,Botswana,Africa,teachers,0,persons,False
 2024,BW,jf-survey-2024,,Botswana,Africa,learners,0,persons,False

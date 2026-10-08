@@ -1,0 +1,788 @@
+{
+  "version": "0.3.0",
+  "year": 2024,
+  "cohort": [
+    "AE",
+    "AL",
+    "AM",
+    "AR",
+    "AT",
+    "AU",
+    "AZ",
+    "BA",
+    "BD",
+    "BE",
+    "BG",
+    "BN",
+    "BO",
+    "BR",
+    "BT",
+    "BY",
+    "CA",
+    "CH",
+    "CI",
+    "CL",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EE",
+    "EG",
+    "ES",
+    "ET",
+    "FM",
+    "FR",
+    "GB",
+    "GE",
+    "GT",
+    "HK",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IN",
+    "IQ",
+    "IR",
+    "IS",
+    "IT",
+    "JM",
+    "JO",
+    "KG",
+    "KH",
+    "KZ",
+    "LA",
+    "LB",
+    "LK",
+    "LT",
+    "LV",
+    "MA",
+    "MD",
+    "MM",
+    "MN",
+    "MO",
+    "MP",
+    "MX",
+    "MY",
+    "NC",
+    "NI",
+    "NL",
+    "NO",
+    "NP",
+    "NZ",
+    "OM",
+    "PA",
+    "PE",
+    "PG",
+    "PH",
+    "PK",
+    "PL",
+    "PR",
+    "PW",
+    "PY",
+    "QA",
+    "RO",
+    "RS",
+    "RU",
+    "SA",
+    "SE",
+    "SG",
+    "SI",
+    "SK",
+    "SV",
+    "SY",
+    "TH",
+    "TJ",
+    "TL",
+    "TM",
+    "TN",
+    "TR",
+    "TT",
+    "TW",
+    "UA",
+    "US",
+    "UY",
+    "UZ",
+    "VE",
+    "VN"
+  ],
+  "dataSha256": "bf1645b2919ccc03c70f0e8f8b046ca3a5cb40b87360f263d369757db9200767",
+  "candidateCount": 84,
+  "eligibleCount": 16,
+  "options": {
+    "keys": [
+      "scale",
+      "stage",
+      "titles"
+    ],
+    "encoding": "tfidf",
+    "algorithm": "average",
+    "k": 2,
+    "minDF": 2
+  },
+  "metrics": {
+    "silhouette": 0.19745003397085,
+    "stability": 0.8334951637071301,
+    "score": 0.51547259883899,
+    "sizes": [
+      29,
+      79
+    ]
+  },
+  "assignments": [
+    {
+      "area_id": "GB",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "CA",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "US",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "PH",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "DE",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "FR",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "MN",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "TW",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "MY",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "NP",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "IN",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "VN",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "BR",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "LK",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "PE",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "KH",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "MX",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "LA",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "HK",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "ES",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "SG",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "RU",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "BD",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "MM",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "TH",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "ID",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "NZ",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "AU",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "CN",
+      "cluster": 1,
+      "medoid": "DE"
+    },
+    {
+      "area_id": "TM",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "NC",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SK",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "EE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "IE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "NO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BG",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "NL",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "DK",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "HU",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "LT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PL",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "IT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "KG",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CZ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "UZ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "TR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CH",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "LV",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BA",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "JM",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "GT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SI",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "GE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "IR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AM",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SV",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "EC",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "RO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BY",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "TT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "JO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "NI",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CU",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "UA",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "DZ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "TN",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "EG",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "HR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "OM",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "TL",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CL",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BN",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "UY",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BT",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PK",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "MA",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "MO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "QA",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "CI",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AL",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "RS",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "IS",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PA",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "DO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AR",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PY",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "BO",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "VE",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "KZ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "AZ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "MD",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "TJ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SY",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PW",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "MP",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "PG",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "IQ",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "FM",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "LB",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "ET",
+      "cluster": 2,
+      "medoid": "CU"
+    },
+    {
+      "area_id": "SA",
+      "cluster": 2,
+      "medoid": "CU"
+    }
+  ],
+  "textbookFeatures": [
+    {
+      "cluster": 1,
+      "features": [
+        {
+          "key": "まるごと",
+          "title": "まるごと",
+          "weight": 0.2427267817069827,
+          "areas": 19
+        },
+        {
+          "key": "いろどり",
+          "title": "いろどり",
+          "weight": 0.20190255877459717,
+          "areas": 15
+        },
+        {
+          "key": "みんなの日本語",
+          "title": "みんなの日本語",
+          "weight": 0.19065573800589705,
+          "areas": 25
+        },
+        {
+          "key": "げんき",
+          "title": "げんき",
+          "weight": 0.14164679223309692,
+          "areas": 11
+        },
+        {
+          "key": "japaneseforbusypeople",
+          "title": "Japanese for Busy People",
+          "weight": 0.07951411249631839,
+          "areas": 6
+        },
+        {
+          "key": "初級日本語",
+          "title": "初級日本語",
+          "weight": 0.07564026920237957,
+          "areas": 5
+        },
+        {
+          "key": "テーマ別中級から学ぶ日本語",
+          "title": "テーマ別中級から学ぶ日本語",
+          "weight": 0.07139086889892625,
+          "areas": 6
+        },
+        {
+          "key": "新日本語の基礎",
+          "title": "新日本語の基礎",
+          "weight": 0.06916105784812136,
+          "areas": 4
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "features": [
+        {
+          "key": "みんなの日本語",
+          "title": "みんなの日本語",
+          "weight": 0.22411960801110034,
+          "areas": 49
+        },
+        {
+          "key": "まるごと日本のことばと文化",
+          "title": "まるごと 日本のことばと文化",
+          "weight": 0.1793530626211536,
+          "areas": 38
+        },
+        {
+          "key": "げんき",
+          "title": "げんき",
+          "weight": 0.06957841591433307,
+          "areas": 13
+        },
+        {
+          "key": "初級日本語げんき",
+          "title": "初級日本語げんき",
+          "weight": 0.06386220832321676,
+          "areas": 11
+        },
+        {
+          "key": "japaneseforbusypeople",
+          "title": "Japanese for Busy People",
+          "weight": 0.05427808295755891,
+          "areas": 9
+        },
+        {
+          "key": "上級へのとびら",
+          "title": "上級へのとびら",
+          "weight": 0.05191080601988271,
+          "areas": 9
+        },
+        {
+          "key": "できる日本語",
+          "title": "できる日本語",
+          "weight": 0.051209618943539675,
+          "areas": 6
+        },
+        {
+          "key": "まるごと",
+          "title": "まるごと",
+          "weight": 0.04814599478125654,
+          "areas": 12
+        }
+      ]
+    }
+  ],
+  "selectionRule": "Eligible: every cluster has at least max(3, ceil(5% of cohort)) areas; largest cluster <=75%. Maximize 0.5 × silhouette + 0.5 × mean adjusted Rand index across five deterministic 80% subsamples; ties prefer silhouette, then smaller k."
+}

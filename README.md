@@ -4,7 +4,13 @@ An interactive newspaper-style atlas of Japanese-language education, with struct
 
 **[Open the live atlas](https://darenwang1101.github.io/kotoba-atlas-gazette/)** · **[Browse the open data](data/README.md)**
 
-## Evidence release 0.2.0 — 8 October 2026
+## Release 0.3.0 — 9 October 2026
+
+- Six interactive staffing and population ratios, with source years and coverage; 201 areas have matching-year population across 2006–2024.
+- Selectable binary/TF–IDF textbook encodings and ratio groups for clustering. A reproducible comparison of 84 candidates saves the best eligible default under stated separation/stability criteria.
+- Population sources, ratio observations, complete default textbook vectors, cluster assignments and evaluation results in `data/`.
+
+## Evidence retained from 0.2.0 — 8 October 2026
 
 - 1,299 page-linked named-material observations across 123 country/area profiles; 166 profiles reviewed within documented scope.
 - Taiwan's six titles restored with PDF p. 7 citations and separate labels for reported use versus publication mentions.
@@ -25,6 +31,7 @@ node --check dist/app.js
 node tests/history.cjs
 node tests/textbooks.cjs
 node tests/cluster-core.cjs
+node tests/ratios.cjs
 node tests/ui-smoke.cjs
 ```
 

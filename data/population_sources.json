@@ -1,0 +1,40 @@
+{
+  "retrieved": "2026-10-08",
+  "method": "Wikipedia-first discovery; annual Taiwan table used directly. Global Wikipedia tables are either 2022/2023 or five-year intervals mixing historical and projected series. World Bank annual SP.POP.TOTL used as consistent exact-year fallback for other matched areas. Ratios represent surveyed learners/teachers/institutions per total population, not prevalence of all Japanese learners. Survey and population reference dates may differ within a year.",
+  "sources": [
+    {
+      "source_id": "wikipedia-taiwan-annual",
+      "title": "Wikipedia: Demographics of Taiwan, Births and deaths, Average population",
+      "url": "https://en.wikipedia.org/wiki/Demographics_of_Taiwan#Births_and_deaths",
+      "retrieved": "2026-10-08",
+      "basis": "Annual average population as tabulated; published to nearest thousand",
+      "underlying_source": "National Statistics, Republic of China (Taiwan), yearly statistics; linked by Wikipedia",
+      "precision_persons": 1000,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors, Demographics of Taiwan, Births and deaths table, retrieved 2026-10-08. Seven annual population facts transcribed; population table credits Taiwan National Statistics."
+    },
+    {
+      "source_id": "worldbank-SP.POP.TOTL-20260713",
+      "title": "World Bank World Development Indicators: Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "download_url": "https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL?downloadformat=csv",
+      "retrieved": "2026-10-08",
+      "last_updated": "2026-07-13",
+      "download_sha256": "548b9a271dc7a8755fa045b29766bc07f46c5abd66ee55d391ae8a667a863484",
+      "basis": "Annual midyear population estimate; residents regardless of legal status or citizenship",
+      "license": "CC BY 4.0",
+      "metadata_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.TOTL",
+      "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+      "attribution": "World Bank, World Development Indicators, Population, total (SP.POP.TOTL), bulk CSV last updated 2026-07-13, retrieved 2026-10-08. Selected years and matched area codes by Kotoba Atlas."
+    }
+  ],
+  "coverage": {
+    "available": 1407,
+    "total": 1428,
+    "unavailable_areas": [
+      "CK",
+      "NU",
+      "VA"
+    ]
+  }
+}

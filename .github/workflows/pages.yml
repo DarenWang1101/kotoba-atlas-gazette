@@ -29,6 +29,7 @@ jobs:
           node tests/history.cjs
           node tests/textbooks.cjs
           node tests/cluster-core.cjs
+          node tests/ratios.cjs
           node tests/ui-smoke.cjs
       - name: Configure Pages
         id: pages
