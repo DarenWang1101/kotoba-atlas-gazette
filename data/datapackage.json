@@ -1,0 +1,92 @@
+{
+  "name": "kotoba-atlas-jf-evidence",
+  "title": "Kotoba Atlas Gazette — JF survey and material evidence",
+  "version": "0.2.0",
+  "created": "2026-10-08",
+  "homepage": "https://github.com/DarenWang1101/kotoba-atlas-gazette",
+  "description": "Named materials retain exact source-title transcription (line breaks normalized), physical PDF pages, education setting and evidence type. Publication, historical and digital-resource mentions are displayed but not treated as current textbook adoption. Coverage is partial where sources could not be retrieved. A 2025 profile may describe earlier observations. No readability score or national adoption rate is inferred.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Original curation and annotations only; see RIGHTS.md",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "areas_csv",
+      "path": "areas.csv",
+      "format": "csv",
+      "bytes": 29336,
+      "hash": "sha256:335d88a71fd6df80306d4448d68945a3dceac7320f99f298aa87131fd421670f"
+    },
+    {
+      "name": "titles_csv",
+      "path": "titles.csv",
+      "format": "csv",
+      "bytes": 104581,
+      "hash": "sha256:2d8fad1d58d52f0237c3e69777d0ccd2e01de4c65624b5d5e9e493bf461b5876"
+    },
+    {
+      "name": "textbook_evidence_csv",
+      "path": "textbook_evidence.csv",
+      "format": "csv",
+      "bytes": 650463,
+      "hash": "sha256:87d5272c05ffc08dfd00c7a4f73ab53ac30fa171788b6f7fb3ebf543d495a933"
+    },
+    {
+      "name": "textbook_evidence_json",
+      "path": "textbook_evidence.json",
+      "format": "json",
+      "bytes": 1238047,
+      "hash": "sha256:b121807a507bdf49635153e33d905a8b9b06948fc75f952407338bb094e04892"
+    },
+    {
+      "name": "review_coverage_csv",
+      "path": "review_coverage.csv",
+      "format": "csv",
+      "bytes": 49178,
+      "hash": "sha256:758b9a39b29be573e571cdcc9685788d7ab1720fa490e941e077ec0e38ec89f2"
+    },
+    {
+      "name": "sources_csv",
+      "path": "sources.csv",
+      "format": "csv",
+      "bytes": 47760,
+      "hash": "sha256:c24f9c801a4b8586c05c9c7fc945ba52061011742a37dbf1948fb7639f0dda99"
+    },
+    {
+      "name": "survey_observations_csv",
+      "path": "survey_observations.csv",
+      "format": "csv",
+      "bytes": 734661,
+      "hash": "sha256:7dc67156f4ce2889e924c35a27d3d264cb616f5ae58a8f85c5533740efe09e39"
+    },
+    {
+      "name": "survey_waves_json",
+      "path": "survey_waves.json",
+      "format": "json",
+      "bytes": 210708,
+      "hash": "sha256:723ba6d548421d50fe7eb923c8e25dd0640076dd2a0ea8ae0a3f9b37d4bf3fea"
+    },
+    {
+      "name": "quantitative_evidence_json",
+      "path": "quantitative_evidence.json",
+      "format": "json",
+      "bytes": 25057,
+      "hash": "sha256:32a4bc51b1ac02e5967bae04a587e4685bb1c5b1e9ef7fa0bb63f9af45e17368"
+    },
+    {
+      "name": "profile_reviews_json",
+      "path": "profile_reviews.json",
+      "format": "json",
+      "bytes": 1267836,
+      "hash": "sha256:8aa9b474e4ba7b85aa09ae4353e60b3955cb4faa8574ae5ec0565c84811a6658"
+    }
+  ],
+  "counts": {
+    "totalRecords": 1296,
+    "profilesWithNamedMaterials": 123,
+    "reviewedProfiles": 166
+  }
+}

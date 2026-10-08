@@ -1,0 +1,3259 @@
+[
+  {
+    "id": "KR",
+    "name": "South Korea",
+    "ja": "韓国",
+    "region": "East Asia",
+    "institutions": 2815,
+    "teachers": 14127,
+    "learners": 555396,
+    "stages": [
+      651,
+      385439,
+      51955,
+      117351
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/korea_2.pdf"
+  },
+  {
+    "id": "TW",
+    "name": "Taiwan",
+    "ja": "台湾",
+    "region": "East Asia",
+    "institutions": 809,
+    "teachers": 3343,
+    "learners": 124149,
+    "stages": [
+      3018,
+      31669,
+      52161,
+      37301
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/taiwan_3.pdf"
+  },
+  {
+    "id": "CN",
+    "name": "China",
+    "ja": "中国",
+    "region": "East Asia",
+    "institutions": 3073,
+    "teachers": 21743,
+    "learners": 1019197,
+    "stages": [
+      1482,
+      284488,
+      477869,
+      255358
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/china_2.pdf"
+  },
+  {
+    "id": "HK",
+    "name": "Hong Kong SAR China",
+    "ja": "香港",
+    "region": "East Asia",
+    "institutions": 62,
+    "teachers": 534,
+    "learners": 20868,
+    "stages": [
+      1008,
+      2146,
+      6515,
+      11199
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/hongkong_2.pdf"
+  },
+  {
+    "id": "MO",
+    "name": "Macao SAR China",
+    "ja": "マカオ",
+    "region": "East Asia",
+    "institutions": 5,
+    "teachers": 42,
+    "learners": 1471,
+    "stages": [
+      0,
+      0,
+      420,
+      1051
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/macao_2.pdf"
+  },
+  {
+    "id": "MN",
+    "name": "Mongolia",
+    "ja": "モンゴル",
+    "region": "East Asia",
+    "institutions": 164,
+    "teachers": 561,
+    "learners": 16123,
+    "stages": [
+      1659,
+      7270,
+      2734,
+      4460
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mongolia_2.pdf"
+  },
+  {
+    "id": "ID",
+    "name": "Indonesia",
+    "ja": "インドネシア",
+    "region": "Southeast Asia",
+    "institutions": 3103,
+    "teachers": 7614,
+    "learners": 732914,
+    "stages": [
+      7445,
+      644503,
+      22691,
+      58275
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/indonesia_2.pdf"
+  },
+  {
+    "id": "KH",
+    "name": "Cambodia",
+    "ja": "カンボジア",
+    "region": "Southeast Asia",
+    "institutions": 92,
+    "teachers": 423,
+    "learners": 5343,
+    "stages": [
+      126,
+      1254,
+      767,
+      3196
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cambodia_2.pdf"
+  },
+  {
+    "id": "SG",
+    "name": "Singapore",
+    "ja": "シンガポール",
+    "region": "Southeast Asia",
+    "institutions": 17,
+    "teachers": 180,
+    "learners": 8532,
+    "stages": [
+      80,
+      1335,
+      2446,
+      4671
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/singapore_2.pdf"
+  },
+  {
+    "id": "TH",
+    "name": "Thailand",
+    "ja": "タイ",
+    "region": "Southeast Asia",
+    "institutions": 755,
+    "teachers": 2286,
+    "learners": 194366,
+    "stages": [
+      7460,
+      158072,
+      21125,
+      7709
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/thailand_2.pdf"
+  },
+  {
+    "id": "TL",
+    "name": "Timor-Leste",
+    "ja": "東ティモール",
+    "region": "Southeast Asia",
+    "institutions": 9,
+    "teachers": 32,
+    "learners": 609,
+    "stages": [
+      0,
+      0,
+      0,
+      609
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/e_timor_2.pdf"
+  },
+  {
+    "id": "PH",
+    "name": "Philippines",
+    "ja": "フィリピン",
+    "region": "Southeast Asia",
+    "institutions": 227,
+    "teachers": 916,
+    "learners": 42677,
+    "stages": [
+      853,
+      8856,
+      17948,
+      15020
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/philippines_2.pdf"
+  },
+  {
+    "id": "BN",
+    "name": "Brunei",
+    "ja": "ブルネイ",
+    "region": "Southeast Asia",
+    "institutions": 2,
+    "teachers": 2,
+    "learners": 116,
+    "stages": [
+      0,
+      0,
+      90,
+      26
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/brunei_2.pdf"
+  },
+  {
+    "id": "VN",
+    "name": "Vietnam",
+    "ja": "ベトナム",
+    "region": "Southeast Asia",
+    "institutions": 490,
+    "teachers": 4230,
+    "learners": 164495,
+    "stages": [
+      2550,
+      26773,
+      48981,
+      86191
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vietnam_2.pdf"
+  },
+  {
+    "id": "MY",
+    "name": "Malaysia",
+    "ja": "マレーシア",
+    "region": "Southeast Asia",
+    "institutions": 217,
+    "teachers": 486,
+    "learners": 40669,
+    "stages": [
+      0,
+      21057,
+      14469,
+      5143
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malaysia_2.pdf"
+  },
+  {
+    "id": "MM",
+    "name": "Myanmar (Burma)",
+    "ja": "ミャンマー",
+    "region": "Southeast Asia",
+    "institutions": 685,
+    "teachers": 3577,
+    "learners": 100315,
+    "stages": [
+      0,
+      40,
+      576,
+      99699
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/myanmar_2.pdf"
+  },
+  {
+    "id": "LA",
+    "name": "Laos",
+    "ja": "ラオス",
+    "region": "Southeast Asia",
+    "institutions": 29,
+    "teachers": 123,
+    "learners": 4431,
+    "stages": [
+      527,
+      2214,
+      240,
+      1450
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/laos_2.pdf"
+  },
+  {
+    "id": "IN",
+    "name": "India",
+    "ja": "インド",
+    "region": "South Asia",
+    "institutions": 381,
+    "teachers": 1285,
+    "learners": 52946,
+    "stages": [
+      4288,
+      10365,
+      15710,
+      22583
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/india_2.pdf"
+  },
+  {
+    "id": "LK",
+    "name": "Sri Lanka",
+    "ja": "スリランカ",
+    "region": "South Asia",
+    "institutions": 298,
+    "teachers": 650,
+    "learners": 34650,
+    "stages": [
+      1239,
+      16702,
+      3350,
+      13359
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/srilanka_2.pdf"
+  },
+  {
+    "id": "NP",
+    "name": "Nepal",
+    "ja": "ネパール",
+    "region": "South Asia",
+    "institutions": 318,
+    "teachers": 1146,
+    "learners": 25292,
+    "stages": [
+      0,
+      107,
+      339,
+      24846
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nepal_2.pdf"
+  },
+  {
+    "id": "PK",
+    "name": "Pakistan",
+    "ja": "パキスタン",
+    "region": "South Asia",
+    "institutions": 9,
+    "teachers": 42,
+    "learners": 906,
+    "stages": [
+      0,
+      0,
+      195,
+      711
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/pakistan_2.pdf"
+  },
+  {
+    "id": "BD",
+    "name": "Bangladesh",
+    "ja": "バングラデシュ",
+    "region": "South Asia",
+    "institutions": 165,
+    "teachers": 643,
+    "learners": 14918,
+    "stages": [
+      500,
+      28,
+      898,
+      13492
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bangladesh_2.pdf"
+  },
+  {
+    "id": "BT",
+    "name": "Bhutan",
+    "ja": "ブータン",
+    "region": "South Asia",
+    "institutions": 2,
+    "teachers": 4,
+    "learners": 156,
+    "stages": [
+      0,
+      0,
+      0,
+      156
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bhutan_2.pdf"
+  },
+  {
+    "id": "MV",
+    "name": "Maldives",
+    "ja": "モルディブ",
+    "region": "South Asia",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 22,
+    "stages": [
+      0,
+      0,
+      0,
+      22
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/maldives_2.pdf"
+  },
+  {
+    "id": "AU",
+    "name": "Australia",
+    "ja": "オーストラリア",
+    "region": "Oceania",
+    "institutions": 1595,
+    "teachers": 3280,
+    "learners": 424316,
+    "stages": [
+      240650,
+      168856,
+      10423,
+      4387
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/australia_2.pdf"
+  },
+  {
+    "id": "MP",
+    "name": "Northern Mariana Islands",
+    "ja": "北マリアナ諸島",
+    "region": "Oceania",
+    "institutions": 3,
+    "teachers": 3,
+    "learners": 240,
+    "stages": [
+      30,
+      210,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/n_mariana_2.pdf"
+  },
+  {
+    "id": "KI",
+    "name": "Kiribati",
+    "ja": "キリバス",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kiribati_2.pdf"
+  },
+  {
+    "id": "GU",
+    "name": "Guam",
+    "ja": "グアム島",
+    "region": "Oceania",
+    "institutions": 12,
+    "teachers": 17,
+    "learners": 893,
+    "stages": [
+      60,
+      743,
+      90,
+      0
+    ]
+  },
+  {
+    "id": "CK",
+    "name": "Cook Islands",
+    "ja": "クック",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "WS",
+    "name": "Samoa",
+    "ja": "サモア",
+    "region": "Oceania",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 15,
+    "stages": [
+      0,
+      0,
+      15,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/samoa_2.pdf"
+  },
+  {
+    "id": "SB",
+    "name": "Solomon Islands",
+    "ja": "ソロモン",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/solomon_2.pdf"
+  },
+  {
+    "id": "TV",
+    "name": "Tuvalu",
+    "ja": "ツバル",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/toval_2.pdf"
+  },
+  {
+    "id": "TO",
+    "name": "Tonga",
+    "ja": "トンガ",
+    "region": "Oceania",
+    "institutions": 9,
+    "teachers": 17,
+    "learners": 155,
+    "stages": [
+      0,
+      149,
+      6,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tonga_2.pdf"
+  },
+  {
+    "id": "NR",
+    "name": "Nauru",
+    "ja": "ナウル",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/naul_2.pdf"
+  },
+  {
+    "id": "NU",
+    "name": "Niue",
+    "ja": "ニウエ",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/niue_2.pdf"
+  },
+  {
+    "id": "NC",
+    "name": "New Caledonia",
+    "ja": "ニューカレドニア",
+    "region": "Oceania",
+    "institutions": 31,
+    "teachers": 53,
+    "learners": 3053,
+    "stages": [
+      0,
+      2974,
+      49,
+      30
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/newcaledonia_2.pdf"
+  },
+  {
+    "id": "NZ",
+    "name": "New Zealand",
+    "ja": "ニュージーランド",
+    "region": "Oceania",
+    "institutions": 171,
+    "teachers": 296,
+    "learners": 25456,
+    "stages": [
+      6774,
+      17096,
+      1270,
+      316
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/newzealand_2.pdf"
+  },
+  {
+    "id": "VU",
+    "name": "Vanuatu",
+    "ja": "バヌアツ",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vanuatu_2.pdf"
+  },
+  {
+    "id": "PG",
+    "name": "Papua New Guinea",
+    "ja": "パプアニューギニア",
+    "region": "Oceania",
+    "institutions": 1,
+    "teachers": 3,
+    "learners": 50,
+    "stages": [
+      0,
+      50,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/papua_2.pdf"
+  },
+  {
+    "id": "PW",
+    "name": "Palau",
+    "ja": "パラオ",
+    "region": "Oceania",
+    "institutions": 3,
+    "teachers": 4,
+    "learners": 180,
+    "stages": [
+      0,
+      160,
+      20,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/palau_2.pdf"
+  },
+  {
+    "id": "FJ",
+    "name": "Fiji",
+    "ja": "フィジー",
+    "region": "Oceania",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/fiji_2.pdf"
+  },
+  {
+    "id": "PF",
+    "name": "French Polynesia",
+    "ja": "フランス領ポリネシア",
+    "region": "Oceania",
+    "institutions": 4,
+    "teachers": 7,
+    "learners": 197,
+    "stages": [
+      0,
+      110,
+      0,
+      87
+    ]
+  },
+  {
+    "id": "MH",
+    "name": "Marshall Islands",
+    "ja": "マーシャル",
+    "region": "Oceania",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 20,
+    "stages": [
+      0,
+      0,
+      20,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/marshall_2.pdf"
+  },
+  {
+    "id": "FM",
+    "name": "Micronesia",
+    "ja": "ミクロネシア",
+    "region": "Oceania",
+    "institutions": 2,
+    "teachers": 3,
+    "learners": 125,
+    "stages": [
+      0,
+      15,
+      0,
+      110
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/micronesia_2.pdf"
+  },
+  {
+    "id": "CA",
+    "name": "Canada",
+    "ja": "カナダ",
+    "region": "North America",
+    "institutions": 141,
+    "teachers": 639,
+    "learners": 18323,
+    "stages": [
+      82,
+      4852,
+      8188,
+      5201
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/canada_2.pdf"
+  },
+  {
+    "id": "US",
+    "name": "United States",
+    "ja": "米国",
+    "region": "North America",
+    "institutions": 1155,
+    "teachers": 3780,
+    "learners": 134096,
+    "stages": [
+      11849,
+      54383,
+      54701,
+      13163
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/usa_2.pdf"
+  },
+  {
+    "id": "AG",
+    "name": "Antigua & Barbuda",
+    "ja": "アンティグア・バーブーダ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/antigua_and_barbuda_2.pdf"
+  },
+  {
+    "id": "SV",
+    "name": "El Salvador",
+    "ja": "エルサルバドル",
+    "region": "Central America",
+    "institutions": 5,
+    "teachers": 27,
+    "learners": 281,
+    "stages": [
+      0,
+      0,
+      44,
+      237
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/elsalvador_2.pdf"
+  },
+  {
+    "id": "CU",
+    "name": "Cuba",
+    "ja": "キューバ",
+    "region": "Central America",
+    "institutions": 4,
+    "teachers": 9,
+    "learners": 123,
+    "stages": [
+      0,
+      0,
+      29,
+      94
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cuba_2.pdf"
+  },
+  {
+    "id": "GT",
+    "name": "Guatemala",
+    "ja": "グアテマラ",
+    "region": "Central America",
+    "institutions": 5,
+    "teachers": 14,
+    "learners": 280,
+    "stages": [
+      0,
+      0,
+      35,
+      245
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guatemala_2.pdf"
+  },
+  {
+    "id": "GD",
+    "name": "Grenada",
+    "ja": "グレナダ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/grenada_2.pdf"
+  },
+  {
+    "id": "CR",
+    "name": "Costa Rica",
+    "ja": "コスタリカ",
+    "region": "Central America",
+    "institutions": 13,
+    "teachers": 49,
+    "learners": 786,
+    "stages": [
+      0,
+      0,
+      217,
+      569
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/costarica_2.pdf"
+  },
+  {
+    "id": "JM",
+    "name": "Jamaica",
+    "ja": "ジャマイカ",
+    "region": "Central America",
+    "institutions": 3,
+    "teachers": 5,
+    "learners": 219,
+    "stages": [
+      0,
+      0,
+      159,
+      60
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/jamaica_2.pdf"
+  },
+  {
+    "id": "KN",
+    "name": "St. Kitts & Nevis",
+    "ja": "セントクリストファー・ネービス",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "VC",
+    "name": "St. Vincent & Grenadines",
+    "ja": "セントビンセント",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saintvincent_2.pdf"
+  },
+  {
+    "id": "LC",
+    "name": "St. Lucia",
+    "ja": "セントルシア",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saintlucia_2.pdf"
+  },
+  {
+    "id": "DM",
+    "name": "Dominica",
+    "ja": "ドミニカ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "DO",
+    "name": "Dominican Republic",
+    "ja": "ドミニカ共和国",
+    "region": "Central America",
+    "institutions": 3,
+    "teachers": 26,
+    "learners": 151,
+    "stages": [
+      0,
+      0,
+      0,
+      151
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/dominican_2.pdf"
+  },
+  {
+    "id": "TT",
+    "name": "Trinidad & Tobago",
+    "ja": "トリニダード・トバゴ",
+    "region": "Central America",
+    "institutions": 1,
+    "teachers": 5,
+    "learners": 149,
+    "stages": [
+      0,
+      0,
+      73,
+      76
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/trinidadtobago_2.pdf"
+  },
+  {
+    "id": "NI",
+    "name": "Nicaragua",
+    "ja": "ニカラグア",
+    "region": "Central America",
+    "institutions": 2,
+    "teachers": 5,
+    "learners": 63,
+    "stages": [
+      0,
+      0,
+      0,
+      63
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nicaragua_2.pdf"
+  },
+  {
+    "id": "HT",
+    "name": "Haiti",
+    "ja": "ハイチ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/haiti_2.pdf"
+  },
+  {
+    "id": "PA",
+    "name": "Panama",
+    "ja": "パナマ",
+    "region": "Central America",
+    "institutions": 3,
+    "teachers": 6,
+    "learners": 139,
+    "stages": [
+      0,
+      30,
+      25,
+      84
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/panama_2.pdf"
+  },
+  {
+    "id": "BS",
+    "name": "Bahamas",
+    "ja": "バハマ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bahama_2.pdf"
+  },
+  {
+    "id": "BB",
+    "name": "Barbados",
+    "ja": "バルバドス",
+    "region": "Central America",
+    "institutions": 2,
+    "teachers": 3,
+    "learners": 32,
+    "stages": [
+      0,
+      16,
+      16,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/barbados_2.pdf"
+  },
+  {
+    "id": "PR",
+    "name": "Puerto Rico",
+    "ja": "プエルトリコ",
+    "region": "Central America",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 76,
+    "stages": [
+      0,
+      0,
+      51,
+      25
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/puertorico_2.pdf"
+  },
+  {
+    "id": "BZ",
+    "name": "Belize",
+    "ja": "ベリーズ",
+    "region": "Central America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belize_2.pdf"
+  },
+  {
+    "id": "HN",
+    "name": "Honduras",
+    "ja": "ホンジュラス",
+    "region": "Central America",
+    "institutions": 8,
+    "teachers": 28,
+    "learners": 407,
+    "stages": [
+      35,
+      40,
+      43,
+      289
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/honduras_2.pdf"
+  },
+  {
+    "id": "MX",
+    "name": "Mexico",
+    "ja": "メキシコ",
+    "region": "Central America",
+    "institutions": 153,
+    "teachers": 669,
+    "learners": 15151,
+    "stages": [
+      1205,
+      1348,
+      2126,
+      10472
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mexico_2.pdf"
+  },
+  {
+    "id": "AR",
+    "name": "Argentina",
+    "ja": "アルゼンチン",
+    "region": "South America",
+    "institutions": 62,
+    "teachers": 282,
+    "learners": 5093,
+    "stages": [
+      350,
+      170,
+      220,
+      4353
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/argentina_2.pdf"
+  },
+  {
+    "id": "UY",
+    "name": "Uruguay",
+    "ja": "ウルグアイ",
+    "region": "South America",
+    "institutions": 6,
+    "teachers": 16,
+    "learners": 163,
+    "stages": [
+      0,
+      0,
+      0,
+      163
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uruguay_2.pdf"
+  },
+  {
+    "id": "EC",
+    "name": "Ecuador",
+    "ja": "エクアドル",
+    "region": "South America",
+    "institutions": 3,
+    "teachers": 16,
+    "learners": 145,
+    "stages": [
+      0,
+      0,
+      20,
+      125
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ecuador_2.pdf"
+  },
+  {
+    "id": "GY",
+    "name": "Guyana",
+    "ja": "ガイアナ",
+    "region": "South America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guyana_2.pdf"
+  },
+  {
+    "id": "CO",
+    "name": "Colombia",
+    "ja": "コロンビア",
+    "region": "South America",
+    "institutions": 16,
+    "teachers": 75,
+    "learners": 1679,
+    "stages": [
+      0,
+      0,
+      412,
+      1267
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/colombia_2.pdf"
+  },
+  {
+    "id": "SR",
+    "name": "Suriname",
+    "ja": "スリナム",
+    "region": "South America",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/suriname_2.pdf"
+  },
+  {
+    "id": "CL",
+    "name": "Chile",
+    "ja": "チリ",
+    "region": "South America",
+    "institutions": 14,
+    "teachers": 48,
+    "learners": 918,
+    "stages": [
+      10,
+      0,
+      332,
+      576
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/chile_2.pdf"
+  },
+  {
+    "id": "PY",
+    "name": "Paraguay",
+    "ja": "パラグアイ",
+    "region": "South America",
+    "institutions": 13,
+    "teachers": 103,
+    "learners": 3269,
+    "stages": [
+      1489,
+      580,
+      900,
+      300
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/paraguay_2.pdf"
+  },
+  {
+    "id": "BR",
+    "name": "Brazil",
+    "ja": "ブラジル",
+    "region": "South America",
+    "institutions": 309,
+    "teachers": 1156,
+    "learners": 26708,
+    "stages": [
+      2680,
+      4788,
+      2587,
+      16653
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/brazil_2.pdf"
+  },
+  {
+    "id": "VE",
+    "name": "Venezuela",
+    "ja": "ベネズエラ",
+    "region": "South America",
+    "institutions": 12,
+    "teachers": 46,
+    "learners": 477,
+    "stages": [
+      0,
+      0,
+      8,
+      469
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/venezuela_2.pdf"
+  },
+  {
+    "id": "PE",
+    "name": "Peru",
+    "ja": "ペルー",
+    "region": "South America",
+    "institutions": 26,
+    "teachers": 114,
+    "learners": 3551,
+    "stages": [
+      1416,
+      768,
+      0,
+      1367
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/peru_2.pdf"
+  },
+  {
+    "id": "BO",
+    "name": "Bolivia",
+    "ja": "ボリビア",
+    "region": "South America",
+    "institutions": 6,
+    "teachers": 38,
+    "learners": 470,
+    "stages": [
+      150,
+      0,
+      0,
+      320
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bolivia_2.pdf"
+  },
+  {
+    "id": "IS",
+    "name": "Iceland",
+    "ja": "アイスランド",
+    "region": "Western Europe",
+    "institutions": 2,
+    "teachers": 7,
+    "learners": 209,
+    "stages": [
+      0,
+      34,
+      75,
+      100
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iceland_2.pdf"
+  },
+  {
+    "id": "IE",
+    "name": "Ireland",
+    "ja": "アイルランド",
+    "region": "Western Europe",
+    "institutions": 47,
+    "teachers": 76,
+    "learners": 4396,
+    "stages": [
+      0,
+      3736,
+      560,
+      100
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ireland_2.pdf"
+  },
+  {
+    "id": "AD",
+    "name": "Andorra",
+    "ja": "アンドラ",
+    "region": "Western Europe",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/andorra_2.pdf"
+  },
+  {
+    "id": "IT",
+    "name": "Italy",
+    "ja": "イタリア",
+    "region": "Western Europe",
+    "institutions": 50,
+    "teachers": 196,
+    "learners": 7117,
+    "stages": [
+      0,
+      584,
+      5374,
+      1159
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/italy_2.pdf"
+  },
+  {
+    "id": "GB",
+    "name": "United Kingdom",
+    "ja": "英国",
+    "region": "Western Europe",
+    "institutions": 219,
+    "teachers": 635,
+    "learners": 14646,
+    "stages": [
+      1017,
+      3281,
+      6273,
+      4075
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uk_2.pdf"
+  },
+  {
+    "id": "AT",
+    "name": "Austria",
+    "ja": "オーストリア",
+    "region": "Western Europe",
+    "institutions": 17,
+    "teachers": 44,
+    "learners": 1564,
+    "stages": [
+      0,
+      43,
+      655,
+      866
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/austria_2.pdf"
+  },
+  {
+    "id": "NL",
+    "name": "Netherlands",
+    "ja": "オランダ",
+    "region": "Western Europe",
+    "institutions": 19,
+    "teachers": 53,
+    "learners": 1178,
+    "stages": [
+      0,
+      0,
+      722,
+      456
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/netherlands_2.pdf"
+  },
+  {
+    "id": "CY",
+    "name": "Cyprus",
+    "ja": "キプロス",
+    "region": "Western Europe",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 50,
+    "stages": [
+      0,
+      0,
+      0,
+      50
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cyprus_2.pdf"
+  },
+  {
+    "id": "GR",
+    "name": "Greece",
+    "ja": "ギリシャ",
+    "region": "Western Europe",
+    "institutions": 11,
+    "teachers": 30,
+    "learners": 614,
+    "stages": [
+      0,
+      0,
+      0,
+      614
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/greece_2.pdf"
+  },
+  {
+    "id": "SM",
+    "name": "San Marino",
+    "ja": "サンマリノ",
+    "region": "Western Europe",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sanmarino_2.pdf"
+  },
+  {
+    "id": "CH",
+    "name": "Switzerland",
+    "ja": "スイス",
+    "region": "Western Europe",
+    "institutions": 72,
+    "teachers": 230,
+    "learners": 2573,
+    "stages": [
+      10,
+      124,
+      935,
+      1504
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/swiss_2.pdf"
+  },
+  {
+    "id": "SE",
+    "name": "Sweden",
+    "ja": "スウェーデン",
+    "region": "Western Europe",
+    "institutions": 15,
+    "teachers": 33,
+    "learners": 1181,
+    "stages": [
+      0,
+      234,
+      848,
+      99
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sweden_2.pdf"
+  },
+  {
+    "id": "ES",
+    "name": "Spain",
+    "ja": "スペイン",
+    "region": "Western Europe",
+    "institutions": 140,
+    "teachers": 385,
+    "learners": 9536,
+    "stages": [
+      2,
+      251,
+      1715,
+      7568
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/spain_2.pdf"
+  },
+  {
+    "id": "DK",
+    "name": "Denmark",
+    "ja": "デンマーク",
+    "region": "Western Europe",
+    "institutions": 13,
+    "teachers": 27,
+    "learners": 549,
+    "stages": [
+      18,
+      130,
+      275,
+      126
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/denmark_2.pdf"
+  },
+  {
+    "id": "DE",
+    "name": "Germany",
+    "ja": "ドイツ",
+    "region": "Western Europe",
+    "institutions": 188,
+    "teachers": 602,
+    "learners": 17440,
+    "stages": [
+      80,
+      2002,
+      5964,
+      9394
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/germany_2.pdf"
+  },
+  {
+    "id": "NO",
+    "name": "Norway",
+    "ja": "ノルウェー",
+    "region": "Western Europe",
+    "institutions": 8,
+    "teachers": 19,
+    "learners": 516,
+    "stages": [
+      0,
+      102,
+      398,
+      16
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/norway_2.pdf"
+  },
+  {
+    "id": "VA",
+    "name": "Vatican City",
+    "ja": "バチカン",
+    "region": "Western Europe",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vatican_2.pdf"
+  },
+  {
+    "id": "FI",
+    "name": "Finland",
+    "ja": "フィンランド",
+    "region": "Western Europe",
+    "institutions": 20,
+    "teachers": 35,
+    "learners": 1719,
+    "stages": [
+      0,
+      211,
+      890,
+      618
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/finland_2.pdf"
+  },
+  {
+    "id": "FR",
+    "name": "France",
+    "ja": "フランス",
+    "region": "Western Europe",
+    "institutions": 285,
+    "teachers": 960,
+    "learners": 31381,
+    "stages": [
+      813,
+      5573,
+      10309,
+      14686
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/france_2.pdf"
+  },
+  {
+    "id": "BE",
+    "name": "Belgium",
+    "ja": "ベルギー",
+    "region": "Western Europe",
+    "institutions": 19,
+    "teachers": 42,
+    "learners": 1559,
+    "stages": [
+      0,
+      0,
+      689,
+      870
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belgium_2.pdf"
+  },
+  {
+    "id": "PT",
+    "name": "Portugal",
+    "ja": "ポルトガル",
+    "region": "Western Europe",
+    "institutions": 12,
+    "teachers": 33,
+    "learners": 637,
+    "stages": [
+      0,
+      0,
+      228,
+      409
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/portuguese_2.pdf"
+  },
+  {
+    "id": "MT",
+    "name": "Malta",
+    "ja": "マルタ",
+    "region": "Western Europe",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 32,
+    "stages": [
+      0,
+      0,
+      0,
+      32
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malta_2.pdf"
+  },
+  {
+    "id": "MC",
+    "name": "Monaco",
+    "ja": "モナコ",
+    "region": "Western Europe",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 15,
+    "stages": [
+      0,
+      0,
+      0,
+      15
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/monaco_2.pdf"
+  },
+  {
+    "id": "LI",
+    "name": "Liechtenstein",
+    "ja": "リヒテンシュタイン",
+    "region": "Western Europe",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/liechtenstein_2.pdf"
+  },
+  {
+    "id": "LU",
+    "name": "Luxembourg",
+    "ja": "ルクセンブルク",
+    "region": "Western Europe",
+    "institutions": 6,
+    "teachers": 6,
+    "learners": 163,
+    "stages": [
+      0,
+      29,
+      0,
+      134
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/luxembourg_2.pdf"
+  },
+  {
+    "id": "AZ",
+    "name": "Azerbaijan",
+    "ja": "アゼルバイジャン",
+    "region": "Eastern Europe",
+    "institutions": 4,
+    "teachers": 15,
+    "learners": 274,
+    "stages": [
+      0,
+      72,
+      164,
+      38
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/azerbaidjan_2.pdf"
+  },
+  {
+    "id": "AL",
+    "name": "Albania",
+    "ja": "アルバニア",
+    "region": "Eastern Europe",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 150,
+    "stages": [
+      0,
+      0,
+      150,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/albania_2.pdf"
+  },
+  {
+    "id": "AM",
+    "name": "Armenia",
+    "ja": "アルメニア",
+    "region": "Eastern Europe",
+    "institutions": 7,
+    "teachers": 22,
+    "learners": 239,
+    "stages": [
+      0,
+      0,
+      99,
+      140
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/armenia_2.pdf"
+  },
+  {
+    "id": "UA",
+    "name": "Ukraine",
+    "ja": "ウクライナ",
+    "region": "Eastern Europe",
+    "institutions": 14,
+    "teachers": 93,
+    "learners": 1498,
+    "stages": [
+      75,
+      65,
+      946,
+      412
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ukraine_2.pdf"
+  },
+  {
+    "id": "UZ",
+    "name": "Uzbekistan",
+    "ja": "ウズベキスタン",
+    "region": "Eastern Europe",
+    "institutions": 19,
+    "teachers": 157,
+    "learners": 4201,
+    "stages": [
+      0,
+      225,
+      3365,
+      611
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uzbekistan_2.pdf"
+  },
+  {
+    "id": "EE",
+    "name": "Estonia",
+    "ja": "エストニア",
+    "region": "Eastern Europe",
+    "institutions": 10,
+    "teachers": 18,
+    "learners": 352,
+    "stages": [
+      0,
+      113,
+      150,
+      89
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/estonia_2.pdf"
+  },
+  {
+    "id": "KZ",
+    "name": "Kazakhstan",
+    "ja": "カザフスタン",
+    "region": "Eastern Europe",
+    "institutions": 8,
+    "teachers": 29,
+    "learners": 581,
+    "stages": [
+      0,
+      35,
+      282,
+      264
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kazakhstan_2.pdf"
+  },
+  {
+    "id": "MK",
+    "name": "North Macedonia",
+    "ja": "北マケドニア",
+    "region": "Eastern Europe",
+    "institutions": 2,
+    "teachers": 2,
+    "learners": 11,
+    "stages": [
+      0,
+      0,
+      6,
+      5
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/macedonia_2.pdf"
+  },
+  {
+    "id": "KG",
+    "name": "Kyrgyzstan",
+    "ja": "キルギス",
+    "region": "Eastern Europe",
+    "institutions": 14,
+    "teachers": 50,
+    "learners": 1708,
+    "stages": [
+      131,
+      280,
+      557,
+      740
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kyrgyz_2.pdf"
+  },
+  {
+    "id": "HR",
+    "name": "Croatia",
+    "ja": "クロアチア",
+    "region": "Eastern Europe",
+    "institutions": 6,
+    "teachers": 27,
+    "learners": 436,
+    "stages": [
+      8,
+      0,
+      192,
+      236
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/croatia_2.pdf"
+  },
+  {
+    "id": "XK",
+    "name": "Kosovo",
+    "ja": "コソボ",
+    "region": "Eastern Europe",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 10,
+    "stages": [
+      0,
+      0,
+      0,
+      10
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kosovo_2.pdf"
+  },
+  {
+    "id": "GE",
+    "name": "Georgia",
+    "ja": "ジョージア",
+    "region": "Eastern Europe",
+    "institutions": 9,
+    "teachers": 27,
+    "learners": 745,
+    "stages": [
+      35,
+      143,
+      297,
+      270
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/georgia_2.pdf"
+  },
+  {
+    "id": "SK",
+    "name": "Slovakia",
+    "ja": "スロバキア",
+    "region": "Eastern Europe",
+    "institutions": 16,
+    "teachers": 26,
+    "learners": 326,
+    "stages": [
+      0,
+      28,
+      57,
+      241
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/slovakia_2.pdf"
+  },
+  {
+    "id": "SI",
+    "name": "Slovenia",
+    "ja": "スロベニア",
+    "region": "Eastern Europe",
+    "institutions": 5,
+    "teachers": 21,
+    "learners": 239,
+    "stages": [
+      15,
+      0,
+      101,
+      123
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/slovenia_2.pdf"
+  },
+  {
+    "id": "RS",
+    "name": "Serbia",
+    "ja": "セルビア",
+    "region": "Eastern Europe",
+    "institutions": 4,
+    "teachers": 14,
+    "learners": 423,
+    "stages": [
+      0,
+      159,
+      264,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/serbia_2.pdf"
+  },
+  {
+    "id": "TJ",
+    "name": "Tajikistan",
+    "ja": "タジキスタン",
+    "region": "Eastern Europe",
+    "institutions": 3,
+    "teachers": 8,
+    "learners": 174,
+    "stages": [
+      0,
+      0,
+      119,
+      55
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tajikistan_2.pdf"
+  },
+  {
+    "id": "CZ",
+    "name": "Czechia",
+    "ja": "チェコ",
+    "region": "Eastern Europe",
+    "institutions": 23,
+    "teachers": 106,
+    "learners": 1713,
+    "stages": [
+      0,
+      64,
+      688,
+      961
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/czech_2.pdf"
+  },
+  {
+    "id": "TM",
+    "name": "Turkmenistan",
+    "ja": "トルクメニスタン",
+    "region": "Eastern Europe",
+    "institutions": 20,
+    "teachers": 88,
+    "learners": 14844,
+    "stages": [
+      0,
+      11318,
+      3526,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/turkmenistan_2.pdf"
+  },
+  {
+    "id": "HU",
+    "name": "Hungary",
+    "ja": "ハンガリー",
+    "region": "Eastern Europe",
+    "institutions": 35,
+    "teachers": 106,
+    "learners": 1847,
+    "stages": [
+      95,
+      335,
+      901,
+      516
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/hungary_2.pdf"
+  },
+  {
+    "id": "BG",
+    "name": "Bulgaria",
+    "ja": "ブルガリア",
+    "region": "Eastern Europe",
+    "institutions": 11,
+    "teachers": 88,
+    "learners": 2353,
+    "stages": [
+      725,
+      970,
+      240,
+      418
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bulgaria_2.pdf"
+  },
+  {
+    "id": "BY",
+    "name": "Belarus",
+    "ja": "ベラルーシ",
+    "region": "Eastern Europe",
+    "institutions": 9,
+    "teachers": 22,
+    "learners": 390,
+    "stages": [
+      0,
+      0,
+      125,
+      265
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belarus_2.pdf"
+  },
+  {
+    "id": "PL",
+    "name": "Poland",
+    "ja": "ポーランド",
+    "region": "Eastern Europe",
+    "institutions": 47,
+    "teachers": 269,
+    "learners": 6409,
+    "stages": [
+      225,
+      270,
+      2650,
+      3264
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/poland_2.pdf"
+  },
+  {
+    "id": "BA",
+    "name": "Bosnia & Herzegovina",
+    "ja": "ボスニア・ヘルツェゴビナ",
+    "region": "Eastern Europe",
+    "institutions": 3,
+    "teachers": 4,
+    "learners": 136,
+    "stages": [
+      0,
+      74,
+      10,
+      52
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bosnia_h_2.pdf"
+  },
+  {
+    "id": "MD",
+    "name": "Moldova",
+    "ja": "モルドバ",
+    "region": "Eastern Europe",
+    "institutions": 1,
+    "teachers": 3,
+    "learners": 126,
+    "stages": [
+      0,
+      0,
+      0,
+      126
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/moldova_2.pdf"
+  },
+  {
+    "id": "ME",
+    "name": "Montenegro",
+    "ja": "モンテネグロ",
+    "region": "Eastern Europe",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/montenegro_2.pdf"
+  },
+  {
+    "id": "LV",
+    "name": "Latvia",
+    "ja": "ラトビア",
+    "region": "Eastern Europe",
+    "institutions": 3,
+    "teachers": 7,
+    "learners": 130,
+    "stages": [
+      0,
+      45,
+      55,
+      30
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/latvia_2.pdf"
+  },
+  {
+    "id": "LT",
+    "name": "Lithuania",
+    "ja": "リトアニア",
+    "region": "Eastern Europe",
+    "institutions": 9,
+    "teachers": 16,
+    "learners": 333,
+    "stages": [
+      0,
+      45,
+      165,
+      123
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lithuania_2.pdf"
+  },
+  {
+    "id": "RO",
+    "name": "Romania",
+    "ja": "ルーマニア",
+    "region": "Eastern Europe",
+    "institutions": 21,
+    "teachers": 63,
+    "learners": 3708,
+    "stages": [
+      25,
+      308,
+      931,
+      2444
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/romania_2.pdf"
+  },
+  {
+    "id": "RU",
+    "name": "Russia",
+    "ja": "ロシア",
+    "region": "Eastern Europe",
+    "institutions": 192,
+    "teachers": 786,
+    "learners": 13525,
+    "stages": [
+      1374,
+      2624,
+      4328,
+      5199
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/russia_2.pdf"
+  },
+  {
+    "id": "AF",
+    "name": "Afghanistan",
+    "ja": "アフガニスタン",
+    "region": "Middle East",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/afghanistan_2.pdf"
+  },
+  {
+    "id": "AE",
+    "name": "United Arab Emirates",
+    "ja": "アラブ首長国連邦",
+    "region": "Middle East",
+    "institutions": 9,
+    "teachers": 21,
+    "learners": 929,
+    "stages": [
+      0,
+      516,
+      82,
+      331
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uae_2.pdf"
+  },
+  {
+    "id": "YE",
+    "name": "Yemen",
+    "ja": "イエメン",
+    "region": "Middle East",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/yemen_2.pdf"
+  },
+  {
+    "id": "IL",
+    "name": "Israel",
+    "ja": "イスラエル",
+    "region": "Middle East",
+    "institutions": 9,
+    "teachers": 21,
+    "learners": 536,
+    "stages": [
+      0,
+      0,
+      263,
+      273
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/israel_2.pdf"
+  },
+  {
+    "id": "IQ",
+    "name": "Iraq",
+    "ja": "イラク",
+    "region": "Middle East",
+    "institutions": 4,
+    "teachers": 6,
+    "learners": 762,
+    "stages": [
+      490,
+      252,
+      20,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iraq_2.pdf"
+  },
+  {
+    "id": "IR",
+    "name": "Iran",
+    "ja": "イラン",
+    "region": "Middle East",
+    "institutions": 2,
+    "teachers": 19,
+    "learners": 270,
+    "stages": [
+      0,
+      0,
+      120,
+      150
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iran_2.pdf"
+  },
+  {
+    "id": "OM",
+    "name": "Oman",
+    "ja": "オマーン",
+    "region": "Middle East",
+    "institutions": 3,
+    "teachers": 6,
+    "learners": 82,
+    "stages": [
+      0,
+      0,
+      27,
+      55
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/oman_2.pdf"
+  },
+  {
+    "id": "QA",
+    "name": "Qatar",
+    "ja": "カタール",
+    "region": "Middle East",
+    "institutions": 6,
+    "teachers": 8,
+    "learners": 217,
+    "stages": [
+      0,
+      150,
+      40,
+      27
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/qatar_2.pdf"
+  },
+  {
+    "id": "KW",
+    "name": "Kuwait",
+    "ja": "クウェート",
+    "region": "Middle East",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 24,
+    "stages": [
+      0,
+      0,
+      0,
+      24
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kuwait_2.pdf"
+  },
+  {
+    "id": "SA",
+    "name": "Saudi Arabia",
+    "ja": "サウジアラビア",
+    "region": "Middle East",
+    "institutions": 1,
+    "teachers": 6,
+    "learners": 80,
+    "stages": [
+      0,
+      0,
+      80,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saudiarabia_2.pdf"
+  },
+  {
+    "id": "SY",
+    "name": "Syria",
+    "ja": "シリア",
+    "region": "Middle East",
+    "institutions": 1,
+    "teachers": 10,
+    "learners": 157,
+    "stages": [
+      0,
+      0,
+      0,
+      157
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/syria_2.pdf"
+  },
+  {
+    "id": "TR",
+    "name": "Türkiye",
+    "ja": "トルコ",
+    "region": "Middle East",
+    "institutions": 26,
+    "teachers": 80,
+    "learners": 2929,
+    "stages": [
+      0,
+      195,
+      2146,
+      588
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/turkey_2.pdf"
+  },
+  {
+    "id": "BH",
+    "name": "Bahrain",
+    "ja": "バーレーン",
+    "region": "Middle East",
+    "institutions": 1,
+    "teachers": 4,
+    "learners": 10,
+    "stages": [
+      0,
+      0,
+      0,
+      10
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bahrain_2.pdf"
+  },
+  {
+    "id": "PS",
+    "name": "Palestinian Territories",
+    "ja": "パレスチナ",
+    "region": "Middle East",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/palestine_2.pdf"
+  },
+  {
+    "id": "JO",
+    "name": "Jordan",
+    "ja": "ヨルダン",
+    "region": "Middle East",
+    "institutions": 4,
+    "teachers": 9,
+    "learners": 183,
+    "stages": [
+      0,
+      0,
+      72,
+      111
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/jordan_2.pdf"
+  },
+  {
+    "id": "LB",
+    "name": "Lebanon",
+    "ja": "レバノン",
+    "region": "Middle East",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 20,
+    "stages": [
+      0,
+      0,
+      20,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lebanon_2.pdf"
+  },
+  {
+    "id": "DZ",
+    "name": "Algeria",
+    "ja": "アルジェリア",
+    "region": "North Africa",
+    "institutions": 3,
+    "teachers": 14,
+    "learners": 96,
+    "stages": [
+      0,
+      0,
+      20,
+      76
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/algerie_2.pdf"
+  },
+  {
+    "id": "EG",
+    "name": "Egypt",
+    "ja": "エジプト",
+    "region": "North Africa",
+    "institutions": 18,
+    "teachers": 176,
+    "learners": 3661,
+    "stages": [
+      0,
+      0,
+      3212,
+      449
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/egypt_2.pdf"
+  },
+  {
+    "id": "SD",
+    "name": "Sudan",
+    "ja": "スーダン",
+    "region": "North Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sudan_2.pdf"
+  },
+  {
+    "id": "TN",
+    "name": "Tunisia",
+    "ja": "チュニジア",
+    "region": "North Africa",
+    "institutions": 3,
+    "teachers": 6,
+    "learners": 205,
+    "stages": [
+      0,
+      0,
+      20,
+      185
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tunisia_2.pdf"
+  },
+  {
+    "id": "MA",
+    "name": "Morocco",
+    "ja": "モロッコ",
+    "region": "North Africa",
+    "institutions": 10,
+    "teachers": 25,
+    "learners": 527,
+    "stages": [
+      0,
+      0,
+      140,
+      387
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf"
+  },
+  {
+    "id": "LY",
+    "name": "Libya",
+    "ja": "リビア",
+    "region": "North Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/libya_2.pdf"
+  },
+  {
+    "id": "AO",
+    "name": "Angola",
+    "ja": "アンゴラ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/angola_2.pdf"
+  },
+  {
+    "id": "UG",
+    "name": "Uganda",
+    "ja": "ウガンダ",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 23,
+    "stages": [
+      0,
+      0,
+      0,
+      23
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uganda_2.pdf"
+  },
+  {
+    "id": "SZ",
+    "name": "Eswatini",
+    "ja": "エスワティニ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/eswatini_2.pdf"
+  },
+  {
+    "id": "ET",
+    "name": "Ethiopia",
+    "ja": "エチオピア",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 30,
+    "stages": [
+      0,
+      0,
+      30,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ethiopia_2.pdf"
+  },
+  {
+    "id": "ER",
+    "name": "Eritrea",
+    "ja": "エリトリア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ertra_2.pdf"
+  },
+  {
+    "id": "GH",
+    "name": "Ghana",
+    "ja": "ガーナ",
+    "region": "Africa",
+    "institutions": 2,
+    "teachers": 6,
+    "learners": 680,
+    "stages": [
+      300,
+      300,
+      0,
+      80
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ghana_2.pdf"
+  },
+  {
+    "id": "CV",
+    "name": "Cape Verde",
+    "ja": "カーボべルデ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "GA",
+    "name": "Gabon",
+    "ja": "ガボン",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/gabon_2.pdf"
+  },
+  {
+    "id": "CM",
+    "name": "Cameroon",
+    "ja": "カメルーン",
+    "region": "Africa",
+    "institutions": 2,
+    "teachers": 7,
+    "learners": 50,
+    "stages": [
+      0,
+      0,
+      15,
+      35
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cameroon_2.pdf"
+  },
+  {
+    "id": "GM",
+    "name": "Gambia",
+    "ja": "ガンビア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/gambia_2.pdf"
+  },
+  {
+    "id": "GN",
+    "name": "Guinea",
+    "ja": "ギニア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guinee_2.pdf"
+  },
+  {
+    "id": "GW",
+    "name": "Guinea-Bissau",
+    "ja": "ギニアビサウ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guine_bissau_2.pdf"
+  },
+  {
+    "id": "KE",
+    "name": "Kenya",
+    "ja": "ケニア",
+    "region": "Africa",
+    "institutions": 26,
+    "teachers": 41,
+    "learners": 2332,
+    "stages": [
+      660,
+      920,
+      630,
+      122
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kenya_2.pdf"
+  },
+  {
+    "id": "CI",
+    "name": "Côte d’Ivoire",
+    "ja": "コートジボワール",
+    "region": "Africa",
+    "institutions": 7,
+    "teachers": 13,
+    "learners": 1359,
+    "stages": [
+      0,
+      491,
+      742,
+      126
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cote_d_2.pdf"
+  },
+  {
+    "id": "KM",
+    "name": "Comoros",
+    "ja": "コモロ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/comores_2.pdf"
+  },
+  {
+    "id": "CG",
+    "name": "Congo - Brazzaville",
+    "ja": "コンゴ共和国",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/r_congo_2.pdf"
+  },
+  {
+    "id": "CD",
+    "name": "Congo - Kinshasa",
+    "ja": "コンゴ民主共和国",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/congo_2.pdf"
+  },
+  {
+    "id": "ST",
+    "name": "São Tomé & Príncipe",
+    "ja": "サントメ・プリンシペ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sao_tome_and_principe_2.pdf"
+  },
+  {
+    "id": "ZM",
+    "name": "Zambia",
+    "ja": "ザンビア",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 5,
+    "learners": 57,
+    "stages": [
+      0,
+      0,
+      17,
+      40
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/zambia_2.pdf"
+  },
+  {
+    "id": "SL",
+    "name": "Sierra Leone",
+    "ja": "シエラレオネ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sierra_leone_2.pdf"
+  },
+  {
+    "id": "DJ",
+    "name": "Djibouti",
+    "ja": "ジブチ",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 8,
+    "stages": [
+      0,
+      0,
+      0,
+      8
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/djibouti_2.pdf"
+  },
+  {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "ja": "ジンバブエ",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 60,
+    "stages": [
+      0,
+      0,
+      0,
+      60
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/zimbabwe_2.pdf"
+  },
+  {
+    "id": "SC",
+    "name": "Seychelles",
+    "ja": "セーシェル",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/seychelles_2.pdf"
+  },
+  {
+    "id": "GQ",
+    "name": "Equatorial Guinea",
+    "ja": "赤道ギニア",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 1,
+    "learners": 15,
+    "stages": [
+      0,
+      0,
+      0,
+      15
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/equatorial_guinea_2.pdf"
+  },
+  {
+    "id": "SN",
+    "name": "Senegal",
+    "ja": "セネガル",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 132,
+    "stages": [
+      0,
+      0,
+      132,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/senegal_2.pdf"
+  },
+  {
+    "id": "SO",
+    "name": "Somalia",
+    "ja": "ソマリア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/somali_2.pdf"
+  },
+  {
+    "id": "TZ",
+    "name": "Tanzania",
+    "ja": "タンザニア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tanzania_2.pdf"
+  },
+  {
+    "id": "TD",
+    "name": "Chad",
+    "ja": "チャド",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/chad_2.pdf"
+  },
+  {
+    "id": "CF",
+    "name": "Central African Republic",
+    "ja": "中央アフリカ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/c_africa_2.pdf"
+  },
+  {
+    "id": "TG",
+    "name": "Togo",
+    "ja": "トーゴ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/togo_2.pdf"
+  },
+  {
+    "id": "NG",
+    "name": "Nigeria",
+    "ja": "ナイジェリア",
+    "region": "Africa",
+    "institutions": 2,
+    "teachers": 6,
+    "learners": 588,
+    "stages": [
+      0,
+      0,
+      388,
+      200
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nigeria_2.pdf"
+  },
+  {
+    "id": "NA",
+    "name": "Namibia",
+    "ja": "ナミビア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/namibia_2.pdf"
+  },
+  {
+    "id": "NE",
+    "name": "Niger",
+    "ja": "ニジェール",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/niger_2.pdf"
+  },
+  {
+    "id": "HV",
+    "name": "Burkina Faso",
+    "ja": "ブルキナファソ",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 3,
+    "learners": 30,
+    "stages": [
+      0,
+      0,
+      0,
+      30
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/burkina_2.pdf"
+  },
+  {
+    "id": "BI",
+    "name": "Burundi",
+    "ja": "ブルンジ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/burundi_2.pdf"
+  },
+  {
+    "id": "DY",
+    "name": "Benin",
+    "ja": "ベナン",
+    "region": "Africa",
+    "institutions": 1,
+    "teachers": 2,
+    "learners": 256,
+    "stages": [
+      0,
+      0,
+      0,
+      256
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/benin_2.pdf"
+  },
+  {
+    "id": "BW",
+    "name": "Botswana",
+    "ja": "ボツワナ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/botswana_2.pdf"
+  },
+  {
+    "id": "MG",
+    "name": "Madagascar",
+    "ja": "マダガスカル",
+    "region": "Africa",
+    "institutions": 20,
+    "teachers": 58,
+    "learners": 2231,
+    "stages": [
+      58,
+      665,
+      962,
+      546
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/madagascar_2.pdf"
+  },
+  {
+    "id": "MW",
+    "name": "Malawi",
+    "ja": "マラウイ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malawi_2.pdf"
+  },
+  {
+    "id": "ML",
+    "name": "Mali",
+    "ja": "マリ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mali_2.pdf"
+  },
+  {
+    "id": "ZA",
+    "name": "South Africa",
+    "ja": "南アフリカ共和国",
+    "region": "Africa",
+    "institutions": 4,
+    "teachers": 13,
+    "learners": 245,
+    "stages": [
+      0,
+      0,
+      0,
+      245
+    ]
+  },
+  {
+    "id": "SS",
+    "name": "South Sudan",
+    "ja": "南スーダン",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/s_sudan_2.pdf"
+  },
+  {
+    "id": "MU",
+    "name": "Mauritius",
+    "ja": "モーリシャス",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mauritius_2.pdf"
+  },
+  {
+    "id": "MR",
+    "name": "Mauritania",
+    "ja": "モーリタニア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mauritania_2.pdf"
+  },
+  {
+    "id": "MZ",
+    "name": "Mozambique",
+    "ja": "モザンビーク",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mozambique_2.pdf"
+  },
+  {
+    "id": "LR",
+    "name": "Liberia",
+    "ja": "リベリア",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/liberia_2.pdf"
+  },
+  {
+    "id": "RW",
+    "name": "Rwanda",
+    "ja": "ルワンダ",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/rwanda_2.pdf"
+  },
+  {
+    "id": "LS",
+    "name": "Lesotho",
+    "ja": "レソト",
+    "region": "Africa",
+    "institutions": 0,
+    "teachers": 0,
+    "learners": 0,
+    "stages": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lesotho_2.pdf"
+  }
+]

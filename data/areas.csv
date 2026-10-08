@@ -1,0 +1,205 @@
+id,name,ja,region,institutions,teachers,learners,stages,profile
+KR,South Korea,韓国,East Asia,2815,14127,555396,"[651,385439,51955,117351]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/korea_2.pdf
+TW,Taiwan,台湾,East Asia,809,3343,124149,"[3018,31669,52161,37301]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/taiwan_3.pdf
+CN,China,中国,East Asia,3073,21743,1019197,"[1482,284488,477869,255358]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/china_2.pdf
+HK,Hong Kong SAR China,香港,East Asia,62,534,20868,"[1008,2146,6515,11199]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/hongkong_2.pdf
+MO,Macao SAR China,マカオ,East Asia,5,42,1471,"[0,0,420,1051]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/macao_2.pdf
+MN,Mongolia,モンゴル,East Asia,164,561,16123,"[1659,7270,2734,4460]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mongolia_2.pdf
+ID,Indonesia,インドネシア,Southeast Asia,3103,7614,732914,"[7445,644503,22691,58275]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/indonesia_2.pdf
+KH,Cambodia,カンボジア,Southeast Asia,92,423,5343,"[126,1254,767,3196]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cambodia_2.pdf
+SG,Singapore,シンガポール,Southeast Asia,17,180,8532,"[80,1335,2446,4671]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/singapore_2.pdf
+TH,Thailand,タイ,Southeast Asia,755,2286,194366,"[7460,158072,21125,7709]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/thailand_2.pdf
+TL,Timor-Leste,東ティモール,Southeast Asia,9,32,609,"[0,0,0,609]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/e_timor_2.pdf
+PH,Philippines,フィリピン,Southeast Asia,227,916,42677,"[853,8856,17948,15020]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/philippines_2.pdf
+BN,Brunei,ブルネイ,Southeast Asia,2,2,116,"[0,0,90,26]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/brunei_2.pdf
+VN,Vietnam,ベトナム,Southeast Asia,490,4230,164495,"[2550,26773,48981,86191]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vietnam_2.pdf
+MY,Malaysia,マレーシア,Southeast Asia,217,486,40669,"[0,21057,14469,5143]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malaysia_2.pdf
+MM,Myanmar (Burma),ミャンマー,Southeast Asia,685,3577,100315,"[0,40,576,99699]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/myanmar_2.pdf
+LA,Laos,ラオス,Southeast Asia,29,123,4431,"[527,2214,240,1450]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/laos_2.pdf
+IN,India,インド,South Asia,381,1285,52946,"[4288,10365,15710,22583]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/india_2.pdf
+LK,Sri Lanka,スリランカ,South Asia,298,650,34650,"[1239,16702,3350,13359]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/srilanka_2.pdf
+NP,Nepal,ネパール,South Asia,318,1146,25292,"[0,107,339,24846]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nepal_2.pdf
+PK,Pakistan,パキスタン,South Asia,9,42,906,"[0,0,195,711]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/pakistan_2.pdf
+BD,Bangladesh,バングラデシュ,South Asia,165,643,14918,"[500,28,898,13492]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bangladesh_2.pdf
+BT,Bhutan,ブータン,South Asia,2,4,156,"[0,0,0,156]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bhutan_2.pdf
+MV,Maldives,モルディブ,South Asia,1,1,22,"[0,0,0,22]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/maldives_2.pdf
+AU,Australia,オーストラリア,Oceania,1595,3280,424316,"[240650,168856,10423,4387]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/australia_2.pdf
+MP,Northern Mariana Islands,北マリアナ諸島,Oceania,3,3,240,"[30,210,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/n_mariana_2.pdf
+KI,Kiribati,キリバス,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kiribati_2.pdf
+GU,Guam,グアム島,Oceania,12,17,893,"[60,743,90,0]",
+CK,Cook Islands,クック,Oceania,0,0,0,"[0,0,0,0]",
+WS,Samoa,サモア,Oceania,1,1,15,"[0,0,15,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/samoa_2.pdf
+SB,Solomon Islands,ソロモン,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/solomon_2.pdf
+TV,Tuvalu,ツバル,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/toval_2.pdf
+TO,Tonga,トンガ,Oceania,9,17,155,"[0,149,6,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tonga_2.pdf
+NR,Nauru,ナウル,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/naul_2.pdf
+NU,Niue,ニウエ,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/niue_2.pdf
+NC,New Caledonia,ニューカレドニア,Oceania,31,53,3053,"[0,2974,49,30]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/newcaledonia_2.pdf
+NZ,New Zealand,ニュージーランド,Oceania,171,296,25456,"[6774,17096,1270,316]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/newzealand_2.pdf
+VU,Vanuatu,バヌアツ,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vanuatu_2.pdf
+PG,Papua New Guinea,パプアニューギニア,Oceania,1,3,50,"[0,50,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/papua_2.pdf
+PW,Palau,パラオ,Oceania,3,4,180,"[0,160,20,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/palau_2.pdf
+FJ,Fiji,フィジー,Oceania,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/fiji_2.pdf
+PF,French Polynesia,フランス領ポリネシア,Oceania,4,7,197,"[0,110,0,87]",
+MH,Marshall Islands,マーシャル,Oceania,1,1,20,"[0,0,20,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/marshall_2.pdf
+FM,Micronesia,ミクロネシア,Oceania,2,3,125,"[0,15,0,110]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/micronesia_2.pdf
+CA,Canada,カナダ,North America,141,639,18323,"[82,4852,8188,5201]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/canada_2.pdf
+US,United States,米国,North America,1155,3780,134096,"[11849,54383,54701,13163]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/usa_2.pdf
+AG,Antigua & Barbuda,アンティグア・バーブーダ,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/antigua_and_barbuda_2.pdf
+SV,El Salvador,エルサルバドル,Central America,5,27,281,"[0,0,44,237]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/elsalvador_2.pdf
+CU,Cuba,キューバ,Central America,4,9,123,"[0,0,29,94]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cuba_2.pdf
+GT,Guatemala,グアテマラ,Central America,5,14,280,"[0,0,35,245]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guatemala_2.pdf
+GD,Grenada,グレナダ,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/grenada_2.pdf
+CR,Costa Rica,コスタリカ,Central America,13,49,786,"[0,0,217,569]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/costarica_2.pdf
+JM,Jamaica,ジャマイカ,Central America,3,5,219,"[0,0,159,60]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/jamaica_2.pdf
+KN,St. Kitts & Nevis,セントクリストファー・ネービス,Central America,0,0,0,"[0,0,0,0]",
+VC,St. Vincent & Grenadines,セントビンセント,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saintvincent_2.pdf
+LC,St. Lucia,セントルシア,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saintlucia_2.pdf
+DM,Dominica,ドミニカ,Central America,0,0,0,"[0,0,0,0]",
+DO,Dominican Republic,ドミニカ共和国,Central America,3,26,151,"[0,0,0,151]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/dominican_2.pdf
+TT,Trinidad & Tobago,トリニダード・トバゴ,Central America,1,5,149,"[0,0,73,76]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/trinidadtobago_2.pdf
+NI,Nicaragua,ニカラグア,Central America,2,5,63,"[0,0,0,63]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nicaragua_2.pdf
+HT,Haiti,ハイチ,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/haiti_2.pdf
+PA,Panama,パナマ,Central America,3,6,139,"[0,30,25,84]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/panama_2.pdf
+BS,Bahamas,バハマ,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bahama_2.pdf
+BB,Barbados,バルバドス,Central America,2,3,32,"[0,16,16,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/barbados_2.pdf
+PR,Puerto Rico,プエルトリコ,Central America,1,2,76,"[0,0,51,25]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/puertorico_2.pdf
+BZ,Belize,ベリーズ,Central America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belize_2.pdf
+HN,Honduras,ホンジュラス,Central America,8,28,407,"[35,40,43,289]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/honduras_2.pdf
+MX,Mexico,メキシコ,Central America,153,669,15151,"[1205,1348,2126,10472]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mexico_2.pdf
+AR,Argentina,アルゼンチン,South America,62,282,5093,"[350,170,220,4353]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/argentina_2.pdf
+UY,Uruguay,ウルグアイ,South America,6,16,163,"[0,0,0,163]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uruguay_2.pdf
+EC,Ecuador,エクアドル,South America,3,16,145,"[0,0,20,125]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ecuador_2.pdf
+GY,Guyana,ガイアナ,South America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guyana_2.pdf
+CO,Colombia,コロンビア,South America,16,75,1679,"[0,0,412,1267]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/colombia_2.pdf
+SR,Suriname,スリナム,South America,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/suriname_2.pdf
+CL,Chile,チリ,South America,14,48,918,"[10,0,332,576]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/chile_2.pdf
+PY,Paraguay,パラグアイ,South America,13,103,3269,"[1489,580,900,300]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/paraguay_2.pdf
+BR,Brazil,ブラジル,South America,309,1156,26708,"[2680,4788,2587,16653]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/brazil_2.pdf
+VE,Venezuela,ベネズエラ,South America,12,46,477,"[0,0,8,469]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/venezuela_2.pdf
+PE,Peru,ペルー,South America,26,114,3551,"[1416,768,0,1367]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/peru_2.pdf
+BO,Bolivia,ボリビア,South America,6,38,470,"[150,0,0,320]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bolivia_2.pdf
+IS,Iceland,アイスランド,Western Europe,2,7,209,"[0,34,75,100]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iceland_2.pdf
+IE,Ireland,アイルランド,Western Europe,47,76,4396,"[0,3736,560,100]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ireland_2.pdf
+AD,Andorra,アンドラ,Western Europe,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/andorra_2.pdf
+IT,Italy,イタリア,Western Europe,50,196,7117,"[0,584,5374,1159]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/italy_2.pdf
+GB,United Kingdom,英国,Western Europe,219,635,14646,"[1017,3281,6273,4075]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uk_2.pdf
+AT,Austria,オーストリア,Western Europe,17,44,1564,"[0,43,655,866]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/austria_2.pdf
+NL,Netherlands,オランダ,Western Europe,19,53,1178,"[0,0,722,456]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/netherlands_2.pdf
+CY,Cyprus,キプロス,Western Europe,1,1,50,"[0,0,0,50]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cyprus_2.pdf
+GR,Greece,ギリシャ,Western Europe,11,30,614,"[0,0,0,614]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/greece_2.pdf
+SM,San Marino,サンマリノ,Western Europe,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sanmarino_2.pdf
+CH,Switzerland,スイス,Western Europe,72,230,2573,"[10,124,935,1504]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/swiss_2.pdf
+SE,Sweden,スウェーデン,Western Europe,15,33,1181,"[0,234,848,99]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sweden_2.pdf
+ES,Spain,スペイン,Western Europe,140,385,9536,"[2,251,1715,7568]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/spain_2.pdf
+DK,Denmark,デンマーク,Western Europe,13,27,549,"[18,130,275,126]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/denmark_2.pdf
+DE,Germany,ドイツ,Western Europe,188,602,17440,"[80,2002,5964,9394]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/germany_2.pdf
+NO,Norway,ノルウェー,Western Europe,8,19,516,"[0,102,398,16]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/norway_2.pdf
+VA,Vatican City,バチカン,Western Europe,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/vatican_2.pdf
+FI,Finland,フィンランド,Western Europe,20,35,1719,"[0,211,890,618]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/finland_2.pdf
+FR,France,フランス,Western Europe,285,960,31381,"[813,5573,10309,14686]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/france_2.pdf
+BE,Belgium,ベルギー,Western Europe,19,42,1559,"[0,0,689,870]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belgium_2.pdf
+PT,Portugal,ポルトガル,Western Europe,12,33,637,"[0,0,228,409]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/portuguese_2.pdf
+MT,Malta,マルタ,Western Europe,1,1,32,"[0,0,0,32]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malta_2.pdf
+MC,Monaco,モナコ,Western Europe,1,1,15,"[0,0,0,15]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/monaco_2.pdf
+LI,Liechtenstein,リヒテンシュタイン,Western Europe,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/liechtenstein_2.pdf
+LU,Luxembourg,ルクセンブルク,Western Europe,6,6,163,"[0,29,0,134]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/luxembourg_2.pdf
+AZ,Azerbaijan,アゼルバイジャン,Eastern Europe,4,15,274,"[0,72,164,38]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/azerbaidjan_2.pdf
+AL,Albania,アルバニア,Eastern Europe,1,1,150,"[0,0,150,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/albania_2.pdf
+AM,Armenia,アルメニア,Eastern Europe,7,22,239,"[0,0,99,140]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/armenia_2.pdf
+UA,Ukraine,ウクライナ,Eastern Europe,14,93,1498,"[75,65,946,412]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ukraine_2.pdf
+UZ,Uzbekistan,ウズベキスタン,Eastern Europe,19,157,4201,"[0,225,3365,611]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uzbekistan_2.pdf
+EE,Estonia,エストニア,Eastern Europe,10,18,352,"[0,113,150,89]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/estonia_2.pdf
+KZ,Kazakhstan,カザフスタン,Eastern Europe,8,29,581,"[0,35,282,264]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kazakhstan_2.pdf
+MK,North Macedonia,北マケドニア,Eastern Europe,2,2,11,"[0,0,6,5]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/macedonia_2.pdf
+KG,Kyrgyzstan,キルギス,Eastern Europe,14,50,1708,"[131,280,557,740]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kyrgyz_2.pdf
+HR,Croatia,クロアチア,Eastern Europe,6,27,436,"[8,0,192,236]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/croatia_2.pdf
+XK,Kosovo,コソボ,Eastern Europe,1,2,10,"[0,0,0,10]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kosovo_2.pdf
+GE,Georgia,ジョージア,Eastern Europe,9,27,745,"[35,143,297,270]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/georgia_2.pdf
+SK,Slovakia,スロバキア,Eastern Europe,16,26,326,"[0,28,57,241]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/slovakia_2.pdf
+SI,Slovenia,スロベニア,Eastern Europe,5,21,239,"[15,0,101,123]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/slovenia_2.pdf
+RS,Serbia,セルビア,Eastern Europe,4,14,423,"[0,159,264,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/serbia_2.pdf
+TJ,Tajikistan,タジキスタン,Eastern Europe,3,8,174,"[0,0,119,55]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tajikistan_2.pdf
+CZ,Czechia,チェコ,Eastern Europe,23,106,1713,"[0,64,688,961]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/czech_2.pdf
+TM,Turkmenistan,トルクメニスタン,Eastern Europe,20,88,14844,"[0,11318,3526,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/turkmenistan_2.pdf
+HU,Hungary,ハンガリー,Eastern Europe,35,106,1847,"[95,335,901,516]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/hungary_2.pdf
+BG,Bulgaria,ブルガリア,Eastern Europe,11,88,2353,"[725,970,240,418]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bulgaria_2.pdf
+BY,Belarus,ベラルーシ,Eastern Europe,9,22,390,"[0,0,125,265]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/belarus_2.pdf
+PL,Poland,ポーランド,Eastern Europe,47,269,6409,"[225,270,2650,3264]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/poland_2.pdf
+BA,Bosnia & Herzegovina,ボスニア・ヘルツェゴビナ,Eastern Europe,3,4,136,"[0,74,10,52]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bosnia_h_2.pdf
+MD,Moldova,モルドバ,Eastern Europe,1,3,126,"[0,0,0,126]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/moldova_2.pdf
+ME,Montenegro,モンテネグロ,Eastern Europe,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/montenegro_2.pdf
+LV,Latvia,ラトビア,Eastern Europe,3,7,130,"[0,45,55,30]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/latvia_2.pdf
+LT,Lithuania,リトアニア,Eastern Europe,9,16,333,"[0,45,165,123]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lithuania_2.pdf
+RO,Romania,ルーマニア,Eastern Europe,21,63,3708,"[25,308,931,2444]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/romania_2.pdf
+RU,Russia,ロシア,Eastern Europe,192,786,13525,"[1374,2624,4328,5199]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/russia_2.pdf
+AF,Afghanistan,アフガニスタン,Middle East,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/afghanistan_2.pdf
+AE,United Arab Emirates,アラブ首長国連邦,Middle East,9,21,929,"[0,516,82,331]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uae_2.pdf
+YE,Yemen,イエメン,Middle East,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/yemen_2.pdf
+IL,Israel,イスラエル,Middle East,9,21,536,"[0,0,263,273]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/israel_2.pdf
+IQ,Iraq,イラク,Middle East,4,6,762,"[490,252,20,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iraq_2.pdf
+IR,Iran,イラン,Middle East,2,19,270,"[0,0,120,150]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/iran_2.pdf
+OM,Oman,オマーン,Middle East,3,6,82,"[0,0,27,55]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/oman_2.pdf
+QA,Qatar,カタール,Middle East,6,8,217,"[0,150,40,27]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/qatar_2.pdf
+KW,Kuwait,クウェート,Middle East,1,2,24,"[0,0,0,24]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kuwait_2.pdf
+SA,Saudi Arabia,サウジアラビア,Middle East,1,6,80,"[0,0,80,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/saudiarabia_2.pdf
+SY,Syria,シリア,Middle East,1,10,157,"[0,0,0,157]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/syria_2.pdf
+TR,Türkiye,トルコ,Middle East,26,80,2929,"[0,195,2146,588]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/turkey_2.pdf
+BH,Bahrain,バーレーン,Middle East,1,4,10,"[0,0,0,10]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/bahrain_2.pdf
+PS,Palestinian Territories,パレスチナ,Middle East,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/palestine_2.pdf
+JO,Jordan,ヨルダン,Middle East,4,9,183,"[0,0,72,111]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/jordan_2.pdf
+LB,Lebanon,レバノン,Middle East,1,1,20,"[0,0,20,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lebanon_2.pdf
+DZ,Algeria,アルジェリア,North Africa,3,14,96,"[0,0,20,76]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/algerie_2.pdf
+EG,Egypt,エジプト,North Africa,18,176,3661,"[0,0,3212,449]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/egypt_2.pdf
+SD,Sudan,スーダン,North Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sudan_2.pdf
+TN,Tunisia,チュニジア,North Africa,3,6,205,"[0,0,20,185]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tunisia_2.pdf
+MA,Morocco,モロッコ,North Africa,10,25,527,"[0,0,140,387]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/morocco_2.pdf
+LY,Libya,リビア,North Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/libya_2.pdf
+AO,Angola,アンゴラ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/angola_2.pdf
+UG,Uganda,ウガンダ,Africa,1,1,23,"[0,0,0,23]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/uganda_2.pdf
+SZ,Eswatini,エスワティニ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/eswatini_2.pdf
+ET,Ethiopia,エチオピア,Africa,1,2,30,"[0,0,30,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ethiopia_2.pdf
+ER,Eritrea,エリトリア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ertra_2.pdf
+GH,Ghana,ガーナ,Africa,2,6,680,"[300,300,0,80]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/ghana_2.pdf
+CV,Cape Verde,カーボべルデ,Africa,0,0,0,"[0,0,0,0]",
+GA,Gabon,ガボン,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/gabon_2.pdf
+CM,Cameroon,カメルーン,Africa,2,7,50,"[0,0,15,35]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cameroon_2.pdf
+GM,Gambia,ガンビア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/gambia_2.pdf
+GN,Guinea,ギニア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guinee_2.pdf
+GW,Guinea-Bissau,ギニアビサウ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/guine_bissau_2.pdf
+KE,Kenya,ケニア,Africa,26,41,2332,"[660,920,630,122]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/kenya_2.pdf
+CI,Côte d’Ivoire,コートジボワール,Africa,7,13,1359,"[0,491,742,126]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/cote_d_2.pdf
+KM,Comoros,コモロ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/comores_2.pdf
+CG,Congo - Brazzaville,コンゴ共和国,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/r_congo_2.pdf
+CD,Congo - Kinshasa,コンゴ民主共和国,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/congo_2.pdf
+ST,São Tomé & Príncipe,サントメ・プリンシペ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sao_tome_and_principe_2.pdf
+ZM,Zambia,ザンビア,Africa,1,5,57,"[0,0,17,40]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/zambia_2.pdf
+SL,Sierra Leone,シエラレオネ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/sierra_leone_2.pdf
+DJ,Djibouti,ジブチ,Africa,1,1,8,"[0,0,0,8]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/djibouti_2.pdf
+ZW,Zimbabwe,ジンバブエ,Africa,1,1,60,"[0,0,0,60]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/zimbabwe_2.pdf
+SC,Seychelles,セーシェル,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/seychelles_2.pdf
+GQ,Equatorial Guinea,赤道ギニア,Africa,1,1,15,"[0,0,0,15]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/equatorial_guinea_2.pdf
+SN,Senegal,セネガル,Africa,1,2,132,"[0,0,132,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/senegal_2.pdf
+SO,Somalia,ソマリア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/somali_2.pdf
+TZ,Tanzania,タンザニア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/tanzania_2.pdf
+TD,Chad,チャド,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/chad_2.pdf
+CF,Central African Republic,中央アフリカ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/c_africa_2.pdf
+TG,Togo,トーゴ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/togo_2.pdf
+NG,Nigeria,ナイジェリア,Africa,2,6,588,"[0,0,388,200]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/nigeria_2.pdf
+NA,Namibia,ナミビア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/namibia_2.pdf
+NE,Niger,ニジェール,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/niger_2.pdf
+HV,Burkina Faso,ブルキナファソ,Africa,1,3,30,"[0,0,0,30]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/burkina_2.pdf
+BI,Burundi,ブルンジ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/burundi_2.pdf
+DY,Benin,ベナン,Africa,1,2,256,"[0,0,0,256]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/benin_2.pdf
+BW,Botswana,ボツワナ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/botswana_2.pdf
+MG,Madagascar,マダガスカル,Africa,20,58,2231,"[58,665,962,546]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/madagascar_2.pdf
+MW,Malawi,マラウイ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/malawi_2.pdf
+ML,Mali,マリ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mali_2.pdf
+ZA,South Africa,南アフリカ共和国,Africa,4,13,245,"[0,0,0,245]",
+SS,South Sudan,南スーダン,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/s_sudan_2.pdf
+MU,Mauritius,モーリシャス,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mauritius_2.pdf
+MR,Mauritania,モーリタニア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mauritania_2.pdf
+MZ,Mozambique,モザンビーク,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/mozambique_2.pdf
+LR,Liberia,リベリア,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/liberia_2.pdf
+RW,Rwanda,ルワンダ,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/rwanda_2.pdf
+LS,Lesotho,レソト,Africa,0,0,0,"[0,0,0,0]",https://www.jpf.go.jp/j/project/japanese/survey/area/country/2025/lesotho_2.pdf
