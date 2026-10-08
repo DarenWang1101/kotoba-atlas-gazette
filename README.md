@@ -6,7 +6,7 @@ An interactive newspaper-style atlas of Japanese-language education, with struct
 
 ## Evidence release 0.2.0 — 8 October 2026
 
-- 1,296 page-linked named-material observations across 123 country/area profiles; 166 profiles reviewed within documented scope.
+- 1,299 page-linked named-material observations across 123 country/area profiles; 166 profiles reviewed within documented scope.
 - Taiwan's six titles restored with PDF p. 7 citations and separate labels for reported use versus publication mentions.
 - Exact source-title wording, source pages, setting context, source hashes and review coverage retained.
 - Seven survey waves (2006–2024) published as structured data; profile edition year is kept separate from survey/observation year.
