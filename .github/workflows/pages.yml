@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Extract source package
-        run: unzip -q gazette-source.zip
+        run: unzip -oq gazette-source.zip
       - name: Check atlas behavior and data
         run: |
           node --check dist/app.js

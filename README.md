@@ -1,11 +1,35 @@
 # The Kotoba Gazette
 
-A separate newspaper-style edition of Kotoba Atlas, forked from Fieldnotes on 7 October 2026. Original newspaper masthead and composition; no affiliation with a newspaper publisher.
+An interactive newspaper-style atlas of Japanese-language education, with structured evidence from The Japan Foundation (JF).
 
-All original atlas interactions and audited data retained. Design overrides live in dist/gazette.css; structural newspaper header in dist/index.html. Static deployment uses dist.
+**[Open the live atlas](https://darenwang1101.github.io/kotoba-atlas-gazette/)** · **[Browse the open data](data/README.md)**
 
-Validation: node tests/ui-smoke.cjs. Browser visual QA was unavailable.
+## Evidence release 0.2.0 — 8 October 2026
 
-## GitHub Pages
+- 1,296 page-linked named-material observations across 123 country/area profiles; 166 profiles reviewed within documented scope.
+- Taiwan's six titles restored with PDF p. 7 citations and separate labels for reported use versus publication mentions.
+- Exact source-title wording, source pages, setting context, source hashes and review coverage retained.
+- Seven survey waves (2006–2024) published as structured data; profile edition year is kept separate from survey/observation year.
+- CSV, JSON, a data dictionary, source registry, checksums and rights documentation in [`data/`](data/).
 
-`.github/workflows/pages.yml` validates the atlas, packages only `dist/`, and deploys through GitHub Actions on pushes to `main` or manual dispatch. Enable **Settings → Pages → Source: GitHub Actions** for the target repository. `scripts/prepare-pages.cjs` sets the deployed social URL from GitHub's Pages metadata; relative asset URLs support a project subpath. The Sites publication is unaffected.
+Coverage is still partial where a source could not be retrieved. A reviewed section without named titles does not imply no textbook use. Historical/publication mentions are not current adoption; local percentages are not national market shares. No readability scores or exact-edition matches are inferred.
+
+## Develop and validate
+
+The deployable source is also provided in `gazette-source.zip`. Extract it to obtain `dist/`, `data/`, `scripts/` and `tests/`.
+
+```sh
+unzip -o gazette-source.zip
+python scripts/build-open-data.py
+node --check dist/app.js
+node tests/history.cjs
+node tests/textbooks.cjs
+node tests/cluster-core.cjs
+node tests/ui-smoke.cjs
+```
+
+Canonical textbook curation lives in `data/profile_reviews.json`; `scripts/build-open-data.py` regenerates the evidence tables and site data together. Keep the direct `data/` files and the deployment archive synchronized. The GitHub Pages workflow extracts the archive, runs the checks and deploys `dist/` through `scripts/prepare-pages.cjs`.
+
+## Attribution
+
+Source: The Japan Foundation / 出典：国際交流基金（加工して作成）. Independent project, not affiliated with JF or any newspaper publisher. Original curation/annotations are CC BY 4.0; source PDFs, textbook text and covers are not relicensed or included in the open-data package. See [rights and attribution](data/RIGHTS.md).
