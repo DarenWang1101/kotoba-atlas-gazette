@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "year": 2024,
   "cohort": [
     "AE",
@@ -111,9 +111,9 @@
     "VE",
     "VN"
   ],
-  "dataSha256": "bf1645b2919ccc03c70f0e8f8b046ca3a5cb40b87360f263d369757db9200767",
+  "dataSha256": "06ca9b6cf6c2aa72e4f60537c79bd7290b1acba97f6dbb1413c17b56f14e9c9b",
   "candidateCount": 84,
-  "eligibleCount": 16,
+  "eligibleCount": 17,
   "options": {
     "keys": [
       "scale",

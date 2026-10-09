@@ -1,6 +1,6 @@
 # Kotoba Atlas: JF survey and material evidence
 
-Version 0.3.0 · 9 October 2026. Source: The Japan Foundation (JF), edited and structured by Kotoba Atlas. Independent project; not an official JF dataset.
+Version 0.3.1 · 9 October 2026. Source: The Japan Foundation (JF), edited and structured by Kotoba Atlas. Independent project; not an official JF dataset.
 
 This release links 1,299 material observations across 123 country/area profiles. 166 profiles were reviewed; consult `review_coverage.csv` for the remaining sources and exact review scope. Missing evidence does **not** mean no textbook is used. The review targets the 教材 subsection; some reviews also cover adjacent digital resources, as recorded in their scope. It is not an exhaustive bibliography of every title anywhere in every PDF.
 
@@ -33,7 +33,11 @@ Missing cells are null (JSON) or empty (CSV), not zero. Explicit reported zeros 
 
 Six measures are available on the map and timeline: learners/teacher, learners/institution, teachers/institution, and each of the three counts per 100,000 residents. A ratio is null when its denominator is missing or zero. A reported zero numerator remains zero. Region/world ratios divide sums over matched valid areas, not averages of area ratios; their coverage accompanies the result. Teacher definitions differ across survey waves. These measures describe surveyed institutional education relative to staffing or the whole resident population, not classroom size or proficiency.
 
-Wikipedia was checked first. Its worldwide table does not cover all seven exact survey years, so World Bank indicator SP.POP.TOTL supplies 200 areas and Wikipedia's Demographics of Taiwan supplies Taiwan. Taiwan uses annual average population rounded to thousands; World Bank generally uses midyear population estimates. Matching year does not imply identical reference date or survey population. China excludes Hong Kong, Macao and Taiwan in the World Bank series; each is joined separately. Cook Islands, Niue and Vatican City remain missing. Coverage: 201 of 204 atlas areas, 1,407 of 1,428 area-year records. No interpolation or nearest-year substitution.
+For the 2024 wave, `jf_population_2024.json` transcribes all 150 country/area rows in the 12 regional tables of JF's 2024 full report (physical PDF pp. 32, 37, 45, 49, 54, 58, 62, 66, 72, 77, 81 and 85). All 149 printed population figures replace the previous external denominators; Kosovo's printed dash is null. Each record retains the physical/printed page, table number, count cross-check and printed rounded learner rate. Zero-learner rows display a dash in the PDF's rate column; calculated site rates are zero when the denominator is known.
+
+JF's footnotes cite the UN Population and Vital Statistics Report available in January 2025, and Taiwan's December 2024 Ministry of the Interior population. The other underlying reference dates are not specified in these tables and must not be presented as 2024 estimates. Examples: Taiwan 23,400,220; China 1,409,778,724; India 1,210,854,977. The aim is to reproduce JF's denominators, not replace them with more recent estimates.
+
+The 54 areas absent from those regional tables retain the previous external population snapshot; all have zero reported 2024 learners. Earlier survey waves remain unchanged: Wikipedia annual population for Taiwan, World Bank SP.POP.TOTL elsewhere, with missing Cook Islands, Niue and Vatican City. Overall coverage is 1,406 of 1,428 area-year records (200 of 204 in 2024; 201 in earlier waves). No population is interpolated or backfilled. `year` remains the survey-wave join key; `reference_year` is null when the source's population date is unspecified. The timeline marks the 2024 denominator-source break and suppresses a directly comparable growth percentage.
 
 - `population.json` / `population.csv`: all area-year denominators, including missing rows, geographical notes, basis and source identifiers. Join `canonical_iso2` to generated survey `area_id`; `area_id` in the population inputs preserves legacy atlas keys.
 - `population_sources.json`: source URLs, attribution and retrieval metadata. Population estimates may be revised; the published snapshot is frozen.
@@ -63,3 +67,11 @@ node tests/ratios.cjs
 No readability score, text-length measure or edition identification is inferred from a country profile. A future readability corpus needs separately licensed text and verified edition/ISBN links. To propose a correction, provide area ID, source URL, PDF page, exact title, education setting and whether the text establishes use, publication, historical use or a quantified observation. Keep a record's source wording when changing a display label. Validate with `node tests/textbooks.cjs` and the other repository checks.
 
 See `DATA_DICTIONARY.md`, `RIGHTS.md` and `CHANGELOG.md`. Source PDFs and textbook covers are not redistributed in this data package.
+
+## Institution directory geography (map only)
+
+`institution_geography.json` aggregates JF's public CSV export retrieved 9 October 2026: 19,330 unique directory IDs, of which 17,094 have a state/city value. These produce 478 nonempty location groups in 21 countries/areas after combining Taiwan and Taiwan2 as instructed on JF's search form. Original Japanese location labels are retained. The field mixes provinces, states, cities, regions and Russian federal districts; it is not a consistent administrative level or boundary dataset.
+
+The map's expandable province/state panel follows the selected country and shows record counts, within-country shares and source coverage. It is available only alongside 2024 counts, hidden for the textbook layer and historical waves. The directory may contain separate institutional departments and only publishes consenting respondents; these counts must not replace survey institution totals. Taiwan has 808 directory records against 809 reported institutions; Vietnam has 482 against 490. Missing province fields elsewhere do not mean no local education. The aggregation does not enter clustering, textbook evidence or trend charts.
+
+The public export also exposes institutional names, addresses, education stages, establishment type, teacher-training and online-teaching information. This release uses only aggregated country and state/city fields, with no contact details or individual record text redistributed. Source and CSV SHA-256 are included. It does not infer local learner counts, teaching quality, adoption or map boundaries. Use JF's official directory for institution-level details.

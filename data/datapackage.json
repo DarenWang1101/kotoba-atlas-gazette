@@ -1,7 +1,7 @@
 {
   "name": "kotoba-atlas-jf-evidence",
   "title": "Kotoba Atlas Gazette — JF survey and material evidence",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "created": "2026-10-09",
   "homepage": "https://github.com/DarenWang1101/kotoba-atlas-gazette",
   "description": "Named materials retain exact source-title transcription (line breaks normalized), physical PDF pages, education setting and evidence type. Publication, historical and digital-resource mentions are displayed but not treated as current textbook adoption. Coverage is partial where sources could not be retrieved. A 2025 profile may describe earlier observations. No readability score or national adoption rate is inferred.",
@@ -87,43 +87,43 @@
       "name": "population_json",
       "path": "population.json",
       "format": "json",
-      "bytes": 731666,
-      "hash": "sha256:28bdb6d0ce518c68d172aed5dce94f011b496c0c4e1207e66663473e693fb10c"
+      "bytes": 812951,
+      "hash": "sha256:c09ae5f2200ea58874e31eeccb00ad39af6cb4714256b690b2d2fe15f5074492"
     },
     {
       "name": "population_csv",
       "path": "population.csv",
       "format": "csv",
-      "bytes": 368016,
-      "hash": "sha256:daecc89311b85f166e826632dcb52e8fb067d0525741aadf2c62178db2436181"
+      "bytes": 409153,
+      "hash": "sha256:86b23536585e210994041ba3dbbfc1a26c1e861ba0630412c30f86e59c6df843"
     },
     {
       "name": "population_sources_json",
       "path": "population_sources.json",
       "format": "json",
-      "bytes": 2468,
-      "hash": "sha256:235437dfcf4cb3251e6e84867d74f594b81826505528730f57a1b2235613eeb9"
+      "bytes": 3391,
+      "hash": "sha256:487f0f9cd351df0fd258ccefcefa494ee32056ecbde064e480529d75a6a1f6bc"
     },
     {
       "name": "ratio_observations_csv",
       "path": "ratio_observations.csv",
       "format": "csv",
-      "bytes": 1039416,
-      "hash": "sha256:bd48ff8c4a826bbd7af0100b2cb2964b380420def34d705f18a91268e902900b"
+      "bytes": 1063785,
+      "hash": "sha256:913230932f17b55cdc6ef1ed9eeb7af465043f7ab86c85e1c166d2742768a12b"
     },
     {
       "name": "cluster_default_json",
       "path": "cluster_default.json",
       "format": "json",
       "bytes": 13023,
-      "hash": "sha256:985e104d00797a23999e7e1b9d511486c5eb6b5744d4260947f21b45090fb7c6"
+      "hash": "sha256:6a612489cef70d0f5ad1de1bb7847decdbe5dd8a107667994016ec1db7b00ff0"
     },
     {
       "name": "cluster_evaluation_json",
       "path": "cluster_evaluation.json",
       "format": "json",
-      "bytes": 55624,
-      "hash": "sha256:c97a7315511f3775022c5653a9b3050f77f80e91e097998d55cb33710d2d9f11"
+      "bytes": 55745,
+      "hash": "sha256:158de15f76dbc9072e812749c16780b45950d21585dabccb86579b5c5b3c2279"
     },
     {
       "name": "textbook_features_json",
@@ -131,6 +131,20 @@
       "format": "json",
       "bytes": 121317,
       "hash": "sha256:6485e75eff0928942ac35536db087cbd95d0be2ede9210899aff0e091e393788"
+    },
+    {
+      "name": "jf_population_2024_json",
+      "path": "jf_population_2024.json",
+      "format": "json",
+      "bytes": 53094,
+      "hash": "sha256:f48226eb7a46624e2c811ef9f0c6e2acea982d9759c72c2a5895b414100efe03"
+    },
+    {
+      "name": "institution_geography_json",
+      "path": "institution_geography.json",
+      "format": "json",
+      "bytes": 122520,
+      "hash": "sha256:b8db6c45df8676dbacf1af58e9e3a2e335f28dc407b97facec022b42c1d76cd7"
     }
   ],
   "counts": {

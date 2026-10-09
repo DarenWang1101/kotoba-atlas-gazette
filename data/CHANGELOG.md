@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 — 2026-10-09
+
+- Replaced 2024 population denominators with all 149 figures printed in JF regional tables; preserved Kosovo’s explicit missing denominator.
+- Retained earlier-wave denominators and external fallback for 54 areas absent from those JF tables.
+- Added 150 page-linked transcription records and corrected reference-year metadata; marked the 2024 denominator-source break on trend comparisons.
+- Re-evaluated the saved clustering default against the corrected data; the winning settings and memberships remain unchanged.
+- Added map-only institution-directory geography: 478 nonempty province/state/city groups across 21 areas, with directory/survey scope differences and Taiwan group merging retained.
+
 ## 0.3.0 — 2026-10-09
 
 - Added six staffing/institution/population ratios with exact-year denominators, coverage and source links.

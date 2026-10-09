@@ -4,9 +4,10 @@ An interactive newspaper-style atlas of Japanese-language education, with struct
 
 **[Open the live atlas](https://darenwang1101.github.io/kotoba-atlas-gazette/)** · **[Browse the open data](data/README.md)**
 
-## Release 0.3.0 — 9 October 2026
+## Release 0.3.1 — 9 October 2026
 
-- Six interactive staffing and population ratios, with source years and coverage; 201 areas have matching-year population across 2006–2024.
+- Map-only province/state drilldown: 478 JF directory location groups across 21 countries/areas.
+- Six interactive staffing and population ratios, with source years and coverage; 2024 uses JF’s printed population denominators, with source/reference-date distinctions; earlier waves retain their annual external sources.
 - Selectable binary/TF–IDF textbook encodings and ratio groups for clustering. A reproducible comparison of 84 candidates saves the best eligible default under stated separation/stability criteria.
 - Population sources, ratio observations, complete default textbook vectors, cluster assignments and evaluation results in `data/`.
 

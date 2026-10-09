@@ -1,0 +1,5111 @@
+{
+  "version": "0.3.1",
+  "survey_year": 2024,
+  "retrieved": "2026-10-09",
+  "source_url": "https://www.japanese24.jpf.go.jp/search/",
+  "export_url": "https://www.japanese24.jpf.go.jp/search/school-export",
+  "export_sha256": "5b4f9a9a54777a8d890fc7f2157595e25273c6accf9c6d3672a4466f0815636a",
+  "source_record_count": 19330,
+  "with_subdivision_records": 17094,
+  "coverage_areas": 21,
+  "subdivision_count": 478,
+  "notes": "Counts of distinct public directory record IDs, not a new census of institutions or a count of campuses. Public directory contains responding institutions consenting to publication; totals may differ from survey totals. Preserve source 州・市 labels: these mix provinces, states, cities, regions and federal districts, not uniform administrative levels. Taiwan and Taiwan2 are merged by exact subdivision label, as JF instructs searching both. Blank locations remain unlocated; no address geocoding or boundary inference. Only aggregated geography is retained, no contacts or individual record text. Snapshot is separate from textbook evidence, country survey totals and clustering.",
+  "areas": [
+    {
+      "area_id": "AU",
+      "name": "Australia",
+      "source_country_labels": [
+        "オーストラリア"
+      ],
+      "directory_records": 1595,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "クイーンズランド州",
+          "directory_records": 615,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "296"
+            }
+          ]
+        },
+        {
+          "label": "ビクトリア州",
+          "directory_records": 290,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "299"
+            }
+          ]
+        },
+        {
+          "label": "ニューサウスウェールズ州",
+          "directory_records": 260,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "298"
+            }
+          ]
+        },
+        {
+          "label": "西オーストラリア州",
+          "directory_records": 158,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "301"
+            }
+          ]
+        },
+        {
+          "label": "南オーストラリア州",
+          "directory_records": 147,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "302"
+            }
+          ]
+        },
+        {
+          "label": "タスマニア州",
+          "directory_records": 53,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "297"
+            }
+          ]
+        },
+        {
+          "label": "オーストラリア首都特別地域",
+          "directory_records": 51,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "295"
+            }
+          ]
+        },
+        {
+          "label": "北部特別地域",
+          "directory_records": 21,
+          "source_filters": [
+            {
+              "country_id": "25",
+              "region_id": "300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "BR",
+      "name": "Brazil",
+      "source_country_labels": [
+        "ブラジル"
+      ],
+      "directory_records": 309,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "サンパウロ州",
+          "directory_records": 190,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "405"
+            }
+          ]
+        },
+        {
+          "label": "パラナ州",
+          "directory_records": 29,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "410"
+            }
+          ]
+        },
+        {
+          "label": "連邦地区",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "419"
+            }
+          ]
+        },
+        {
+          "label": "リオグランデ・ド・スル州",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "416"
+            }
+          ]
+        },
+        {
+          "label": "リオデジャネイロ州",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "418"
+            }
+          ]
+        },
+        {
+          "label": "アマゾナス州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "400"
+            }
+          ]
+        },
+        {
+          "label": "マットグロッソ・ド・スル州",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "413"
+            }
+          ]
+        },
+        {
+          "label": "ミナスジェライス州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "415"
+            }
+          ]
+        },
+        {
+          "label": "サンタカタリーナ州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "404"
+            }
+          ]
+        },
+        {
+          "label": "パラー州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "409"
+            }
+          ]
+        },
+        {
+          "label": "ペルナンブーコ州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "411"
+            }
+          ]
+        },
+        {
+          "label": "セアラー州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "406"
+            }
+          ]
+        },
+        {
+          "label": "バイーア州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "408"
+            }
+          ]
+        },
+        {
+          "label": "エスピリトサント州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "402"
+            }
+          ]
+        },
+        {
+          "label": "ゴイアス州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "403"
+            }
+          ]
+        },
+        {
+          "label": "トカンチンス州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "407"
+            }
+          ]
+        },
+        {
+          "label": "パライバ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "424"
+            }
+          ]
+        },
+        {
+          "label": "ピアウイ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "425"
+            }
+          ]
+        },
+        {
+          "label": "マットグロッソ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "412"
+            }
+          ]
+        },
+        {
+          "label": "リオグランデ・ド・ノルテ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "417"
+            }
+          ]
+        },
+        {
+          "label": "ロライマ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "420"
+            }
+          ]
+        },
+        {
+          "label": "ロンドニア州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "76",
+              "region_id": "426"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "CA",
+      "name": "Canada",
+      "source_country_labels": [
+        "カナダ"
+      ],
+      "directory_records": 141,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "ブリティッシュ・コロンビア州",
+          "directory_records": 59,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "309"
+            }
+          ]
+        },
+        {
+          "label": "オンタリオ州",
+          "directory_records": 36,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "304"
+            }
+          ]
+        },
+        {
+          "label": "アルバータ州",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "303"
+            }
+          ]
+        },
+        {
+          "label": "ケベック州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "305"
+            }
+          ]
+        },
+        {
+          "label": "サスカチュワン州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "306"
+            }
+          ]
+        },
+        {
+          "label": "マニトバ州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "311"
+            }
+          ]
+        },
+        {
+          "label": "ニューブランズウイック州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "307"
+            }
+          ]
+        },
+        {
+          "label": "ニューファンドランド・ラブラドール州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "312"
+            }
+          ]
+        },
+        {
+          "label": "ノバスコシア州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "308"
+            }
+          ]
+        },
+        {
+          "label": "ユーコン準州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "44",
+              "region_id": "314"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "CN",
+      "name": "China",
+      "source_country_labels": [
+        "中国"
+      ],
+      "directory_records": 3073,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "山東省",
+          "directory_records": 342,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "56"
+            }
+          ]
+        },
+        {
+          "label": "江蘇省",
+          "directory_records": 303,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "51"
+            }
+          ]
+        },
+        {
+          "label": "広東省",
+          "directory_records": 283,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "46"
+            }
+          ]
+        },
+        {
+          "label": "遼寧省",
+          "directory_records": 214,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "68"
+            }
+          ]
+        },
+        {
+          "label": "浙江省",
+          "directory_records": 187,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "62"
+            }
+          ]
+        },
+        {
+          "label": "湖南省",
+          "directory_records": 122,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "53"
+            }
+          ]
+        },
+        {
+          "label": "吉林省",
+          "directory_records": 121,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "48"
+            }
+          ]
+        },
+        {
+          "label": "上海市",
+          "directory_records": 111,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "58"
+            }
+          ]
+        },
+        {
+          "label": "河南省",
+          "directory_records": 111,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "43"
+            }
+          ]
+        },
+        {
+          "label": "北京市",
+          "directory_records": 110,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "67"
+            }
+          ]
+        },
+        {
+          "label": "安徽省",
+          "directory_records": 109,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "39"
+            }
+          ]
+        },
+        {
+          "label": "貴州省",
+          "directory_records": 109,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "47"
+            }
+          ]
+        },
+        {
+          "label": "福建省",
+          "directory_records": 106,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "66"
+            }
+          ]
+        },
+        {
+          "label": "湖北省",
+          "directory_records": 103,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "54"
+            }
+          ]
+        },
+        {
+          "label": "江西省",
+          "directory_records": 91,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "49"
+            }
+          ]
+        },
+        {
+          "label": "黒龍江省",
+          "directory_records": 90,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "52"
+            }
+          ]
+        },
+        {
+          "label": "四川省",
+          "directory_records": 84,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "57"
+            }
+          ]
+        },
+        {
+          "label": "河北省",
+          "directory_records": 67,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "44"
+            }
+          ]
+        },
+        {
+          "label": "内モンゴル自治区",
+          "directory_records": 66,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "40"
+            }
+          ]
+        },
+        {
+          "label": "広西チワン族自治区",
+          "directory_records": 50,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "50"
+            }
+          ]
+        },
+        {
+          "label": "陝西省",
+          "directory_records": 48,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "63"
+            }
+          ]
+        },
+        {
+          "label": "天津市",
+          "directory_records": 45,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "64"
+            }
+          ]
+        },
+        {
+          "label": "山西省",
+          "directory_records": 43,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "55"
+            }
+          ]
+        },
+        {
+          "label": "雲南省",
+          "directory_records": 40,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "41"
+            }
+          ]
+        },
+        {
+          "label": "重慶市",
+          "directory_records": 37,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "69"
+            }
+          ]
+        },
+        {
+          "label": "甘粛省",
+          "directory_records": 32,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "45"
+            }
+          ]
+        },
+        {
+          "label": "新疆ウイグル自治区",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "59"
+            }
+          ]
+        },
+        {
+          "label": "海南省",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "42"
+            }
+          ]
+        },
+        {
+          "label": "寧夏回族自治区",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "65"
+            }
+          ]
+        },
+        {
+          "label": "青海省",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "60"
+            }
+          ]
+        },
+        {
+          "label": "チベット自治区",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "3",
+              "region_id": "61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "DE",
+      "name": "Germany",
+      "source_country_labels": [
+        "ドイツ"
+      ],
+      "directory_records": 188,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "バーデン＝ヴュルテンベルク州",
+          "directory_records": 52,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "629"
+            }
+          ]
+        },
+        {
+          "label": "ノルトライン=ヴェストファーレン州",
+          "directory_records": 42,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "638"
+            }
+          ]
+        },
+        {
+          "label": "バイエルン州",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "630"
+            }
+          ]
+        },
+        {
+          "label": "ベルリン州",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "631"
+            }
+          ]
+        },
+        {
+          "label": "ニーダーザクセン州",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "637"
+            }
+          ]
+        },
+        {
+          "label": "ラインラント=プファルツ州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "639"
+            }
+          ]
+        },
+        {
+          "label": "ヘッセン州",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "635"
+            }
+          ]
+        },
+        {
+          "label": "ザクセン州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "641"
+            }
+          ]
+        },
+        {
+          "label": "テューリンゲン州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "644"
+            }
+          ]
+        },
+        {
+          "label": "ザクセン=アンハルト州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "642"
+            }
+          ]
+        },
+        {
+          "label": "ハンブルク州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "634"
+            }
+          ]
+        },
+        {
+          "label": "ザールラント州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "640"
+            }
+          ]
+        },
+        {
+          "label": "シュレスヴィヒ=ホルシュタイン州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "643"
+            }
+          ]
+        },
+        {
+          "label": "ブランデンブルク州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "632"
+            }
+          ]
+        },
+        {
+          "label": "ブレーメン州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "94",
+              "region_id": "633"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "ES",
+      "name": "Spain",
+      "source_country_labels": [
+        "スペイン"
+      ],
+      "directory_records": 140,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "【カタルーニャ】バルセロナ",
+          "directory_records": 28,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "605"
+            }
+          ]
+        },
+        {
+          "label": "【マドリード】マドリード",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "609"
+            }
+          ]
+        },
+        {
+          "label": "【バレンシア】バレンシア",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "612"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】セビリア",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "584"
+            }
+          ]
+        },
+        {
+          "label": "【アストゥリアス公国】オビエド",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "623"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】グラナダ",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "580"
+            }
+          ]
+        },
+        {
+          "label": "【カタルーニャ】ジローナ",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "606"
+            }
+          ]
+        },
+        {
+          "label": "【バスク】ギプスコア",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "625"
+            }
+          ]
+        },
+        {
+          "label": "【バスク】ビスカヤ",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "626"
+            }
+          ]
+        },
+        {
+          "label": "【バレンシア】アリカンテ",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "610"
+            }
+          ]
+        },
+        {
+          "label": "【アラゴン】サラゴサ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "587"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】コルドバ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "579"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】マラガ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "583"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・イ・レオン】サラマンカ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "600"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・イ・レオン】バジャドリッド",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "603"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・ラ・マンチャ】アルバセテ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "591"
+            }
+          ]
+        },
+        {
+          "label": "【ガリシア】ア・コルーニャ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "615"
+            }
+          ]
+        },
+        {
+          "label": "【ガリシア】ポンデベドラ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "618"
+            }
+          ]
+        },
+        {
+          "label": "【ムルシア】ムルシア",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "621"
+            }
+          ]
+        },
+        {
+          "label": "【エクストレマドゥーラ】バダホス",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "613"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・イ・レオン】レオン",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "598"
+            }
+          ]
+        },
+        {
+          "label": "【カナリア諸島】サンタ・クルス・デ・テネリフェ",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "589"
+            }
+          ]
+        },
+        {
+          "label": "【ナバラ】パンプローナ",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "622"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】ウエルバ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "581"
+            }
+          ]
+        },
+        {
+          "label": "【アンダルシア】カディス",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "578"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・イ・レオン】セゴビア",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "601"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・ラ・マンチャ】クエンカ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "593"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・ラ・マンチャ】グアダラハラ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "594"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・ラ・マンチャ】シウダッド・レアル",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "592"
+            }
+          ]
+        },
+        {
+          "label": "【カスティーリャ・ラ・マンチャ】トレド",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "595"
+            }
+          ]
+        },
+        {
+          "label": "【カナリア諸島】ラス・パルマス",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "588"
+            }
+          ]
+        },
+        {
+          "label": "【バスク】アラバ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "624"
+            }
+          ]
+        },
+        {
+          "label": "【バレアレス】バレアレス",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "619"
+            }
+          ]
+        },
+        {
+          "label": "【バレンシア】カステリョン",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "92",
+              "region_id": "611"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "FR",
+      "name": "France",
+      "source_country_labels": [
+        "フランス"
+      ],
+      "directory_records": 285,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "イル＝ド＝フランス地域圏",
+          "directory_records": 80,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "652"
+            }
+          ]
+        },
+        {
+          "label": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+          "directory_records": 32,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "645"
+            }
+          ]
+        },
+        {
+          "label": "プロヴァンス＝アルプ＝コート・ダジュール地域圏",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "657"
+            }
+          ]
+        },
+        {
+          "label": "オクシタニー地域圏",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "655"
+            }
+          ]
+        },
+        {
+          "label": "グラン・テスト地域圏",
+          "directory_records": 23,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "650"
+            }
+          ]
+        },
+        {
+          "label": "ブルターニュ地域圏",
+          "directory_records": 23,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "647"
+            }
+          ]
+        },
+        {
+          "label": "ヌーヴェル＝アキテーヌ地域圏",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "654"
+            }
+          ]
+        },
+        {
+          "label": "ノルマンディー地域圏",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "653"
+            }
+          ]
+        },
+        {
+          "label": "ペイ・ド・ラ・ロワール地域圏",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "656"
+            }
+          ]
+        },
+        {
+          "label": "オー＝ド＝フランス地域圏",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "651"
+            }
+          ]
+        },
+        {
+          "label": "サントル＝ヴァル・ド・ロワール地域圏",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "648"
+            }
+          ]
+        },
+        {
+          "label": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "646"
+            }
+          ]
+        },
+        {
+          "label": "レユニオン地域圏",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "98",
+              "region_id": "661"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "GB",
+      "name": "United Kingdom",
+      "source_country_labels": [
+        "英国"
+      ],
+      "directory_records": 219,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "イングランド南東部",
+          "directory_records": 54,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "570"
+            }
+          ]
+        },
+        {
+          "label": "ロンドン",
+          "directory_records": 54,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "567"
+            }
+          ]
+        },
+        {
+          "label": "イングランド東部",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "566"
+            }
+          ]
+        },
+        {
+          "label": "イングランド南西部",
+          "directory_records": 16,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "571"
+            }
+          ]
+        },
+        {
+          "label": "ヨークシャー・アンド・ザ・ハンバー",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "573"
+            }
+          ]
+        },
+        {
+          "label": "ミッドランズ東部",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "565"
+            }
+          ]
+        },
+        {
+          "label": "スコットランド",
+          "directory_records": 12,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "575"
+            }
+          ]
+        },
+        {
+          "label": "イングランド北西部",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "569"
+            }
+          ]
+        },
+        {
+          "label": "ミッドランズ西部",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "572"
+            }
+          ]
+        },
+        {
+          "label": "ウェールズ",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "576"
+            }
+          ]
+        },
+        {
+          "label": "イングランド北東部",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "568"
+            }
+          ]
+        },
+        {
+          "label": "北アイルランド",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "84",
+              "region_id": "574"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "ID",
+      "name": "Indonesia",
+      "source_country_labels": [
+        "インドネシア"
+      ],
+      "directory_records": 3103,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "西ジャワ州",
+          "directory_records": 839,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "89"
+            }
+          ]
+        },
+        {
+          "label": "東ジャワ州",
+          "directory_records": 388,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "87"
+            }
+          ]
+        },
+        {
+          "label": "中部ジャワ州",
+          "directory_records": 350,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "81"
+            }
+          ]
+        },
+        {
+          "label": "ジャカルタ首都特別市",
+          "directory_records": 247,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "95"
+            }
+          ]
+        },
+        {
+          "label": "バリ州",
+          "directory_records": 227,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "92"
+            }
+          ]
+        },
+        {
+          "label": "バンテン州",
+          "directory_records": 147,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "86"
+            }
+          ]
+        },
+        {
+          "label": "北スマトラ州",
+          "directory_records": 133,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "102"
+            }
+          ]
+        },
+        {
+          "label": "北スラウェシ州",
+          "directory_records": 133,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "73"
+            }
+          ]
+        },
+        {
+          "label": "西スマトラ州",
+          "directory_records": 130,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "71"
+            }
+          ]
+        },
+        {
+          "label": "ジョグジャカルタ特別州",
+          "directory_records": 79,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "72"
+            }
+          ]
+        },
+        {
+          "label": "リアウ州",
+          "directory_records": 61,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "94"
+            }
+          ]
+        },
+        {
+          "label": "南スラウェシ州",
+          "directory_records": 53,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "98"
+            }
+          ]
+        },
+        {
+          "label": "ランプン州",
+          "directory_records": 39,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "97"
+            }
+          ]
+        },
+        {
+          "label": "西ヌサトゥンガラ州",
+          "directory_records": 39,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "84"
+            }
+          ]
+        },
+        {
+          "label": "東カリマンタン州",
+          "directory_records": 29,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "96"
+            }
+          ]
+        },
+        {
+          "label": "アチェ州",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "70"
+            }
+          ]
+        },
+        {
+          "label": "南スマトラ州",
+          "directory_records": 26,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "74"
+            }
+          ]
+        },
+        {
+          "label": "東ヌサトゥンガラ州",
+          "directory_records": 21,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "88"
+            }
+          ]
+        },
+        {
+          "label": "パプア州",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "100"
+            }
+          ]
+        },
+        {
+          "label": "リアウ諸島州",
+          "directory_records": 17,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "82"
+            }
+          ]
+        },
+        {
+          "label": "南カリマンタン州",
+          "directory_records": 17,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "75"
+            }
+          ]
+        },
+        {
+          "label": "ジャンビ州",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "80"
+            }
+          ]
+        },
+        {
+          "label": "中部スラウェシ州",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "85"
+            }
+          ]
+        },
+        {
+          "label": "ベンクル州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "83"
+            }
+          ]
+        },
+        {
+          "label": "南東スラウェシ州",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "78"
+            }
+          ]
+        },
+        {
+          "label": "西カリマンタン州",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "76"
+            }
+          ]
+        },
+        {
+          "label": "中部カリマンタン州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "91"
+            }
+          ]
+        },
+        {
+          "label": "西パプア州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "93"
+            }
+          ]
+        },
+        {
+          "label": "バンカ・ブリトゥン州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "90"
+            }
+          ]
+        },
+        {
+          "label": "ゴロンタロ州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "79"
+            }
+          ]
+        },
+        {
+          "label": "マルク州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "101"
+            }
+          ]
+        },
+        {
+          "label": "北カリマンタン州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "77"
+            }
+          ]
+        },
+        {
+          "label": "北マルク州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "103"
+            }
+          ]
+        },
+        {
+          "label": "西スラウェシ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "7",
+              "region_id": "99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "IN",
+      "name": "India",
+      "source_country_labels": [
+        "インド"
+      ],
+      "directory_records": 381,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "マハラシュートラ州",
+          "directory_records": 87,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "273"
+            }
+          ]
+        },
+        {
+          "label": "デリー首都圏",
+          "directory_records": 69,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "292"
+            }
+          ]
+        },
+        {
+          "label": "タミル・ナドゥー州",
+          "directory_records": 55,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "282"
+            }
+          ]
+        },
+        {
+          "label": "カルナータカ州",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "270"
+            }
+          ]
+        },
+        {
+          "label": "ウッタル・プラデシュ州",
+          "directory_records": 23,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "284"
+            }
+          ]
+        },
+        {
+          "label": "ハリヤナ州",
+          "directory_records": 23,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "266"
+            }
+          ]
+        },
+        {
+          "label": "ウェスト・ベンガル州",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "286"
+            }
+          ]
+        },
+        {
+          "label": "ケララ州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "271"
+            }
+          ]
+        },
+        {
+          "label": "ラジャスターン州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "280"
+            }
+          ]
+        },
+        {
+          "label": "グジャラート州",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "265"
+            }
+          ]
+        },
+        {
+          "label": "ウッタラーカンド州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "285"
+            }
+          ]
+        },
+        {
+          "label": "テランガーナ州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "294"
+            }
+          ]
+        },
+        {
+          "label": "アッサム州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "261"
+            }
+          ]
+        },
+        {
+          "label": "ビハール州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "262"
+            }
+          ]
+        },
+        {
+          "label": "オリッサ州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "278"
+            }
+          ]
+        },
+        {
+          "label": "マディヤ・プラデシュ州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "272"
+            }
+          ]
+        },
+        {
+          "label": "ナガランド州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "277"
+            }
+          ]
+        },
+        {
+          "label": "ヒマーチャル・プラデーシュ州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "267"
+            }
+          ]
+        },
+        {
+          "label": "マニプール州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "274"
+            }
+          ]
+        },
+        {
+          "label": "ミゾラム州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "276"
+            }
+          ]
+        },
+        {
+          "label": "アンドラ・プラデシュ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "259"
+            }
+          ]
+        },
+        {
+          "label": "ゴア州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "264"
+            }
+          ]
+        },
+        {
+          "label": "パンジャブ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "279"
+            }
+          ]
+        },
+        {
+          "label": "メーガーラヤ州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "18",
+              "region_id": "275"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "KR",
+      "name": "South Korea",
+      "source_country_labels": [
+        "韓国"
+      ],
+      "directory_records": 2815,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "京畿道",
+          "directory_records": 659,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "2"
+            }
+          ]
+        },
+        {
+          "label": "ソウル特別市",
+          "directory_records": 536,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "11"
+            }
+          ]
+        },
+        {
+          "label": "釜山広域市",
+          "directory_records": 206,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "16"
+            }
+          ]
+        },
+        {
+          "label": "慶尚南道",
+          "directory_records": 199,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "3"
+            }
+          ]
+        },
+        {
+          "label": "慶尚北道",
+          "directory_records": 146,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "4"
+            }
+          ]
+        },
+        {
+          "label": "大邱広域市",
+          "directory_records": 137,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "12"
+            }
+          ]
+        },
+        {
+          "label": "忠清南道",
+          "directory_records": 133,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "14"
+            }
+          ]
+        },
+        {
+          "label": "仁川広域市",
+          "directory_records": 115,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "8"
+            }
+          ]
+        },
+        {
+          "label": "全羅北道",
+          "directory_records": 113,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "10"
+            }
+          ]
+        },
+        {
+          "label": "蔚山広域市",
+          "directory_records": 112,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "1"
+            }
+          ]
+        },
+        {
+          "label": "江原道",
+          "directory_records": 94,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "5"
+            }
+          ]
+        },
+        {
+          "label": "忠清北道",
+          "directory_records": 86,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "15"
+            }
+          ]
+        },
+        {
+          "label": "全羅南道",
+          "directory_records": 85,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "9"
+            }
+          ]
+        },
+        {
+          "label": "大田広域市",
+          "directory_records": 77,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "13"
+            }
+          ]
+        },
+        {
+          "label": "光州広域市",
+          "directory_records": 73,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "6"
+            }
+          ]
+        },
+        {
+          "label": "済州特別自治道",
+          "directory_records": 44,
+          "source_filters": [
+            {
+              "country_id": "1",
+              "region_id": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "MM",
+      "name": "Myanmar (Burma)",
+      "source_country_labels": [
+        "ミャンマー"
+      ],
+      "directory_records": 685,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "ヤンゴン",
+          "directory_records": 512,
+          "source_filters": [
+            {
+              "country_id": "16",
+              "region_id": "256"
+            }
+          ]
+        },
+        {
+          "label": "マンダレー",
+          "directory_records": 89,
+          "source_filters": [
+            {
+              "country_id": "16",
+              "region_id": "257"
+            }
+          ]
+        },
+        {
+          "label": "その他の地域",
+          "directory_records": 84,
+          "source_filters": [
+            {
+              "country_id": "16",
+              "region_id": "258"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "MX",
+      "name": "Mexico",
+      "source_country_labels": [
+        "メキシコ"
+      ],
+      "directory_records": 153,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "メキシコ市",
+          "directory_records": 28,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "376"
+            }
+          ]
+        },
+        {
+          "label": "アグアスカリエンテス",
+          "directory_records": 16,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "368"
+            }
+          ]
+        },
+        {
+          "label": "ハリスコ",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "381"
+            }
+          ]
+        },
+        {
+          "label": "グアナフアト",
+          "directory_records": 12,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "378"
+            }
+          ]
+        },
+        {
+          "label": "バハカリフォルニア",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "369"
+            }
+          ]
+        },
+        {
+          "label": "ケレタロ",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "389"
+            }
+          ]
+        },
+        {
+          "label": "プエブラ",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "388"
+            }
+          ]
+        },
+        {
+          "label": "ベラクルス",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "397"
+            }
+          ]
+        },
+        {
+          "label": "メキシコ",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "382"
+            }
+          ]
+        },
+        {
+          "label": "ヌエボレオン",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "386"
+            }
+          ]
+        },
+        {
+          "label": "チアパス",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "374"
+            }
+          ]
+        },
+        {
+          "label": "サンルイス・ポトシ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "391"
+            }
+          ]
+        },
+        {
+          "label": "チワワ",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "375"
+            }
+          ]
+        },
+        {
+          "label": "モレロス",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "384"
+            }
+          ]
+        },
+        {
+          "label": "ユカタン",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "398"
+            }
+          ]
+        },
+        {
+          "label": "オアハカ",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "387"
+            }
+          ]
+        },
+        {
+          "label": "コアウイラ",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "372"
+            }
+          ]
+        },
+        {
+          "label": "タマウリパス",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "395"
+            }
+          ]
+        },
+        {
+          "label": "ドゥランゴ",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "377"
+            }
+          ]
+        },
+        {
+          "label": "南バハカリフォルニア",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "370"
+            }
+          ]
+        },
+        {
+          "label": "イダルゴ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "380"
+            }
+          ]
+        },
+        {
+          "label": "キンタナ・ロー",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "390"
+            }
+          ]
+        },
+        {
+          "label": "サカテカス",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "399"
+            }
+          ]
+        },
+        {
+          "label": "シナロア",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "392"
+            }
+          ]
+        },
+        {
+          "label": "ソノラ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "393"
+            }
+          ]
+        },
+        {
+          "label": "タバスコ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "394"
+            }
+          ]
+        },
+        {
+          "label": "トラスカラ",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "396"
+            }
+          ]
+        },
+        {
+          "label": "ミチョアカン",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "67",
+              "region_id": "383"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "MY",
+      "name": "Malaysia",
+      "source_country_labels": [
+        "マレーシア"
+      ],
+      "directory_records": 217,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "【中部】セランゴール州",
+          "directory_records": 45,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "543"
+            }
+          ]
+        },
+        {
+          "label": "【中部】クアラルンプール",
+          "directory_records": 26,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "552"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ペナン州",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "541"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ジョホール州",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "546"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ペラ州",
+          "directory_records": 17,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "542"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ケダ州",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "540"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ヌグリ・スンビラン州",
+          "directory_records": 12,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "544"
+            }
+          ]
+        },
+        {
+          "label": "【南部】マラッカ州",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "545"
+            }
+          ]
+        },
+        {
+          "label": "【東マレーシア】サバ州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "550"
+            }
+          ]
+        },
+        {
+          "label": "【東海岸】クランタン州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "549"
+            }
+          ]
+        },
+        {
+          "label": "【東海岸】トレンガヌ州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "548"
+            }
+          ]
+        },
+        {
+          "label": "【東海岸】パハン州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "547"
+            }
+          ]
+        },
+        {
+          "label": "【東マレーシア】サラワク州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "551"
+            }
+          ]
+        },
+        {
+          "label": "【中部】プトラジャヤ",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "554"
+            }
+          ]
+        },
+        {
+          "label": "【北部】プルリス州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "539"
+            }
+          ]
+        },
+        {
+          "label": "【東マレーシア】ラブアン",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "15",
+              "region_id": "553"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "NZ",
+      "name": "New Zealand",
+      "source_country_labels": [
+        "ニュージーランド"
+      ],
+      "directory_records": 171,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "オークランド",
+          "directory_records": 44,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "555"
+            }
+          ]
+        },
+        {
+          "label": "カンタベリー・チャタン諸島",
+          "directory_records": 32,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "557"
+            }
+          ]
+        },
+        {
+          "label": "ウェリントン",
+          "directory_records": 28,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "564"
+            }
+          ]
+        },
+        {
+          "label": "オタゴ・サウスランド",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "560"
+            }
+          ]
+        },
+        {
+          "label": "ワイカト",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "563"
+            }
+          ]
+        },
+        {
+          "label": "タラナキ・ワンガヌイ・マナワツ",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "562"
+            }
+          ]
+        },
+        {
+          "label": "ネルソン・マールボロ・ウェストコースト",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "559"
+            }
+          ]
+        },
+        {
+          "label": "ベイオブプレンティ・ワイアリキ",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "556"
+            }
+          ]
+        },
+        {
+          "label": "ホークス湾・タイラウィティ",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "558"
+            }
+          ]
+        },
+        {
+          "label": "タイトケラウ",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "36",
+              "region_id": "561"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "PH",
+      "name": "Philippines",
+      "source_country_labels": [
+        "フィリピン"
+      ],
+      "directory_records": 227,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "国家首都地方（マニラ）",
+          "directory_records": 90,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "522"
+            }
+          ]
+        },
+        {
+          "label": "カラバルソン地方",
+          "directory_records": 31,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "526"
+            }
+          ]
+        },
+        {
+          "label": "中部ビサヤ地方",
+          "directory_records": 24,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "531"
+            }
+          ]
+        },
+        {
+          "label": "ダバオ地方",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "535"
+            }
+          ]
+        },
+        {
+          "label": "中部ルソン地方",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "525"
+            }
+          ]
+        },
+        {
+          "label": "コルディリェラ行政地域",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "529"
+            }
+          ]
+        },
+        {
+          "label": "西ビサヤ地方",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "530"
+            }
+          ]
+        },
+        {
+          "label": "北ミンダナオ地方",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "534"
+            }
+          ]
+        },
+        {
+          "label": "ビコール地方",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "528"
+            }
+          ]
+        },
+        {
+          "label": "カガヤン・バレー地方",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "524"
+            }
+          ]
+        },
+        {
+          "label": "イロコス地方",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "523"
+            }
+          ]
+        },
+        {
+          "label": "東ビサヤ地方",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "532"
+            }
+          ]
+        },
+        {
+          "label": "カラガ地方",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "537"
+            }
+          ]
+        },
+        {
+          "label": "ソクサージェン地方",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "536"
+            }
+          ]
+        },
+        {
+          "label": "ミマロパ地方",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "12",
+              "region_id": "527"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "RU",
+      "name": "Russia",
+      "source_country_labels": [
+        "ロシア"
+      ],
+      "directory_records": 192,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "中央連邦管区",
+          "directory_records": 44,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "444"
+            }
+          ]
+        },
+        {
+          "label": "極東連邦管区",
+          "directory_records": 37,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "447"
+            }
+          ]
+        },
+        {
+          "label": "シベリア連邦管区",
+          "directory_records": 35,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "448"
+            }
+          ]
+        },
+        {
+          "label": "北西連邦管区",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "446"
+            }
+          ]
+        },
+        {
+          "label": "沿ヴォルガ連邦管区",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "450"
+            }
+          ]
+        },
+        {
+          "label": "ウラル連邦管区",
+          "directory_records": 12,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "449"
+            }
+          ]
+        },
+        {
+          "label": "南部連邦管区",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "445"
+            }
+          ]
+        },
+        {
+          "label": "北カフカース連邦管区",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "133",
+              "region_id": "451"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "TH",
+      "name": "Thailand",
+      "source_country_labels": [
+        "タイ"
+      ],
+      "directory_records": 755,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "バンコク",
+          "directory_records": 167,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "116"
+            }
+          ]
+        },
+        {
+          "label": "【北部】チェンマイ県",
+          "directory_records": 38,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "122"
+            }
+          ]
+        },
+        {
+          "label": "【中部】チョンブリー県",
+          "directory_records": 31,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "166"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ナコーンラーチャシーマー県",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "144"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ウボンラーチャターニー県",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "136"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】コーンケーン県",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "138"
+            }
+          ]
+        },
+        {
+          "label": "【中部】パトゥムターニー県",
+          "directory_records": 24,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "171"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ノンタブリー県",
+          "directory_records": 21,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "170"
+            }
+          ]
+        },
+        {
+          "label": "【北部】チェンラーイ県",
+          "directory_records": 21,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "123"
+            }
+          ]
+        },
+        {
+          "label": "【中部】サムットプラーカーン県",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "159"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ウドーンターニー県",
+          "directory_records": 17,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "135"
+            }
+          ]
+        },
+        {
+          "label": "【中部】アユタヤ県",
+          "directory_records": 16,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "154"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ピッサヌローク県",
+          "directory_records": 16,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "127"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ブリーラム県",
+          "directory_records": 16,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "147"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】シーサケート県",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "140"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ナコーンシータマラート県",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "184"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】スリン県",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "141"
+            }
+          ]
+        },
+        {
+          "label": "【中部】カンチャナブリー県",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "155"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ナコーンパトム県",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "169"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ラヨーン県",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "176"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】マハーサーラカーム県",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "148"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ローイエット県",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "152"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ソンクラー県",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "181"
+            }
+          ]
+        },
+        {
+          "label": "【中部】サラブリー県",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "160"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ペッチャブリー県",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "174"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ナーン県",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "124"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】サコンナコーン県",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "139"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ノーンカーイ県",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "145"
+            }
+          ]
+        },
+        {
+          "label": "【中部】スパンブリー県",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "162"
+            }
+          ]
+        },
+        {
+          "label": "【南部】プーケット県",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "189"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】カーラシン県",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "137"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ナコーンパノム県",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "143"
+            }
+          ]
+        },
+        {
+          "label": "【中部】チャチューンサオ県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "164"
+            }
+          ]
+        },
+        {
+          "label": "【中部】プラチュワップキーリーカン県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "173"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ロッブリー県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "177"
+            }
+          ]
+        },
+        {
+          "label": "【北部】スコータイ県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "120"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ナコーンサワン県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "125"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ペッチャブーン県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "130"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ランパーン県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "132"
+            }
+          ]
+        },
+        {
+          "label": "【南部】スラートターニー県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "180"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ノーンブワラムプー県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "146"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ブンカーン県",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "192"
+            }
+          ]
+        },
+        {
+          "label": "【中部】チャンタブリー県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "165"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ラーチャブリー県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "175"
+            }
+          ]
+        },
+        {
+          "label": "【北部】パヤオ県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "126"
+            }
+          ]
+        },
+        {
+          "label": "【北部】プレー県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "129"
+            }
+          ]
+        },
+        {
+          "label": "【南部】トラン県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "183"
+            }
+          ]
+        },
+        {
+          "label": "【南部】パッタニー県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "186"
+            }
+          ]
+        },
+        {
+          "label": "【南部】パッタルン県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "187"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ムックダーハーン県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "149"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ルーイ県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "151"
+            }
+          ]
+        },
+        {
+          "label": "【中部】トラート県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "167"
+            }
+          ]
+        },
+        {
+          "label": "【中部】プラーチーンブリー県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "172"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ウッタラディット県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "118"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ピチット県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "128"
+            }
+          ]
+        },
+        {
+          "label": "【北部】メーホンソン県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "131"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ランプーン県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "133"
+            }
+          ]
+        },
+        {
+          "label": "【南部】サトゥン県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "179"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】ヤソートーン県",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "150"
+            }
+          ]
+        },
+        {
+          "label": "【中部】アーントーン県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "153"
+            }
+          ]
+        },
+        {
+          "label": "【中部】サムットサーコーン県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "157"
+            }
+          ]
+        },
+        {
+          "label": "【中部】シンブリー県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "161"
+            }
+          ]
+        },
+        {
+          "label": "【南部】クラビー県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "178"
+            }
+          ]
+        },
+        {
+          "label": "【南部】チュムポーン県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "182"
+            }
+          ]
+        },
+        {
+          "label": "【南部】パンガー県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "188"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ヤラー県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "190"
+            }
+          ]
+        },
+        {
+          "label": "【中部】サケーオ県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "156"
+            }
+          ]
+        },
+        {
+          "label": "【中部】サムットソンクラーム県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "158"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ナコーンナーヨック県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "168"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ウタイターニー県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "117"
+            }
+          ]
+        },
+        {
+          "label": "【北部】カンペーンペッ県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "119"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ナラーティワート県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "185"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ラノーン県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "191"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】アムナートチャルーン県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "134"
+            }
+          ]
+        },
+        {
+          "label": "【東北部】チャイヤプーム県",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "10",
+              "region_id": "142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "TW",
+      "name": "Taiwan",
+      "source_country_labels": [
+        "台湾",
+        "台湾2"
+      ],
+      "directory_records": 808,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "台北市",
+          "directory_records": 146,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "17"
+            },
+            {
+              "country_id": "998",
+              "region_id": "500"
+            }
+          ]
+        },
+        {
+          "label": "台中市",
+          "directory_records": 101,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "24"
+            },
+            {
+              "country_id": "998",
+              "region_id": "507"
+            }
+          ]
+        },
+        {
+          "label": "新北市",
+          "directory_records": 95,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "18"
+            },
+            {
+              "country_id": "998",
+              "region_id": "501"
+            }
+          ]
+        },
+        {
+          "label": "高雄市",
+          "directory_records": 84,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "31"
+            },
+            {
+              "country_id": "998",
+              "region_id": "514"
+            }
+          ]
+        },
+        {
+          "label": "桃園市",
+          "directory_records": 68,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "20"
+            },
+            {
+              "country_id": "998",
+              "region_id": "503"
+            }
+          ]
+        },
+        {
+          "label": "台南市",
+          "directory_records": 64,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "30"
+            },
+            {
+              "country_id": "998",
+              "region_id": "513"
+            }
+          ]
+        },
+        {
+          "label": "彰化県",
+          "directory_records": 37,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "25"
+            },
+            {
+              "country_id": "998",
+              "region_id": "508"
+            }
+          ]
+        },
+        {
+          "label": "新竹市",
+          "directory_records": 26,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "22"
+            },
+            {
+              "country_id": "998",
+              "region_id": "505"
+            }
+          ]
+        },
+        {
+          "label": "屏東県",
+          "directory_records": 23,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "32"
+            },
+            {
+              "country_id": "998",
+              "region_id": "515"
+            }
+          ]
+        },
+        {
+          "label": "南投県",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "26"
+            },
+            {
+              "country_id": "998",
+              "region_id": "509"
+            }
+          ]
+        },
+        {
+          "label": "宜蘭県",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "35"
+            },
+            {
+              "country_id": "998",
+              "region_id": "518"
+            }
+          ]
+        },
+        {
+          "label": "新竹県",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "21"
+            },
+            {
+              "country_id": "998",
+              "region_id": "504"
+            }
+          ]
+        },
+        {
+          "label": "雲林県",
+          "directory_records": 18,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "27"
+            },
+            {
+              "country_id": "998",
+              "region_id": "510"
+            }
+          ]
+        },
+        {
+          "label": "苗栗県",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "23"
+            },
+            {
+              "country_id": "998",
+              "region_id": "506"
+            }
+          ]
+        },
+        {
+          "label": "嘉義市",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "29"
+            },
+            {
+              "country_id": "998",
+              "region_id": "512"
+            }
+          ]
+        },
+        {
+          "label": "嘉義県",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "28"
+            },
+            {
+              "country_id": "998",
+              "region_id": "511"
+            }
+          ]
+        },
+        {
+          "label": "基隆市",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "19"
+            },
+            {
+              "country_id": "998",
+              "region_id": "502"
+            }
+          ]
+        },
+        {
+          "label": "花蓮県",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "34"
+            },
+            {
+              "country_id": "998",
+              "region_id": "517"
+            }
+          ]
+        },
+        {
+          "label": "台東県",
+          "directory_records": 11,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "33"
+            },
+            {
+              "country_id": "998",
+              "region_id": "516"
+            }
+          ]
+        },
+        {
+          "label": "澎湖県",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "36"
+            },
+            {
+              "country_id": "998",
+              "region_id": "519"
+            }
+          ]
+        },
+        {
+          "label": "金門県",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "2",
+              "region_id": "37"
+            },
+            {
+              "country_id": "998",
+              "region_id": "520"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "US",
+      "name": "United States",
+      "source_country_labels": [
+        "米国"
+      ],
+      "directory_records": 1155,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "カリフォルニア州",
+          "directory_records": 247,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "329"
+            }
+          ]
+        },
+        {
+          "label": "ワシントン州",
+          "directory_records": 85,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "365"
+            }
+          ]
+        },
+        {
+          "label": "ハワイ州",
+          "directory_records": 67,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "350"
+            }
+          ]
+        },
+        {
+          "label": "ニューヨーク州",
+          "directory_records": 54,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "343"
+            }
+          ]
+        },
+        {
+          "label": "イリノイ州",
+          "directory_records": 46,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "322"
+            }
+          ]
+        },
+        {
+          "label": "ミシガン州",
+          "directory_records": 44,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "354"
+            }
+          ]
+        },
+        {
+          "label": "オハイオ州",
+          "directory_records": 40,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "327"
+            }
+          ]
+        },
+        {
+          "label": "ペンシルベニア州",
+          "directory_records": 40,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "352"
+            }
+          ]
+        },
+        {
+          "label": "テキサス州",
+          "directory_records": 39,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "337"
+            }
+          ]
+        },
+        {
+          "label": "オレゴン州",
+          "directory_records": 36,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "328"
+            }
+          ]
+        },
+        {
+          "label": "バージニア州",
+          "directory_records": 35,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "348"
+            }
+          ]
+        },
+        {
+          "label": "マサチューセッツ州",
+          "directory_records": 28,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "353"
+            }
+          ]
+        },
+        {
+          "label": "インディアナ州",
+          "directory_records": 27,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "323"
+            }
+          ]
+        },
+        {
+          "label": "コロラド州",
+          "directory_records": 25,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "333"
+            }
+          ]
+        },
+        {
+          "label": "フロリダ州",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "351"
+            }
+          ]
+        },
+        {
+          "label": "ユタ州",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "361"
+            }
+          ]
+        },
+        {
+          "label": "ノースカロライナ州",
+          "directory_records": 21,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "346"
+            }
+          ]
+        },
+        {
+          "label": "アリゾナ州",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "321"
+            }
+          ]
+        },
+        {
+          "label": "ニュージャージー州",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "340"
+            }
+          ]
+        },
+        {
+          "label": "メリーランド州",
+          "directory_records": 20,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "359"
+            }
+          ]
+        },
+        {
+          "label": "ミネソタ州",
+          "directory_records": 19,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "357"
+            }
+          ]
+        },
+        {
+          "label": "ジョージア州",
+          "directory_records": 18,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "336"
+            }
+          ]
+        },
+        {
+          "label": "ウィスコンシン州",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "324"
+            }
+          ]
+        },
+        {
+          "label": "ネバダ州",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "344"
+            }
+          ]
+        },
+        {
+          "label": "ケンタッキー州",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "331"
+            }
+          ]
+        },
+        {
+          "label": "ミズーリ州",
+          "directory_records": 13,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "356"
+            }
+          ]
+        },
+        {
+          "label": "アラスカ州",
+          "directory_records": 12,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "319"
+            }
+          ]
+        },
+        {
+          "label": "テネシー州",
+          "directory_records": 10,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "338"
+            }
+          ]
+        },
+        {
+          "label": "アイオワ州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "316"
+            }
+          ]
+        },
+        {
+          "label": "コネチカット州",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "332"
+            }
+          ]
+        },
+        {
+          "label": "その他",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "367"
+            }
+          ]
+        },
+        {
+          "label": "ワシントン・コロンビア特別区",
+          "directory_records": 8,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "366"
+            }
+          ]
+        },
+        {
+          "label": "ネブラスカ州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "345"
+            }
+          ]
+        },
+        {
+          "label": "バーモント州",
+          "directory_records": 7,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "349"
+            }
+          ]
+        },
+        {
+          "label": "アイダホ州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "317"
+            }
+          ]
+        },
+        {
+          "label": "アラバマ州",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "320"
+            }
+          ]
+        },
+        {
+          "label": "アーカンソー州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "318"
+            }
+          ]
+        },
+        {
+          "label": "サウスカロライナ州",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "334"
+            }
+          ]
+        },
+        {
+          "label": "カンザス州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "330"
+            }
+          ]
+        },
+        {
+          "label": "ニューメキシコ州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "342"
+            }
+          ]
+        },
+        {
+          "label": "ミシシッピ州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "355"
+            }
+          ]
+        },
+        {
+          "label": "メーン州",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "358"
+            }
+          ]
+        },
+        {
+          "label": "オクラホマ州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "326"
+            }
+          ]
+        },
+        {
+          "label": "ロードアイランド州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "363"
+            }
+          ]
+        },
+        {
+          "label": "ワイオミング州",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "364"
+            }
+          ]
+        },
+        {
+          "label": "ニューハンプシャー州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "341"
+            }
+          ]
+        },
+        {
+          "label": "モンタナ州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "360"
+            }
+          ]
+        },
+        {
+          "label": "ルイジアナ州",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "362"
+            }
+          ]
+        },
+        {
+          "label": "ウエストバージニア州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "325"
+            }
+          ]
+        },
+        {
+          "label": "デラウェア州",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "45",
+              "region_id": "339"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area_id": "VN",
+      "name": "Vietnam",
+      "source_country_labels": [
+        "ベトナム"
+      ],
+      "directory_records": 482,
+      "unlocated_records": 0,
+      "subdivisions": [
+        {
+          "label": "ハノイ",
+          "directory_records": 237,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "193"
+            }
+          ]
+        },
+        {
+          "label": "ホーチミン",
+          "directory_records": 90,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "194"
+            }
+          ]
+        },
+        {
+          "label": "ハイフォン",
+          "directory_records": 26,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "196"
+            }
+          ]
+        },
+        {
+          "label": "ダナン",
+          "directory_records": 22,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "195"
+            }
+          ]
+        },
+        {
+          "label": "【中部】トゥアティエン＝フエ省",
+          "directory_records": 15,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "225"
+            }
+          ]
+        },
+        {
+          "label": "【南部】バリア＝ブンタウ省",
+          "directory_records": 14,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "241"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ビンズオン省",
+          "directory_records": 9,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "242"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ドンナイ省",
+          "directory_records": 6,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "240"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ナムディン省",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "216"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ハイズオン省",
+          "directory_records": 5,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "217"
+            }
+          ]
+        },
+        {
+          "label": "【中部】カインホア省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "227"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ゲアン省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "223"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ラムドン省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "238"
+            }
+          ]
+        },
+        {
+          "label": "【北部】バクザン省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "207"
+            }
+          ]
+        },
+        {
+          "label": "【北部】バクニン省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "214"
+            }
+          ]
+        },
+        {
+          "label": "【北部】フンイエン省",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "219"
+            }
+          ]
+        },
+        {
+          "label": "カントー",
+          "directory_records": 4,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "197"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ハティン省",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "226"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ビンディン省",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "230"
+            }
+          ]
+        },
+        {
+          "label": "【北部】ヴィンフック省",
+          "directory_records": 3,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "213"
+            }
+          ]
+        },
+        {
+          "label": "【中部】クアンチ省",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "221"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ダクラク省",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "236"
+            }
+          ]
+        },
+        {
+          "label": "【北部】タイビン省",
+          "directory_records": 2,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "215"
+            }
+          ]
+        },
+        {
+          "label": "【中部】タインホア省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "224"
+            }
+          ]
+        },
+        {
+          "label": "【中部】ニントゥアン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "232"
+            }
+          ]
+        },
+        {
+          "label": "【中部】フーイエン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "231"
+            }
+          ]
+        },
+        {
+          "label": "【北部】クアンニン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "204"
+            }
+          ]
+        },
+        {
+          "label": "【北部】タイグエン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "205"
+            }
+          ]
+        },
+        {
+          "label": "【北部】フート省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "210"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ティエンザン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "250"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ドンタップ省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "254"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ベンチェ省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "253"
+            }
+          ]
+        },
+        {
+          "label": "【南部】ヴィンロン省",
+          "directory_records": 1,
+          "source_filters": [
+            {
+              "country_id": "14",
+              "region_id": "245"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "retrieved": "2026-10-08",
-  "method": "Wikipedia-first discovery; annual Taiwan table used directly. Global Wikipedia tables are either 2022/2023 or five-year intervals mixing historical and projected series. World Bank annual SP.POP.TOTL used as consistent exact-year fallback for other matched areas. Ratios represent surveyed learners/teachers/institutions per total population, not prevalence of all Japanese learners. Survey and population reference dates may differ within a year.",
+  "method": "2024: use population exactly as printed in JF regional tables wherever a row exists, including its explicit missing value for Kosovo. Reference years vary or are unspecified; year is survey-wave join key, reference_year is population date only when known. For areas not listed in those tables and all earlier survey waves, retain the previous Wikipedia-first/World Bank annual population snapshot. Never backfill the JF 2024 denominators into earlier waves.",
   "sources": [
     {
       "source_id": "wikipedia-taiwan-annual",
@@ -26,15 +26,22 @@
       "metadata_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.TOTL",
       "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
       "attribution": "World Bank, World Development Indicators, Population, total (SP.POP.TOTL), bulk CSV last updated 2026-07-13, retrieved 2026-10-08. Selected years and matched area codes by Kotoba Atlas."
+    },
+    {
+      "source_id": "jf-2024-regional-population",
+      "title": "JF 2024 report, regional population columns",
+      "url": "https://www.jpf.go.jp/j/project/japanese/survey/result/dl/2024/all.pdf",
+      "retrieved": "2026-10-09",
+      "sha256": "b6a2ba923b95f994e0868df8d115f5d5ec2a555766cd57ebf71283f61e658f4f",
+      "notes": "Population column transcribed from JF 2024 report regional tables. Footnotes cite UN Population and Vital Statistics Report as of January 2025 (3 January on most pages); Taiwan cites December 2024 Ministry of the Interior figures. Reference dates of other populations are not specified in these tables; do not relabel as 2024 population estimates. Printed dash is null.",
+      "attribution": "The Japan Foundation, edited and structured by Kotoba Atlas; UN and Taiwan Ministry of the Interior credited in JF table footnotes."
     }
   ],
   "coverage": {
-    "available": 1407,
-    "total": 1428,
-    "unavailable_areas": [
-      "CK",
-      "NU",
-      "VA"
-    ]
+    "area_year_records": 1428,
+    "nonmissing_records": 1406,
+    "jf_2024_rows": 150,
+    "jf_2024_nonmissing": 149,
+    "year_2024_nonmissing": 200
   }
 }
