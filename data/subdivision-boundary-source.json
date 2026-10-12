@@ -1,0 +1,10 @@
+{
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces.geojson",
+  "sha256": "69a0e06e640b2d505858ae1cb63034e4677f3000b35a98e16312932b98c426b9",
+  "source_features": 294,
+  "directory_groups": 478,
+  "matched": 151,
+  "ambiguous": 0,
+  "unmatched": 327,
+  "caveat": "ADM1 polygons only. City/other-level directory groups remain unmapped unless independently verified."
+}

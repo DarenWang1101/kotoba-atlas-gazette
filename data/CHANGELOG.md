@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.2 development preview — 2026-10-10
+
+- Added interactive approximate location markers for eight Australian subdivisions and coordinated click/keyboard/select, map zoom, and detail selection.
+- Classified 478 directory locations: 8 approximate reference points and 470 directory-only, with no boundary inference.
+- Preserved historic-wave and textbook exclusions; added automated matching, coverage and event-handler checks.
+- NOT a global province boundary implementation and NOT deployed to GitHub Pages.
+
+
 ## 0.3.1 — 2026-10-09
 
 - Replaced 2024 population denominators with all 149 figures printed in JF regional tables; preserved Kosovo’s explicit missing denominator.

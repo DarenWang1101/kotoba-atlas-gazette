@@ -24,22 +24,22 @@
       "name": "titles_csv",
       "path": "titles.csv",
       "format": "csv",
-      "bytes": 104817,
-      "hash": "sha256:ca2d027f1c35364272548a0bc19f347c0a046f1a49c0f88bcb16e8b949861b94"
+      "bytes": 104228,
+      "hash": "sha256:095b5668b03400a9d660f13dc32ed5f3b060b81cf924299048fd7bc62a98aa96"
     },
     {
       "name": "textbook_evidence_csv",
       "path": "textbook_evidence.csv",
       "format": "csv",
-      "bytes": 651785,
-      "hash": "sha256:9a8951d7c037536f9117b2672671b3ec754a8730945da400ba37ed5c497030d5"
+      "bytes": 649986,
+      "hash": "sha256:957d0ef5f785edab8c3e73c6998b9fd2c17c07acee9d0ebc16e0472a42a0ab56"
     },
     {
       "name": "textbook_evidence_json",
       "path": "textbook_evidence.json",
       "format": "json",
-      "bytes": 1240716,
-      "hash": "sha256:d0e4ed8737db4b7f4968a0da67c597490999e809f6397c9f49755cfa3a84f052"
+      "bytes": 1238919,
+      "hash": "sha256:8514f3e6a500fcbb5b7f5d25936ca194c2f25971ee90f9152b9c6d04710dd009"
     },
     {
       "name": "review_coverage_csv",
@@ -80,8 +80,8 @@
       "name": "profile_reviews_json",
       "path": "profile_reviews.json",
       "format": "json",
-      "bytes": 1270232,
-      "hash": "sha256:fede696a06c2ed5fd6b789f9ae99cf8fe1889a6be4a5f43c99bc8c6bed905d67"
+      "bytes": 1268435,
+      "hash": "sha256:f351e37db57cb67ed9b66ea30605a503c6238a198d8c35d4484710711a7bb442"
     },
     {
       "name": "population_json",
@@ -115,22 +115,29 @@
       "name": "cluster_default_json",
       "path": "cluster_default.json",
       "format": "json",
-      "bytes": 13023,
-      "hash": "sha256:6a612489cef70d0f5ad1de1bb7847decdbe5dd8a107667994016ec1db7b00ff0"
+      "bytes": 16144,
+      "hash": "sha256:76740cf098eac6fc4e8738503edd6b04377ba265268ef4165749d2305c6f10a5"
     },
     {
       "name": "cluster_evaluation_json",
       "path": "cluster_evaluation.json",
       "format": "json",
-      "bytes": 55745,
-      "hash": "sha256:158de15f76dbc9072e812749c16780b45950d21585dabccb86579b5c5b3c2279"
+      "bytes": 55530,
+      "hash": "sha256:cab9bd5735d26007cb0b09ee46d8a670f7b41d84f0ad074ffba37a5bbc1f1fb3"
     },
     {
       "name": "textbook_features_json",
       "path": "textbook_features.json",
       "format": "json",
-      "bytes": 121317,
-      "hash": "sha256:6485e75eff0928942ac35536db087cbd95d0be2ede9210899aff0e091e393788"
+      "bytes": 110122,
+      "hash": "sha256:bcb44a5a7b35eac917b332c6b8f42d9c2e03de2d20c1f910769638dec3040df9"
+    },
+    {
+      "name": "title_registry_json",
+      "path": "title_registry.json",
+      "format": "json",
+      "bytes": 291518,
+      "hash": "sha256:cdaf1a4b1cb7ef85d47a96eac32a6d4f88f533fc0a1cfef45bc4ed02b8c0ec0c"
     },
     {
       "name": "jf_population_2024_json",
