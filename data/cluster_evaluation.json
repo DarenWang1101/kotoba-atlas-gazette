@@ -41,6 +41,7 @@
     "FR",
     "GB",
     "GE",
+    "GR",
     "GT",
     "HK",
     "HR",
@@ -56,6 +57,7 @@
     "JO",
     "KG",
     "KH",
+    "KW",
     "KZ",
     "LA",
     "LB",
@@ -68,6 +70,7 @@
     "MN",
     "MO",
     "MP",
+    "MT",
     "MX",
     "MY",
     "NC",
@@ -115,7 +118,7 @@
   "cohortRule": "Positive learners, teachers, institutions, a population denominator and a nonempty reported-use title vector after minimum document frequency 2. Same cohort for all candidates.",
   "selectionRule": "Eligible: every cluster has at least max(3, ceil(5% of cohort)) areas; largest cluster <=75%. Maximize 0.5 × silhouette + 0.5 × mean adjusted Rand index across five deterministic 80% subsamples; ties prefer silhouette, then smaller k.",
   "limitations": "Internal separation and perturbation stability are not external validity. Comparing feature spaces by silhouette has limitations. Missing profiles and curation differences affect results. Population reference dates vary (2024 uses JF report denominators); textbook profile edition and survey years describe different sources. Binary term frequency is independent of duplicated stage records.",
-  "dataSha256": "06ca9b6cf6c2aa72e4f60537c79bd7290b1acba97f6dbb1413c17b56f14e9c9b",
+  "dataSha256": "74839a2fe58513264531a5c18bc005397a35144d08a53f66c2adb85e5f7fcd26",
   "candidates": [
     {
       "options": {
@@ -130,21 +133,21 @@
         "k": 2,
         "minDF": 2
       },
-      "silhouette": 0.33252750353535704,
-      "stability": 0.9103177058090637,
+      "silhouette": 0.3726581855495239,
+      "stability": 0.8437480404052888,
       "stabilities": [
-        0.7672645128034082,
-        0.7843240162419098,
+        0.6826242172411774,
+        0.536115984785266,
         1,
         1,
         1
       ],
       "sizes": [
         4,
-        104
+        107
       ],
       "eligible": false,
-      "score": 0.6214226046722103
+      "score": 0.6082031129774064
     },
     {
       "options": {
@@ -159,1858 +162,89 @@
         "k": 3,
         "minDF": 2
       },
-      "silhouette": 0.20811169422018075,
-      "stability": 0.7981852166421521,
+      "silhouette": 0.2605512724189567,
+      "stability": 0.7955593956479909,
       "stabilities": [
-        0.8930556910172632,
-        0.8434408540739442,
+        0.8038226191832755,
+        0.7256911044773101,
+        0.7802419679481031,
+        0.877449937915469,
+        0.790591348715797
+      ],
+      "sizes": [
+        4,
+        106,
+        1
+      ],
+      "eligible": false,
+      "score": 0.5280553340334738
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.2086209611226732,
+      "stability": 0.6638850256568462,
+      "stabilities": [
+        0.8291074153261873,
+        0.635167977126519,
+        0.9118203775900109,
+        0.6995388211510519,
+        0.2437905370904617
+      ],
+      "sizes": [
+        4,
+        105,
         1,
-        1,
-        0.25442953811955354
+        1
+      ],
+      "eligible": false,
+      "score": 0.43625299338975965
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.1302638593368042,
+      "stability": 0.5832103901066275,
+      "stabilities": [
+        0.65357069214379,
+        0.6960858585858585,
+        0.9301179624493581,
+        0.44203211859172337,
+        0.194245318762407
       ],
       "sizes": [
         4,
         103,
-        1
-      ],
-      "eligible": false,
-      "score": 0.5031484554311665
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.18641325327385266,
-      "stability": 0.5270691984882996,
-      "stabilities": [
-        0.35150722042463284,
-        0.23866947328130989,
-        0.32907353574325077,
-        1,
-        0.7160957629923044
-      ],
-      "sizes": [
-        17,
-        4,
-        86,
-        1
-      ],
-      "eligible": false,
-      "score": 0.35674122588107615
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.13621680077262757,
-      "stability": 0.5948490068169903,
-      "stabilities": [
-        0.39004681475235603,
-        0.35684506051851134,
-        0.7395353220953034,
-        0.7826700443031642,
-        0.7051477924156166
-      ],
-      "sizes": [
-        17,
-        4,
-        82,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.3655329037948089
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.11949165475586403,
-      "stability": 0.7080185240925966,
-      "stabilities": [
-        0.7723782819424346,
-        0.411152848263329,
-        0.7528312832716738,
-        0.8913985442418358,
-        0.7123316627437097
-      ],
-      "sizes": [
-        17,
-        4,
-        80,
-        2,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.4137550894242303
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.11245858764054315,
-      "stability": 0.8171979741743305,
-      "stabilities": [
-        0.8123156807537883,
-        0.8788634303294699,
-        0.8730456263802073,
-        0.8609578457828733,
-        0.6608072876253143
-      ],
-      "sizes": [
-        17,
-        4,
-        77,
-        3,
-        2,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.46482828090743683
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.09755059548107835,
-      "stability": 0.8076029375497967,
-      "stabilities": [
-        0.8363755380122991,
-        0.8794247777658151,
-        0.8735904020903349,
-        0.8424031486842534,
-        0.6062208211962811
-      ],
-      "sizes": [
-        17,
-        4,
-        77,
-        3,
-        2,
         1,
         1,
-        3
-      ],
-      "eligible": false,
-      "score": 0.45257676651543755
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.2484619094955635,
-      "stability": 0.5707623106831197,
-      "stabilities": [
-        0.4907729915266045,
-        0.6758331492947915,
-        0.9483089751458804,
-        0.3523217629657776,
-        0.38657467448254396
-      ],
-      "sizes": [
-        23,
-        85
-      ],
-      "eligible": false,
-      "score": 0.40961211008934156
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.11319674769106597,
-      "stability": 0.32763034073236985,
-      "stabilities": [
-        0.1792100703962806,
-        0.1707984428744836,
-        0.25251375172647383,
-        0.9137135474344776,
-        0.12191589123013379
-      ],
-      "sizes": [
-        9,
-        52,
-        47
-      ],
-      "eligible": true,
-      "score": 0.2204135442117179
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.10826837019491753,
-      "stability": 0.40873959619315253,
-      "stabilities": [
-        0.6048194239534177,
-        0.23938354497503594,
-        0.32712351224293873,
-        0.7933791390245839,
-        0.07899236076978648
-      ],
-      "sizes": [
-        9,
-        49,
-        43,
-        7
-      ],
-      "eligible": true,
-      "score": 0.258503983194035
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.10607290867430177,
-      "stability": 0.3597998588499645,
-      "stabilities": [
-        0.5839957731646274,
-        0.18389958605045026,
-        0.29362939697119655,
-        0.6610040031916418,
-        0.07647053487190648
-      ],
-      "sizes": [
-        7,
-        47,
-        5,
-        42,
-        7
-      ],
-      "eligible": false,
-      "score": 0.23293638376213316
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.10275604105491185,
-      "stability": 0.3913550487538297,
-      "stabilities": [
-        0.4697000484549135,
-        0.2487568416200499,
-        0.3171677744532366,
-        0.7364983331987588,
-        0.18465224604218983
-      ],
-      "sizes": [
-        7,
-        8,
-        42,
-        3,
-        41,
-        7
-      ],
-      "eligible": false,
-      "score": 0.24705554490437076
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.09895966131790478,
-      "stability": 0.3345205515491127,
-      "stabilities": [
-        0.5725848785030904,
-        0.2522328581433214,
-        0.38329675824041487,
-        0.3201607286644356,
-        0.14432753419430122
-      ],
-      "sizes": [
-        7,
-        8,
-        4,
-        40,
-        3,
-        39,
-        7
-      ],
-      "eligible": false,
-      "score": 0.21674010643350874
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.09006393720270056,
-      "stability": 0.3405053982997256,
-      "stabilities": [
-        0.5289596813007528,
-        0.20514323388609096,
-        0.29054545076541144,
-        0.5101116416304581,
-        0.1677669839159146
-      ],
-      "sizes": [
-        7,
-        4,
-        15,
-        35,
-        6,
-        3,
-        33,
-        5
-      ],
-      "eligible": false,
-      "score": 0.21528466775121308
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.28391653800674077,
-      "stability": 0.8423900398287932,
-      "stabilities": [
-        0.8908332235252778,
-        0.8403184430849032,
-        0.8712726880980842,
-        0.6095258444357008,
-        1
-      ],
-      "sizes": [
-        6,
-        102
-      ],
-      "eligible": false,
-      "score": 0.5631532889177671
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.14274832824772593,
-      "stability": 0.47098025174438424,
-      "stabilities": [
-        0.9062130566136871,
-        0.6248014720123959,
-        0.2653713798459055,
-        0.29680117666258815,
-        0.2617141735873446
-      ],
-      "sizes": [
-        6,
-        101,
-        1
-      ],
-      "eligible": false,
-      "score": 0.3068642899960551
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.09981142906239097,
-      "stability": 0.3723537126148172,
-      "stabilities": [
-        0.404846321223201,
-        0.6337802373125645,
-        0.255321824826882,
-        0.31243820248404675,
-        0.25538197722739187
-      ],
-      "sizes": [
-        5,
-        101,
-        1,
-        1
-      ],
-      "eligible": false,
-      "score": 0.2360825708386041
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.11671847870250628,
-      "stability": 0.7570391647876401,
-      "stabilities": [
-        0.917814450750074,
-        0.3614593303658548,
-        0.7230273752012882,
-        0.9233514158283206,
-        0.8595432517926632
-      ],
-      "sizes": [
-        15,
-        5,
-        86,
-        1,
-        1
-      ],
-      "eligible": false,
-      "score": 0.4368788217450732
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.10906796064500647,
-      "stability": 0.7770433557085167,
-      "stabilities": [
-        0.9186211074905083,
-        0.5220094384266473,
-        0.7284022670972595,
-        0.8489395159269497,
-        0.8672444496012188
-      ],
-      "sizes": [
-        14,
-        5,
-        86,
-        1,
-        1,
-        1
-      ],
-      "eligible": false,
-      "score": 0.44305565817676157
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.08836095577131395,
-      "stability": 0.6839211233232898,
-      "stabilities": [
-        0.7288560068625115,
-        0.5025146079653785,
-        0.7784461534556715,
-        0.7020837586452895,
-        0.7077050896875987
-      ],
-      "sizes": [
-        4,
-        14,
-        5,
-        1,
-        82,
-        1,
-        1
-      ],
-      "eligible": false,
-      "score": 0.3861410395473019
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.07856297086776659,
-      "stability": 0.69215549344474,
-      "stabilities": [
-        0.7403685945612685,
-        0.5815611280250398,
-        0.7883910052673202,
-        0.6228361956246634,
-        0.7276205437454075
-      ],
-      "sizes": [
-        4,
-        14,
-        5,
-        1,
-        79,
-        3,
-        1,
-        1
-      ],
-      "eligible": false,
-      "score": 0.38535923215625334
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.2519123164272883,
-      "stability": 0.6419429156357827,
-      "stabilities": [
-        1,
-        0.2015035661504851,
-        0.5827535132401286,
-        1,
-        0.4254574987882994
-      ],
-      "sizes": [
-        10,
-        98
-      ],
-      "eligible": false,
-      "score": 0.44692761603153547
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.06486346663701258,
-      "stability": 0.532974558973039,
-      "stabilities": [
-        0.2410087409496857,
-        0.939504941438832,
-        0.9542432628319167,
-        0.445364000518674,
-        0.08475184912608717
-      ],
-      "sizes": [
-        10,
-        85,
-        13
-      ],
-      "eligible": false,
-      "score": 0.2989190128050258
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.04424694523517688,
-      "stability": 0.4375230614230129,
-      "stabilities": [
-        0.30333699047902407,
-        0.819191567065073,
-        0.6537383422403856,
-        0.2417343583671523,
-        0.16961404896342938
-      ],
-      "sizes": [
-        6,
-        7,
-        82,
-        13
-      ],
-      "eligible": false,
-      "score": 0.24088500332909488
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.0366032766364341,
-      "stability": 0.41621297073512464,
-      "stabilities": [
-        0.37893598197844336,
-        0.3878688339959986,
-        0.8467712207785052,
-        0.33758333092840037,
-        0.12990548599427565
-      ],
-      "sizes": [
-        6,
-        7,
-        75,
-        11,
-        9
-      ],
-      "eligible": true,
-      "score": 0.22640812368577937
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.06568435055470016,
-      "stability": 0.4757289431284092,
-      "stabilities": [
-        0.5585386746513764,
-        0.4698477057825333,
-        0.9722829844893637,
-        0.34230017764261517,
-        0.03567517307615759
-      ],
-      "sizes": [
-        7,
-        6,
-        49,
-        3,
-        35,
-        8
-      ],
-      "eligible": false,
-      "score": 0.27070664684155465
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.05432834117368189,
-      "stability": 0.41695455020243866,
-      "stabilities": [
-        0.5416461760162967,
-        0.641406196266812,
-        0.45734329931375267,
-        0.4124655830649672,
-        0.03191149635036496
-      ],
-      "sizes": [
-        7,
-        6,
-        52,
-        4,
-        29,
-        7,
-        3
-      ],
-      "eligible": false,
-      "score": 0.23564144568806028
-    },
-    {
-      "options": {
-        "keys": [
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.047517634847413205,
-      "stability": 0.3676105554474718,
-      "stabilities": [
-        0.49481304687706523,
-        0.5239365288927692,
-        0.44621643517616905,
-        0.3165942072017728,
-        0.056492559089582776
-      ],
-      "sizes": [
-        5,
-        7,
-        52,
-        1,
-        4,
-        29,
-        7,
-        3
-      ],
-      "eligible": false,
-      "score": 0.2075640951474425
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.21617789372978308,
-      "stability": 0.3823448953346041,
-      "stabilities": [
-        0.9511667097090185,
-        0.08749294521553216,
-        0.09058637066661084,
-        0.8141483167248532,
-        -0.03166986564299444
-      ],
-      "sizes": [
-        26,
-        82
-      ],
-      "eligible": false,
-      "score": 0.2992613945321936
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.1884651494890406,
-      "stability": 0.41348365625963723,
-      "stabilities": [
-        0.9247423013539277,
-        -0.0456108571503185,
-        0.19559143769093448,
-        0.7943163865010437,
-        0.19837901290259868
-      ],
-      "sizes": [
-        26,
-        10,
-        72
-      ],
-      "eligible": true,
-      "score": 0.3009744028743389
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.15969085063068617,
-      "stability": 0.5937912322719917,
-      "stabilities": [
-        0.8175748996581923,
-        0.12424120580277667,
-        0.6669669934293779,
-        0.7147033499439446,
-        0.6454697125256673
-      ],
-      "sizes": [
-        26,
-        10,
-        71,
-        1
-      ],
-      "eligible": false,
-      "score": 0.3767410414513389
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.14637683080233654,
-      "stability": 0.5848656601848072,
-      "stabilities": [
-        0.7993241274215652,
-        0.22932848956329338,
-        0.6508178339593421,
-        0.6702459451085931,
-        0.5746119048712423
-      ],
-      "sizes": [
-        26,
-        10,
-        67,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.3656212454935719
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.14033105326719184,
-      "stability": 0.6229700809439968,
-      "stabilities": [
-        0.7415546945554353,
-        0.30805618455441064,
-        0.6559871958624526,
-        0.7519065903878319,
-        0.6573457393598533
-      ],
-      "sizes": [
-        26,
-        2,
-        8,
-        67,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.3816505671055943
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.14809766440120625,
-      "stability": 0.6211739308794932,
-      "stabilities": [
-        0.677239526950611,
-        0.36831262652607305,
-        0.5671266082126749,
-        0.8037819880991495,
-        0.6894089046089578
-      ],
-      "sizes": [
-        26,
-        2,
-        8,
-        4,
-        63,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.3846357976403497
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.14914640605198717,
-      "stability": 0.7163919291348586,
-      "stabilities": [
-        0.7241213407060493,
-        0.8072006228252753,
-        0.6111290981010431,
-        0.8055178043465605,
-        0.6339907796953643
-      ],
-      "sizes": [
-        26,
-        2,
-        8,
-        4,
-        61,
-        2,
-        1,
-        4
-      ],
-      "eligible": false,
-      "score": 0.4327691675934229
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.1878347444429586,
-      "stability": 0.6952211784029723,
-      "stabilities": [
-        0.5483685100275932,
-        0.6964571562788014,
-        0.6183940827252368,
-        1,
-        0.6128861429832304
-      ],
-      "sizes": [
-        41,
-        67
-      ],
-      "eligible": true,
-      "score": 0.44152796142296546
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.15882828553685777,
-      "stability": 0.5354715337191986,
-      "stabilities": [
-        0.6194009466348361,
-        0.5077477949851127,
-        0.457306571671376,
-        0.7442814326435714,
-        0.3486209226610971
-      ],
-      "sizes": [
-        41,
-        55,
-        12
-      ],
-      "eligible": true,
-      "score": 0.3471499096280282
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.166257352041222,
-      "stability": 0.5182741801310123,
-      "stabilities": [
-        0.31445148075667445,
-        0.6306292812008757,
-        0.7769776124666572,
-        0.6100823130480013,
-        0.2592302131828528
-      ],
-      "sizes": [
-        37,
-        8,
-        52,
-        11
-      ],
-      "eligible": true,
-      "score": 0.34226576608611714
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.15456976185316854,
-      "stability": 0.43569080426651585,
-      "stabilities": [
-        0.3075606283048241,
-        0.5151157615175909,
-        0.5722882248465296,
-        0.5816090658141644,
-        0.20188034084947018
-      ],
-      "sizes": [
-        37,
-        9,
-        48,
-        13,
-        1
-      ],
-      "eligible": false,
-      "score": 0.2951302830598422
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.1446947559830552,
-      "stability": 0.5167844883204629,
-      "stabilities": [
-        0.6357201062502995,
-        0.5910683815418176,
-        0.711386555793287,
-        0.466018340433509,
-        0.17972905758340105
-      ],
-      "sizes": [
-        7,
-        32,
-        7,
-        48,
-        13,
-        1
-      ],
-      "eligible": false,
-      "score": 0.330739622151759
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.14309418673542215,
-      "stability": 0.4473554992157066,
-      "stabilities": [
-        0.5500175335651563,
-        0.3938590661658739,
-        0.5605125870157022,
-        0.4736541398164083,
-        0.25873416951539235
-      ],
-      "sizes": [
-        5,
-        29,
-        5,
-        9,
-        46,
-        13,
-        1
-      ],
-      "eligible": false,
-      "score": 0.2952248429755644
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "medoids",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.13143105793630955,
-      "stability": 0.4399388732256872,
-      "stabilities": [
-        0.5093919206353795,
-        0.41096108640200657,
-        0.5507060333761232,
-        0.536001437563223,
-        0.19263388815170376
-      ],
-      "sizes": [
-        4,
-        8,
-        24,
-        4,
-        9,
-        45,
-        13,
-        1
-      ],
-      "eligible": false,
-      "score": 0.2856849655809984
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.19745003397085,
-      "stability": 0.8334951637071301,
-      "stabilities": [
-        0.769860426067793,
-        0.7742242497592046,
-        0.8155029024851183,
-        0.9060761987506195,
-        0.9018120414729153
-      ],
-      "sizes": [
-        29,
-        79
-      ],
-      "eligible": true,
-      "score": 0.51547259883899
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.14608615459080926,
-      "stability": 0.7281502761217026,
-      "stabilities": [
-        0.7805072798349173,
-        0.7063456670650725,
-        0.8231363537660041,
-        0.7360402699245239,
-        0.5947218100179952
-      ],
-      "sizes": [
-        29,
-        76,
-        3
-      ],
-      "eligible": false,
-      "score": 0.43711821535625595
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.13999700253507089,
-      "stability": 0.7623478974569321,
-      "stabilities": [
-        0.7389599603401987,
-        0.7246766303532307,
-        0.8249048324230261,
-        0.8445774444592178,
-        0.6786206197089871
-      ],
-      "sizes": [
-        29,
-        71,
-        5,
-        3
-      ],
-      "eligible": false,
-      "score": 0.4511724499960015
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.11591953326844157,
-      "stability": 0.7659574440498026,
-      "stabilities": [
-        0.6805433620700789,
-        0.7264783952509585,
-        0.8186026705690872,
-        0.9155551021449158,
-        0.688607690213973
-      ],
-      "sizes": [
-        1,
-        28,
-        71,
-        5,
-        3
-      ],
-      "eligible": false,
-      "score": 0.4409384886591221
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.10905847093573688,
-      "stability": 0.6889832386382446,
-      "stabilities": [
-        0.6432362658330812,
-        0.6804772200692506,
-        0.7252979582109981,
-        0.7147598089909777,
-        0.6811449400869158
-      ],
-      "sizes": [
-        1,
-        28,
-        7,
-        64,
-        5,
-        3
-      ],
-      "eligible": false,
-      "score": 0.39902085478699073
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.10805630604150365,
-      "stability": 0.7229532693290038,
-      "stabilities": [
-        0.6428054100007338,
-        0.6985029758313755,
-        0.7288747649645928,
-        0.8512927612368093,
-        0.6932904346115075
-      ],
-      "sizes": [
-        1,
-        4,
-        24,
-        7,
-        64,
-        5,
-        3
-      ],
-      "eligible": false,
-      "score": 0.41550478768525373
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "average",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.10181015485324406,
-      "stability": 0.7063624282045221,
-      "stabilities": [
-        0.6489818726291661,
-        0.6308310009704732,
-        0.7285984972231297,
-        0.8533698462445958,
-        0.6700309239552457
-      ],
-      "sizes": [
-        1,
-        4,
-        24,
-        5,
-        2,
-        64,
-        5,
-        3
-      ],
-      "eligible": false,
-      "score": 0.4040862915288831
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.15631311930085998,
-      "stability": 0.6093254111690367,
-      "stabilities": [
-        0.5840879581051491,
-        0.6206295484231783,
-        0.4795755697542437,
-        0.9534828181768499,
-        0.4088511613857629
-      ],
-      "sizes": [
-        44,
-        64
-      ],
-      "eligible": true,
-      "score": 0.38281926523494836
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.11696842099289022,
-      "stability": 0.4535142072007064,
-      "stabilities": [
-        0.6308037844316952,
-        0.3188215164234782,
-        0.6254256526674233,
-        0.5738524545651025,
-        0.11866762791583234
-      ],
-      "sizes": [
-        42,
-        51,
-        15
-      ],
-      "eligible": true,
-      "score": 0.2852413140967983
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.13178826411912756,
-      "stability": 0.5213005685243999,
-      "stabilities": [
-        0.7076618895166109,
-        0.4170527809104214,
-        0.7125205667775326,
-        0.5353088660432579,
-        0.23395873937417586
-      ],
-      "sizes": [
-        35,
-        11,
-        48,
-        14
-      ],
-      "eligible": true,
-      "score": 0.32654441632176373
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.11081270764587228,
-      "stability": 0.47375243125594474,
-      "stabilities": [
-        0.7381214625396127,
-        0.5626220941968011,
-        0.40032605993300346,
-        0.4555033083163467,
-        0.2121892312939593
-      ],
-      "sizes": [
-        9,
-        28,
-        9,
-        48,
-        14
-      ],
-      "eligible": true,
-      "score": 0.2922825694509085
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 6,
-        "minDF": 2
-      },
-      "silhouette": 0.09811825994619759,
-      "stability": 0.42632048861641597,
-      "stabilities": [
-        0.5786348763987412,
-        0.6380802810902897,
-        0.3670248622070661,
-        0.33046202036021927,
-        0.2174004030257636
-      ],
-      "sizes": [
-        9,
-        26,
-        7,
-        46,
-        7,
-        13
-      ],
-      "eligible": true,
-      "score": 0.26221937428130676
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 7,
-        "minDF": 2
-      },
-      "silhouette": 0.11020968914144846,
-      "stability": 0.3799088514277737,
-      "stabilities": [
-        0.33657648322679445,
-        0.3963219834989302,
-        0.4537693018229984,
-        0.5090352244900801,
-        0.20384126410006556
-      ],
-      "sizes": [
-        5,
-        19,
-        7,
-        25,
-        6,
-        36,
-        10
-      ],
-      "eligible": false,
-      "score": 0.24505927028461108
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "stage",
-          "titles"
-        ],
-        "encoding": "tfidf",
-        "algorithm": "medoids",
-        "k": 8,
-        "minDF": 2
-      },
-      "silhouette": 0.100222213900188,
-      "stability": 0.405819931606585,
-      "stabilities": [
-        0.4878833636582995,
-        0.4036007956692334,
-        0.4791986632554502,
-        0.5483036479241505,
-        0.1101131875257914
-      ],
-      "sizes": [
-        5,
-        20,
-        7,
-        22,
-        12,
-        7,
-        33,
         2
       ],
       "eligible": false,
-      "score": 0.25302107275338653
+      "score": 0.3567371247217158
     },
     {
       "options": {
         "keys": [
-          "scale",
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 2,
-        "minDF": 2
-      },
-      "silhouette": 0.31355367390504213,
-      "stability": 0.784860764645155,
-      "stabilities": [
-        0.7989101245759048,
-        1,
-        0.6393668304876103,
-        0.48602686816225904,
-        1
-      ],
-      "sizes": [
-        5,
-        103
-      ],
-      "eligible": false,
-      "score": 0.5492072192750985
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 3,
-        "minDF": 2
-      },
-      "silhouette": 0.22308589500224627,
-      "stability": 0.4682289951031266,
-      "stabilities": [
-        0.28370050839624106,
-        0.28879676672154797,
-        0.7906312231907889,
-        0.5975873700009594,
-        0.3804291072060955
-      ],
-      "sizes": [
-        16,
-        5,
-        87
-      ],
-      "eligible": false,
-      "score": 0.3456574450526864
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 4,
-        "minDF": 2
-      },
-      "silhouette": 0.1344947636646382,
-      "stability": 0.4060998330912997,
-      "stabilities": [
-        0.41832631090188516,
-        0.16423459218190115,
-        0.6572629074751793,
-        0.43683473634754844,
-        0.35384061854998466
-      ],
-      "sizes": [
-        16,
-        5,
-        84,
-        3
-      ],
-      "eligible": false,
-      "score": 0.27029729837796895
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
-          "staffing",
-          "population",
-          "stage",
-          "titles"
-        ],
-        "encoding": "onehot",
-        "algorithm": "average",
-        "k": 5,
-        "minDF": 2
-      },
-      "silhouette": 0.12722533726867477,
-      "stability": 0.48452612265334044,
-      "stabilities": [
-        0.4080264999483446,
-        0.34502133465329243,
-        0.7500430106405718,
-        0.5366745559129826,
-        0.38286521211151014
-      ],
-      "sizes": [
-        16,
-        5,
-        81,
-        3,
-        3
-      ],
-      "eligible": false,
-      "score": 0.3058757299610076
-    },
-    {
-      "options": {
-        "keys": [
-          "scale",
           "staffing",
           "population",
           "stage",
@@ -2021,30 +255,29 @@
         "k": 6,
         "minDF": 2
       },
-      "silhouette": 0.11167880595965042,
-      "stability": 0.438201269676873,
+      "silhouette": 0.09901514758565069,
+      "stability": 0.4923125696118989,
       "stabilities": [
-        0.40330332363094834,
-        0.3584208365972806,
-        0.7316221556329778,
-        0.30322216270067315,
-        0.39443786982248524
+        0.3257180261277589,
+        0.5755891087163578,
+        0.867876296226716,
+        0.5332077020270196,
+        0.15917171496164215
       ],
       "sizes": [
-        13,
-        5,
-        3,
-        81,
-        3,
-        3
+        4,
+        102,
+        1,
+        1,
+        1,
+        2
       ],
       "eligible": false,
-      "score": 0.2749400378182617
+      "score": 0.2956638585987748
     },
     {
       "options": {
         "keys": [
-          "scale",
           "staffing",
           "population",
           "stage",
@@ -2055,31 +288,30 @@
         "k": 7,
         "minDF": 2
       },
-      "silhouette": 0.10333815724720016,
-      "stability": 0.4171983176592814,
+      "silhouette": 0.13123450470470271,
+      "stability": 0.559362872222604,
       "stabilities": [
-        0.4105831634097482,
-        0.3072203385291523,
-        0.7286662019743251,
-        0.27810080257473097,
-        0.36142108180845056
+        0.7640666372772276,
+        0.299648804803444,
+        0.4060061547554023,
+        0.48181676589832595,
+        0.84527599837862
       ],
       "sizes": [
-        13,
-        5,
-        3,
-        78,
-        3,
-        3,
-        3
+        17,
+        4,
+        85,
+        1,
+        1,
+        1,
+        2
       ],
       "eligible": false,
-      "score": 0.2602682374532408
+      "score": 0.3452986884636533
     },
     {
       "options": {
         "keys": [
-          "scale",
           "staffing",
           "population",
           "stage",
@@ -2090,32 +322,31 @@
         "k": 8,
         "minDF": 2
       },
-      "silhouette": 0.09654305152215212,
-      "stability": 0.47129827208911257,
+      "silhouette": 0.11669962318626874,
+      "stability": 0.701094989499475,
       "stabilities": [
-        0.4111876164837441,
-        0.4200461077805093,
-        0.630635190894728,
-        0.40998333091167993,
-        0.4846391143749014
+        0.6870302348090819,
+        0.5309207692006424,
+        0.8684625397025167,
+        0.6904280731101735,
+        0.7286333306749607
       ],
       "sizes": [
-        13,
-        5,
-        3,
-        75,
-        3,
-        3,
-        3,
-        3
+        17,
+        4,
+        83,
+        1,
+        2,
+        1,
+        1,
+        2
       ],
       "eligible": false,
-      "score": 0.28392066180563236
+      "score": 0.40889730634287186
     },
     {
       "options": {
         "keys": [
-          "scale",
           "staffing",
           "population",
           "stage",
@@ -2126,26 +357,25 @@
         "k": 2,
         "minDF": 2
       },
-      "silhouette": 0.2522299663394036,
-      "stability": 0.5370659074598052,
+      "silhouette": 0.3184708495530395,
+      "stability": 0.8536258509967564,
       "stabilities": [
-        0.36171141672123996,
-        0.6160117701723761,
-        0.903951016332269,
-        0.4784581368301317,
-        0.325197197243009
+        1,
+        0.8407279238331352,
+        0.9144885427033489,
+        0.9047359153116601,
+        0.6081768731356377
       ],
       "sizes": [
-        30,
-        78
+        9,
+        102
       ],
-      "eligible": true,
-      "score": 0.3946479368996044
+      "eligible": false,
+      "score": 0.5860483502748979
     },
     {
       "options": {
         "keys": [
-          "scale",
           "staffing",
           "population",
           "stage",
@@ -2156,54 +386,1827 @@
         "k": 3,
         "minDF": 2
       },
-      "silhouette": 0.17642836312962087,
-      "stability": 0.5225844646054884,
+      "silhouette": 0.11861429763894071,
+      "stability": 0.44911274844002647,
       "stabilities": [
-        0.2054163558956228,
-        0.6735984609309489,
-        0.5592671146564533,
-        0.9696331582799399,
-        0.20500723326447728
+        0.17000832787574488,
+        0.761438023725981,
+        0.969879388344352,
+        0.23619748521819556,
+        0.10804051703585893
+      ],
+      "sizes": [
+        9,
+        65,
+        37
+      ],
+      "eligible": true,
+      "score": 0.2838635230394836
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.1141231933719235,
+      "stability": 0.5035171048708597,
+      "stabilities": [
+        0.44972174846587726,
+        0.33160375923841967,
+        0.9714512834551159,
+        0.6993691511208943,
+        0.06543958207399113
+      ],
+      "sizes": [
+        9,
+        8,
+        59,
+        35
+      ],
+      "eligible": true,
+      "score": 0.30882014912139155
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.0936272958387204,
+      "stability": 0.5327042606158569,
+      "stabilities": [
+        0.5502070393374741,
+        0.4102477414826829,
+        0.9711668825886536,
+        0.6722515290419001,
+        0.05964811062857344
+      ],
+      "sizes": [
+        9,
+        7,
+        59,
+        34,
+        2
+      ],
+      "eligible": false,
+      "score": 0.31316577822728864
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.08258230319992585,
+      "stability": 0.4246712393654074,
+      "stabilities": [
+        0.493125565747097,
+        0.6083518810620652,
+        0.5104636824940748,
+        0.37597969845806184,
+        0.1354353690657383
+      ],
+      "sizes": [
+        9,
+        7,
+        51,
+        35,
+        7,
+        2
+      ],
+      "eligible": false,
+      "score": 0.25362677128266664
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.11075833602923646,
+      "stability": 0.4395389939027073,
+      "stabilities": [
+        0.6251276202964541,
+        0.5560887569473143,
+        0.39759455842179564,
+        0.419046605409113,
+        0.19983742843885946
+      ],
+      "sizes": [
+        14,
+        7,
+        42,
+        4,
+        34,
+        8,
+        2
+      ],
+      "eligible": false,
+      "score": 0.2751486649659719
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.10727599656310942,
+      "stability": 0.3400135632481048,
+      "stabilities": [
+        0.566967676976532,
+        0.21036676371538438,
+        0.29305438127031996,
+        0.43026713946572104,
+        0.19941185481256657
+      ],
+      "sizes": [
+        13,
+        5,
+        42,
+        3,
+        4,
+        34,
+        8,
+        2
+      ],
+      "eligible": false,
+      "score": 0.2236447799056071
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.31915950524411385,
+      "stability": 0.8872392578961439,
+      "stabilities": [
+        0.5954683656475835,
+        1,
+        1,
+        0.8407279238331352,
+        1
+      ],
+      "sizes": [
+        5,
+        106
+      ],
+      "eligible": false,
+      "score": 0.6031993815701289
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.1813575340145404,
+      "stability": 0.5837727301157181,
+      "stabilities": [
+        0.8805647975330683,
+        0.40180649967408516,
+        0.5160923470438329,
+        0.3743285859295373,
+        0.7460714203980668
+      ],
+      "sizes": [
+        20,
+        5,
+        86
+      ],
+      "eligible": false,
+      "score": 0.3825651320651292
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.1675368111891845,
+      "stability": 0.7472006804010001,
+      "stabilities": [
+        0.9063526071868503,
+        0.3512478685005059,
+        0.8789078637117634,
+        0.8478916587496252,
+        0.7516034038562559
+      ],
+      "sizes": [
+        11,
+        9,
+        5,
+        86
+      ],
+      "eligible": false,
+      "score": 0.4573687457950923
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.1344350541217173,
+      "stability": 0.811795382756648,
+      "stabilities": [
+        0.9208831327303255,
+        0.7547353301698789,
+        0.8884219368568209,
+        0.7134692667217205,
+        0.7814672473044938
+      ],
+      "sizes": [
+        11,
+        9,
+        5,
+        83,
+        3
+      ],
+      "eligible": false,
+      "score": 0.47311521843918264
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.1105255589271268,
+      "stability": 0.7974700518682643,
+      "stabilities": [
+        0.7737722048066875,
+        0.7849058850728048,
+        0.9242584682160117,
+        0.7683738360021976,
+        0.7360398652436191
+      ],
+      "sizes": [
+        11,
+        9,
+        5,
+        79,
+        4,
+        3
+      ],
+      "eligible": false,
+      "score": 0.4539978053976955
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.09116953434213006,
+      "stability": 0.7743008873884564,
+      "stabilities": [
+        0.8056190744514261,
+        0.7850301013959403,
+        0.914856861213589,
+        0.769511958278517,
+        0.596486441602809
+      ],
+      "sizes": [
+        11,
+        9,
+        5,
+        79,
+        3,
+        3,
+        1
+      ],
+      "eligible": false,
+      "score": 0.4327352108652932
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.07644757103225251,
+      "stability": 0.7284892054612983,
+      "stabilities": [
+        0.8070791142093087,
+        0.5380190733485248,
+        0.9190596988945497,
+        0.7761645072200051,
+        0.6021236336341033
+      ],
+      "sizes": [
+        4,
+        11,
+        5,
+        5,
+        79,
+        3,
+        3,
+        1
+      ],
+      "eligible": false,
+      "score": 0.4024683882467754
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.2688344077605096,
+      "stability": 0.8267719367883661,
+      "stabilities": [
+        0.7461878088025831,
+        0.8407279238331352,
+        1,
+        1,
+        0.546943951306112
+      ],
+      "sizes": [
+        9,
+        102
+      ],
+      "eligible": false,
+      "score": 0.5478031722744379
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.1055015108935261,
+      "stability": 0.4434151110352003,
+      "stabilities": [
+        0.2197477812761529,
+        0.6147753321721576,
+        1,
+        0.32078531394921045,
+        0.061767127778480514
+      ],
+      "sizes": [
+        9,
+        64,
+        38
+      ],
+      "eligible": true,
+      "score": 0.2744583109643632
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.09016645948358634,
+      "stability": 0.3579782461779457,
+      "stabilities": [
+        0.11924990015611947,
+        0.37489966214714043,
+        0.5370085616113295,
+        0.7026071842410196,
+        0.05612592273411954
+      ],
+      "sizes": [
+        9,
+        57,
+        38,
+        7
+      ],
+      "eligible": true,
+      "score": 0.22407235283076604
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.08181977869031111,
+      "stability": 0.3429605746706084,
+      "stabilities": [
+        0.16537861927429956,
+        0.43238786521647615,
+        0.3791223465929718,
+        0.6204733162471097,
+        0.1174407260221847
+      ],
+      "sizes": [
+        8,
+        5,
+        53,
+        38,
+        7
+      ],
+      "eligible": false,
+      "score": 0.21239017668045976
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.07980221878593596,
+      "stability": 0.3274842218700921,
+      "stabilities": [
+        0.1875442684371835,
+        0.40005073566717403,
+        0.386154995301469,
+        0.5579833724152633,
+        0.10568773752937036
+      ],
+      "sizes": [
+        5,
+        7,
+        5,
+        50,
+        37,
+        7
+      ],
+      "eligible": false,
+      "score": 0.20364322032801402
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.093760348945423,
+      "stability": 0.36672191090024725,
+      "stabilities": [
+        0.22930867005952726,
+        0.44955839097866374,
+        0.4352836247983178,
+        0.5350945587436967,
+        0.1843643099210309
+      ],
+      "sizes": [
+        5,
+        6,
+        5,
+        5,
+        46,
+        37,
+        7
+      ],
+      "eligible": false,
+      "score": 0.23024112992283513
+    },
+    {
+      "options": {
+        "keys": [
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.08755905559307448,
+      "stability": 0.3577785764170409,
+      "stabilities": [
+        0.1954872197555385,
+        0.3352739855777124,
+        0.46451744136172335,
+        0.663182792946619,
+        0.13043144244361132
+      ],
+      "sizes": [
+        5,
+        6,
+        5,
+        5,
+        40,
+        36,
+        8,
+        6
+      ],
+      "eligible": false,
+      "score": 0.2226688160050577
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.2612569977484372,
+      "stability": -0.013556562396632905,
+      "stabilities": [
+        -0.018739599160697087,
+        -0.016921172100701355,
+        -0.016921172100701355,
+        0,
+        -0.015200868621064728
+      ],
+      "sizes": [
+        110,
+        1
+      ],
+      "eligible": false,
+      "score": 0.12385021767590214
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.1742612946805408,
+      "stability": 0.5637666994507715,
+      "stabilities": [
+        0.7923551635586269,
+        0.8742300983136088,
+        0.05462356823267899,
+        0.8533271446052576,
+        0.244297522543685
+      ],
+      "sizes": [
+        7,
+        103,
+        1
+      ],
+      "eligible": false,
+      "score": 0.3690139970656562
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.16234595082669398,
+      "stability": 0.68987675220375,
+      "stabilities": [
+        0.8786550435865504,
+        0.9954146160908883,
+        0.28085764832184984,
+        0.8483517279862022,
+        0.44610472503325926
+      ],
+      "sizes": [
+        7,
+        101,
+        2,
+        1
+      ],
+      "eligible": false,
+      "score": 0.426111351515222
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.13611571628301633,
+      "stability": 0.7263326242876773,
+      "stabilities": [
+        0.9369801803059791,
+        0.8627086240989456,
+        0.4760167655576483,
+        0.8744874309146015,
+        0.4814701205612118
+      ],
+      "sizes": [
+        7,
+        99,
+        2,
+        2,
+        1
+      ],
+      "eligible": false,
+      "score": 0.4312241702853468
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.11424630077077844,
+      "stability": 0.7084554310369866,
+      "stabilities": [
+        0.8883884521363363,
+        0.8638908690807654,
+        0.47876239147337046,
+        0.8264114665750788,
+        0.4848239759193822
+      ],
+      "sizes": [
+        1,
+        6,
+        99,
+        2,
+        2,
+        1
+      ],
+      "eligible": false,
+      "score": 0.41135086590388253
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.12792310249312852,
+      "stability": 0.8479457279599039,
+      "stabilities": [
+        0.9164634749565005,
+        0.7866935669419967,
+        0.8544319337332875,
+        0.9916571732089278,
+        0.6904824909588074
+      ],
+      "sizes": [
+        1,
+        6,
+        89,
+        2,
+        2,
+        10,
+        1
+      ],
+      "eligible": false,
+      "score": 0.4879344152265162
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.12297142767279695,
+      "stability": 0.81167485273949,
+      "stabilities": [
+        0.8766481496186684,
+        0.9962056332667237,
+        0.8689741877185401,
+        0.9934625220617368,
+        0.3230837710317813
+      ],
+      "sizes": [
+        1,
+        6,
+        89,
+        2,
+        5,
+        2,
+        5,
+        1
+      ],
+      "eligible": false,
+      "score": 0.4673231402061435
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.19690772728505368,
+      "stability": 0.5797597443788568,
+      "stabilities": [
+        0.06269299521928913,
+        1,
+        0.1765971176597117,
+        1,
+        0.6595086090152834
+      ],
+      "sizes": [
+        39,
+        72
+      ],
+      "eligible": true,
+      "score": 0.38833373583195524
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.20188769153804545,
+      "stability": 0.6458081209384884,
+      "stabilities": [
+        0.43917247943511234,
+        1,
+        0.3417438008915662,
+        0.9271564665933246,
+        0.5209678577724385
+      ],
+      "sizes": [
+        38,
+        5,
+        68
+      ],
+      "eligible": false,
+      "score": 0.4238479062382669
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.1886428309444208,
+      "stability": 0.6120279092916785,
+      "stabilities": [
+        0.3893865442171867,
+        0.9836911079238886,
+        0.4220911941981342,
+        0.8553937363062251,
+        0.40957696381295766
+      ],
+      "sizes": [
+        37,
+        4,
+        65,
+        5
+      ],
+      "eligible": false,
+      "score": 0.40033537011804965
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.1498939699596803,
+      "stability": 0.5720899902128943,
+      "stabilities": [
+        0.30568712544552573,
+        0.9224435547919672,
+        0.41556010082845857,
+        0.7880738013589574,
+        0.4286853686395624
+      ],
+      "sizes": [
+        9,
+        28,
+        4,
+        65,
+        5
+      ],
+      "eligible": false,
+      "score": 0.3609919800862873
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.14096570746557172,
+      "stability": 0.581726801446022,
+      "stabilities": [
+        0.2788680580604024,
+        0.77862710926983,
+        0.7601737829231531,
+        0.9198072442252686,
+        0.17115781275145606
+      ],
+      "sizes": [
+        9,
+        7,
+        23,
+        57,
+        11,
+        4
+      ],
+      "eligible": false,
+      "score": 0.3613462544557968
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.13770603586086771,
+      "stability": 0.5622224143647375,
+      "stabilities": [
+        0.2985010824360608,
+        0.7999017102417928,
+        0.608045702456308,
+        0.9213868896003973,
+        0.1832766870891284
+      ],
+      "sizes": [
+        9,
+        7,
+        23,
+        57,
+        10,
+        1,
+        4
+      ],
+      "eligible": false,
+      "score": 0.3499642251128026
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.14303829664792228,
+      "stability": 0.5959697403389411,
+      "stabilities": [
+        0.29869892625895633,
+        0.8674333989286754,
+        0.6553755549658321,
+        0.9095506438574247,
+        0.24879017768381728
+      ],
+      "sizes": [
+        9,
+        6,
+        24,
+        58,
+        1,
+        7,
+        4,
+        2
+      ],
+      "eligible": false,
+      "score": 0.36950401849343173
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.14292698548356203,
+      "stability": 0.022570606848764958,
+      "stabilities": [
+        -0.018618324350807822,
+        -0.016921172100701355,
+        0.1641436628079547,
+        0,
+        -0.015751132112620716
+      ],
+      "sizes": [
+        110,
+        1
+      ],
+      "eligible": false,
+      "score": 0.0827487961661635
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.15063840032121795,
+      "stability": 0.3870437699939716,
+      "stabilities": [
+        0.16340835845189036,
+        0.08749835426144452,
+        0.1981877222322417,
+        0.7887330217484668,
+        0.6973913932758149
+      ],
+      "sizes": [
+        30,
+        80,
+        1
+      ],
+      "eligible": false,
+      "score": 0.26884108515759475
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.13290518024592066,
+      "stability": 0.39843182298748464,
+      "stabilities": [
+        0.18110126365941534,
+        0.1470137024725472,
+        0.2250913097927914,
+        0.7917069532307522,
+        0.647245885781917
+      ],
+      "sizes": [
+        1,
+        29,
+        80,
+        1
+      ],
+      "eligible": false,
+      "score": 0.26566850161670263
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.08300743105142899,
+      "stability": 0.6713591879499141,
+      "stabilities": [
+        0.6414973609419408,
+        0.7006225410629955,
+        0.6206110515456487,
+        0.715365671035895,
+        0.6786993151630909
+      ],
+      "sizes": [
+        1,
+        29,
+        79,
+        1,
+        1
+      ],
+      "eligible": false,
+      "score": 0.3771833095006716
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.07910850689380286,
+      "stability": 0.6576125801038046,
+      "stabilities": [
+        0.6413156158703233,
+        0.7250735113874712,
+        0.6188570618218093,
+        0.7270987796754799,
+        0.5757179317639395
+      ],
+      "sizes": [
+        1,
+        5,
+        24,
+        79,
+        1,
+        1
+      ],
+      "eligible": false,
+      "score": 0.36836054349880376
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.07277935176794664,
+      "stability": 0.6101757254437228,
+      "stabilities": [
+        0.5912535215828503,
+        0.634854996658001,
+        0.4950732507088087,
+        0.7061018368737837,
+        0.6235950213951702
+      ],
+      "sizes": [
+        1,
+        5,
+        24,
+        73,
+        1,
+        6,
+        1
+      ],
+      "eligible": false,
+      "score": 0.34147753860583474
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "average",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.07615085140094648,
+      "stability": 0.6420790240375409,
+      "stabilities": [
+        0.6689948464769824,
+        0.600930740122236,
+        0.5963581347721231,
+        0.6604551570120094,
+        0.6836562418043535
+      ],
+      "sizes": [
+        1,
+        5,
+        24,
+        69,
+        1,
+        4,
+        6,
+        1
+      ],
+      "eligible": false,
+      "score": 0.3591149377192437
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.15621798468885967,
+      "stability": 0.6416662674529172,
+      "stabilities": [
+        0.5227500338340777,
+        0.9543950978797245,
+        0.3325478806477245,
+        0.95454076392745,
+        0.4440975609756097
+      ],
+      "sizes": [
+        40,
+        71
+      ],
+      "eligible": true,
+      "score": 0.3989421260708884
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.1419150282968783,
+      "stability": 0.6170582535546535,
+      "stabilities": [
+        0.47065763335507765,
+        0.649353500174464,
+        0.7981986583409697,
+        0.7676168683629566,
+        0.3994646075397994
       ],
       "sizes": [
         9,
         34,
-        65
+        68
       ],
       "eligible": true,
-      "score": 0.3495064138675546
+      "score": 0.3794866409257659
     },
     {
       "options": {
         "keys": [
           "scale",
-          "staffing",
-          "population",
           "stage",
           "titles"
         ],
-        "encoding": "onehot",
+        "encoding": "tfidf",
         "algorithm": "medoids",
         "k": 4,
         "minDF": 2
       },
-      "silhouette": 0.16545809025250832,
-      "stability": 0.5737415557426725,
+      "silhouette": 0.12865472318756793,
+      "stability": 0.7092799801524354,
       "stabilities": [
-        0.1915887785464192,
-        0.7688990128622919,
-        0.7584365604548289,
-        0.9256502648044476,
-        0.22413316204537492
+        0.5030263020565956,
+        0.8365323264262368,
+        0.9683593172165708,
+        0.896123966899432,
+        0.34235798816334184
       ],
       "sizes": [
         8,
         31,
         64,
+        8
+      ],
+      "eligible": true,
+      "score": 0.41896735167000165
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.10352893393744697,
+      "stability": 0.6999951128906216,
+      "stabilities": [
+        0.5029133902811563,
+        0.887154376320208,
+        0.9012276528477806,
+        0.8303097343184286,
+        0.3783704106855342
+      ],
+      "sizes": [
+        8,
+        24,
+        7,
+        64,
+        8
+      ],
+      "eligible": true,
+      "score": 0.4017620234140343
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.10516530250939699,
+      "stability": 0.5629102993278006,
+      "stabilities": [
+        0.4235899539795227,
+        0.6423907935471604,
+        0.6266872480174739,
+        0.7792312885814119,
+        0.342652212513434
+      ],
+      "sizes": [
+        5,
+        6,
+        24,
+        63,
+        5,
+        8
+      ],
+      "eligible": false,
+      "score": 0.3340378009185988
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.09901731826417459,
+      "stability": 0.4851196169622238,
+      "stabilities": [
+        0.3264028446211003,
+        0.768798732260055,
+        0.5839412427162626,
+        0.6520341797618188,
+        0.09442108545188188
+      ],
+      "sizes": [
+        5,
+        6,
+        24,
+        54,
+        5,
+        8,
+        9
+      ],
+      "eligible": false,
+      "score": 0.29206846761319916
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "stage",
+          "titles"
+        ],
+        "encoding": "tfidf",
+        "algorithm": "medoids",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.09602321723294384,
+      "stability": 0.42308412790816696,
+      "stabilities": [
+        0.3833670258582804,
+        0.725073515622818,
+        0.560435439600063,
+        0.3312639811969009,
+        0.11528067726277229
+      ],
+      "sizes": [
+        1,
+        5,
+        6,
+        23,
+        54,
+        5,
+        8,
+        9
+      ],
+      "eligible": false,
+      "score": 0.2595536725705554
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.3246680332804907,
+      "stability": 0.801862337879917,
+      "stabilities": [
+        0.9047359153116601,
+        1,
+        1,
+        0.38515587554431524,
+        0.7194198985436098
+      ],
+      "sizes": [
+        6,
+        105
+      ],
+      "eligible": false,
+      "score": 0.5632651855802039
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.22069317942299116,
+      "stability": 0.7404168505085373,
+      "stabilities": [
+        1,
+        0.6998307804107995,
+        1,
+        0.598727385888847,
+        0.4035260862430402
+      ],
+      "sizes": [
+        6,
+        103,
+        2
+      ],
+      "eligible": false,
+      "score": 0.48055501496576425
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.21690002852378015,
+      "stability": 0.7618446700057058,
+      "stabilities": [
+        1,
+        0.4053554271925129,
+        0.7570307481777306,
+        0.704145727432063,
+        0.9426914472262222
+      ],
+      "sizes": [
+        16,
+        6,
+        87,
+        2
+      ],
+      "eligible": false,
+      "score": 0.48937234926474293
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 5,
+        "minDF": 2
+      },
+      "silhouette": 0.20805936166212488,
+      "stability": 0.752367293850939,
+      "stabilities": [
+        1,
+        0.4119195458172448,
+        0.6829175560796086,
+        0.7119942218276479,
+        0.9550051455301938
+      ],
+      "sizes": [
+        14,
+        6,
+        2,
+        87,
+        2
+      ],
+      "eligible": false,
+      "score": 0.48021332775653197
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 6,
+        "minDF": 2
+      },
+      "silhouette": 0.17435174440217827,
+      "stability": 0.6957364690071037,
+      "stabilities": [
+        1,
+        0.3572670494061174,
+        0.633059469079045,
+        0.6454674640132244,
+        0.8428883625371318
+      ],
+      "sizes": [
+        14,
+        1,
+        6,
+        87,
+        1,
+        2
+      ],
+      "eligible": false,
+      "score": 0.435044106704641
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 7,
+        "minDF": 2
+      },
+      "silhouette": 0.12210779809598821,
+      "stability": 0.723735537498776,
+      "stabilities": [
+        0.9271951568944952,
+        0.49977334686461045,
+        0.6938125544069051,
+        0.612889702799903,
+        0.8850069265279666
+      ],
+      "sizes": [
+        14,
+        1,
+        6,
+        85,
+        1,
+        2,
+        2
+      ],
+      "eligible": false,
+      "score": 0.42292166779738205
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "average",
+        "k": 8,
+        "minDF": 2
+      },
+      "silhouette": 0.10017963452474253,
+      "stability": 0.7169207573944585,
+      "stabilities": [
+        0.7794013059357039,
+        0.5488703238816413,
+        0.6665731824786182,
+        0.665973410746911,
+        0.9237855639294181
+      ],
+      "sizes": [
+        14,
+        1,
+        6,
+        84,
+        1,
+        2,
+        1,
+        2
+      ],
+      "eligible": false,
+      "score": 0.4085501959596005
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 2,
+        "minDF": 2
+      },
+      "silhouette": 0.291506714965236,
+      "stability": 0.6343768668219665,
+      "stabilities": [
+        0.7581763049599307,
+        0.30702389572773353,
+        0.935812959523749,
+        1,
+        0.17087117389841913
+      ],
+      "sizes": [
+        13,
+        98
+      ],
+      "eligible": false,
+      "score": 0.4629417908936012
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 3,
+        "minDF": 2
+      },
+      "silhouette": 0.20848231868122566,
+      "stability": 0.6559040963696099,
+      "stabilities": [
+        0.25365433956440386,
+        0.945830822615164,
+        0.8624098855609641,
+        1,
+        0.21762543410751764
+      ],
+      "sizes": [
+        10,
+        8,
+        93
+      ],
+      "eligible": false,
+      "score": 0.4321932075254178
+    },
+    {
+      "options": {
+        "keys": [
+          "scale",
+          "staffing",
+          "population",
+          "stage",
+          "titles"
+        ],
+        "encoding": "onehot",
+        "algorithm": "medoids",
+        "k": 4,
+        "minDF": 2
+      },
+      "silhouette": 0.17822863093942884,
+      "stability": 0.5550801331647459,
+      "stabilities": [
+        0.44757980587695895,
+        0.3674331587704434,
+        0.6930674755538082,
+        0.9137729637888924,
+        0.3535472618336267
+      ],
+      "sizes": [
+        14,
+        7,
+        85,
         5
       ],
       "eligible": false,
-      "score": 0.3695998229975904
+      "score": 0.3666543820520874
     },
     {
       "options": {
@@ -2219,24 +2222,24 @@
         "k": 5,
         "minDF": 2
       },
-      "silhouette": 0.1240509697874309,
-      "stability": 0.5565183958186892,
+      "silhouette": 0.1301224664335001,
+      "stability": 0.30569033046179656,
       "stabilities": [
-        0.5883757527919562,
-        0.5940577310138576,
-        0.6023876621823757,
-        0.7735714443670892,
-        0.22419938873816725
+        0.3902662408512062,
+        0.23744761661969827,
+        0.35369410790054323,
+        0.30602312218790434,
+        0.24102056474963077
       ],
       "sizes": [
-        8,
-        31,
-        62,
+        14,
+        7,
+        48,
         4,
-        3
+        38
       ],
       "eligible": false,
-      "score": 0.34028468280306007
+      "score": 0.2179063984476483
     },
     {
       "options": {
@@ -2252,25 +2255,25 @@
         "k": 6,
         "minDF": 2
       },
-      "silhouette": 0.11874752545605273,
-      "stability": 0.5142756429863699,
+      "silhouette": 0.12308414008173903,
+      "stability": 0.3219777956841168,
       "stabilities": [
-        0.5593204537178175,
-        0.3563674588360644,
-        0.6197510023211648,
-        0.786627807765194,
-        0.24931149229160893
+        0.48430130641364805,
+        0.19939263375394203,
+        0.3774017915430018,
+        0.29078534284677704,
+        0.25800790386321476
       ],
       "sizes": [
+        12,
+        7,
+        43,
         8,
-        28,
-        6,
-        59,
         4,
-        3
+        37
       ],
       "eligible": false,
-      "score": 0.3165115842212113
+      "score": 0.2225309678829279
     },
     {
       "options": {
@@ -2286,26 +2289,26 @@
         "k": 7,
         "minDF": 2
       },
-      "silhouette": 0.125040298624628,
-      "stability": 0.5613731846642942,
+      "silhouette": 0.1181212254315079,
+      "stability": 0.3999397204606497,
       "stabilities": [
-        0.761895464698531,
-        0.47634210379308417,
-        0.7418381351906455,
-        0.633221900582898,
-        0.19356831905631236
+        0.6831405931872014,
+        0.3080125800344435,
+        0.39987523529469404,
+        0.31554822366682206,
+        0.2931219701200873
       ],
       "sizes": [
-        8,
-        27,
-        6,
-        52,
-        4,
+        2,
+        11,
+        17,
+        37,
         3,
-        8
+        3,
+        38
       ],
       "eligible": false,
-      "score": 0.3432067416444611
+      "score": 0.2590304729460788
     },
     {
       "options": {
@@ -2321,27 +2324,27 @@
         "k": 8,
         "minDF": 2
       },
-      "silhouette": 0.12580725733876624,
-      "stability": 0.568292381826055,
+      "silhouette": 0.123428681395732,
+      "stability": 0.4023541250809677,
       "stabilities": [
-        0.7378072867871885,
-        0.5281949750799236,
-        0.7850789770024268,
-        0.6990911466651181,
-        0.09128952359561776
+        0.5119581100828057,
+        0.4089779115161749,
+        0.46940237901877413,
+        0.34366463502051664,
+        0.2777675897665668
       ],
       "sizes": [
-        6,
-        28,
-        5,
-        52,
+        2,
         3,
+        16,
+        9,
+        39,
         3,
-        3,
-        8
+        2,
+        37
       ],
       "eligible": false,
-      "score": 0.34704981958241066
+      "score": 0.26289140323834986
     },
     {
       "options": {
@@ -2357,21 +2360,21 @@
         "k": 2,
         "minDF": 2
       },
-      "silhouette": 0.2153582076899962,
-      "stability": 0.439107150661021,
+      "silhouette": 0.2771015012370672,
+      "stability": 0.6494788478988327,
       "stabilities": [
+        0.6257987055105506,
+        0.6400209946201285,
         1,
-        -0.018242413611647513,
-        0.07251014488593492,
-        0.14126802203081748,
+        -0.018425460636515914,
         1
       ],
       "sizes": [
-        103,
-        5
+        108,
+        3
       ],
       "eligible": false,
-      "score": 0.3272326791755086
+      "score": 0.46329017456794996
     },
     {
       "options": {
@@ -2387,22 +2390,22 @@
         "k": 3,
         "minDF": 2
       },
-      "silhouette": 0.2228660278878649,
-      "stability": 0.4665312269211304,
+      "silhouette": 0.2429570691818628,
+      "stability": 0.6696687734325459,
       "stabilities": [
-        0.3359024704744601,
-        0.4329826714540087,
-        0.7212326830647441,
-        0.5329587282394153,
-        0.309579581373024
+        0.83857622355788,
+        0.4740109078330421,
+        0.8455269901382,
+        0.796360134507724,
+        0.3938696111258839
       ],
       "sizes": [
-        15,
-        88,
-        5
+        16,
+        92,
+        3
       ],
       "eligible": false,
-      "score": 0.34469862740449764
+      "score": 0.45631292130720436
     },
     {
       "options": {
@@ -2418,23 +2421,23 @@
         "k": 4,
         "minDF": 2
       },
-      "silhouette": 0.1898009427694616,
-      "stability": 0.4742368258209294,
+      "silhouette": 0.11331956672977878,
+      "stability": 0.6447289296092676,
       "stabilities": [
-        0.327310010811267,
-        0.37826974070651653,
-        0.804372873696575,
-        0.540821982147388,
-        0.32040952174290044
+        0.8032331851242643,
+        0.44067192098568375,
+        0.826890581035385,
+        0.7393386694659494,
+        0.4135102914350555
       ],
       "sizes": [
-        14,
-        1,
-        88,
-        5
+        16,
+        91,
+        3,
+        1
       ],
       "eligible": false,
-      "score": 0.3320188842951955
+      "score": 0.3790242481695232
     },
     {
       "options": {
@@ -2450,24 +2453,24 @@
         "k": 5,
         "minDF": 2
       },
-      "silhouette": 0.1771884819013728,
-      "stability": 0.4186648833046009,
+      "silhouette": 0.09329649740987928,
+      "stability": 0.621398123586243,
       "stabilities": [
-        0.40380316131761484,
-        0.38977660501518896,
-        0.7016651248843663,
-        0.27875668475386395,
-        0.31932284055197024
+        0.8144455826609059,
+        0.31823690870851606,
+        0.7304998535325291,
+        0.7498315986180222,
+        0.4939766744112419
       ],
       "sizes": [
-        1,
-        13,
-        1,
-        88,
-        5
+        2,
+        14,
+        91,
+        3,
+        1
       ],
       "eligible": false,
-      "score": 0.2979266826029868
+      "score": 0.3573473104980611
     },
     {
       "options": {
@@ -2483,25 +2486,25 @@
         "k": 6,
         "minDF": 2
       },
-      "silhouette": 0.12634857112178913,
-      "stability": 0.4263230130945942,
+      "silhouette": 0.08741692480381813,
+      "stability": 0.6311402503707212,
       "stabilities": [
-        0.41966162490563647,
-        0.39017038266919674,
-        0.7126286160571546,
-        0.3238026947028173,
-        0.28535174713816597
+        0.8151155298122247,
+        0.31732298389208907,
+        0.7275581294201687,
+        0.8180839709265213,
+        0.4776206378026022
       ],
       "sizes": [
-        1,
-        13,
-        1,
-        88,
+        2,
+        9,
+        5,
+        91,
         3,
-        2
+        1
       ],
       "eligible": false,
-      "score": 0.27633579210819165
+      "score": 0.35927858758726966
     },
     {
       "options": {
@@ -2517,26 +2520,26 @@
         "k": 7,
         "minDF": 2
       },
-      "silhouette": 0.1173712524553437,
-      "stability": 0.6914473980234961,
+      "silhouette": 0.06632794614860126,
+      "stability": 0.5818978057953448,
       "stabilities": [
-        0.6285561752115179,
-        0.5994679939269272,
-        0.5010849196917831,
-        0.8919747849683733,
-        0.8361531163188788
+        0.4050907745631086,
+        0.3639126442271622,
+        0.8473472160046928,
+        0.8701319500562985,
+        0.42300644412546196
       ],
       "sizes": [
-        1,
-        13,
-        27,
-        1,
+        2,
+        9,
+        5,
+        88,
         3,
-        61,
-        2
+        3,
+        1
       ],
       "eligible": false,
-      "score": 0.4044093252394199
+      "score": 0.324112875971973
     },
     {
       "options": {
@@ -2552,27 +2555,27 @@
         "k": 8,
         "minDF": 2
       },
-      "silhouette": 0.10968583877023734,
-      "stability": 0.6659227696469188,
+      "silhouette": 0.09397463259345418,
+      "stability": 0.6089872632685099,
       "stabilities": [
-        0.6358208874837751,
-        0.5045225022458464,
-        0.5127228325707005,
-        0.8643227937706466,
-        0.8122248321636254
+        0.7251874043691255,
+        0.6819324172972382,
+        0.6607376444735955,
+        0.3840867071861126,
+        0.5929921430164778
       ],
       "sizes": [
-        1,
-        13,
-        27,
-        1,
+        2,
+        9,
+        5,
+        28,
         3,
+        60,
         3,
-        58,
-        2
+        1
       ],
       "eligible": false,
-      "score": 0.38780430420857803
+      "score": 0.35148094793098206
     },
     {
       "options": {
@@ -2588,21 +2591,21 @@
         "k": 2,
         "minDF": 2
       },
-      "silhouette": 0.16786877992457103,
-      "stability": 0.3450589725776445,
+      "silhouette": 0.21830587156527076,
+      "stability": 0.5389214079248216,
       "stabilities": [
-        0.4484247894449395,
-        0.5487810297915627,
-        0.18830145425890096,
-        0.4811015276305681,
-        0.05868606176225104
+        0.34288454621748,
+        0.6488838441165343,
+        0.44095794713535336,
+        0.9514406143541775,
+        0.3104400878005627
       ],
       "sizes": [
-        55,
-        53
+        28,
+        83
       ],
       "eligible": true,
-      "score": 0.2564638762511078
+      "score": 0.37861363974504614
     },
     {
       "options": {
@@ -2618,22 +2621,22 @@
         "k": 3,
         "minDF": 2
       },
-      "silhouette": 0.15018800499733193,
-      "stability": 0.5100340870708134,
+      "silhouette": 0.20603910319577812,
+      "stability": 0.5868386839529662,
       "stabilities": [
-        0.5644083051426089,
-        0.5600846421094494,
-        0.28306541314170464,
-        1,
-        0.14261207496030429
+        0.27559857441909474,
+        0.26914623240550317,
+        0.9136004416857093,
+        0.9517541157161822,
+        0.524094055538342
       ],
       "sizes": [
-        10,
-        45,
-        53
+        14,
+        9,
+        88
       ],
-      "eligible": true,
-      "score": 0.3301110460340727
+      "eligible": false,
+      "score": 0.3964388935743722
     },
     {
       "options": {
@@ -2649,23 +2652,23 @@
         "k": 4,
         "minDF": 2
       },
-      "silhouette": 0.1478338554867433,
-      "stability": 0.48285195535062975,
+      "silhouette": 0.18085532622392245,
+      "stability": 0.34300978671021315,
       "stabilities": [
-        0.41623728470553695,
-        0.5202877034044519,
-        0.3165496820358464,
-        0.9747479426372243,
-        0.18643716397008905
+        0.42479781271555495,
+        0.14602210071951588,
+        0.36383064094760914,
+        0.31374896131586305,
+        0.4666494178525227
       ],
       "sizes": [
-        7,
-        43,
-        5,
-        53
+        9,
+        18,
+        79,
+        5
       ],
       "eligible": false,
-      "score": 0.31534290541868654
+      "score": 0.2619325564670678
     },
     {
       "options": {
@@ -2681,24 +2684,24 @@
         "k": 5,
         "minDF": 2
       },
-      "silhouette": 0.12587478091351642,
-      "stability": 0.45075285522683445,
+      "silhouette": 0.13370955576997226,
+      "stability": 0.4225122792405894,
       "stabilities": [
-        0.3753559683340773,
-        0.5083245603165839,
-        0.2300225917012406,
-        0.9668603310290664,
-        0.17320082475320395
+        0.6581297415687433,
+        0.4514836603873052,
+        0.31996472140683485,
+        0.44382963506671935,
+        0.23915363777334414
       ],
       "sizes": [
-        5,
-        32,
-        14,
+        6,
+        6,
+        40,
         4,
-        53
+        55
       ],
       "eligible": false,
-      "score": 0.2883138180701754
+      "score": 0.27811091750528083
     },
     {
       "options": {
@@ -2714,25 +2717,25 @@
         "k": 6,
         "minDF": 2
       },
-      "silhouette": 0.11679908403249242,
-      "stability": 0.34854157977147693,
+      "silhouette": 0.07597148204089124,
+      "stability": 0.3373777708129145,
       "stabilities": [
-        0.3736673854823496,
-        0.3962891246494627,
-        0.26069238121605637,
-        0.5019314068927424,
-        0.21012760061677352
+        0.30196659835172024,
+        0.5131813333576436,
+        0.19350640029224198,
+        0.5168638134334224,
+        0.16137070862954433
       ],
       "sizes": [
-        5,
-        6,
-        32,
-        9,
+        7,
+        7,
+        25,
+        49,
         4,
-        52
+        19
       ],
       "eligible": false,
-      "score": 0.23267033190198466
+      "score": 0.20667462642690287
     },
     {
       "options": {
@@ -2748,26 +2751,26 @@
         "k": 7,
         "minDF": 2
       },
-      "silhouette": 0.08108947581188455,
-      "stability": 0.35801393932000886,
+      "silhouette": 0.0989762485333125,
+      "stability": 0.34695378116586173,
       "stabilities": [
-        0.43706863182038586,
-        0.36150752101500466,
-        0.30497031595106444,
-        0.5245559645821306,
-        0.16196726323145852
+        0.23585922688051333,
+        0.46686348168498953,
+        0.3908138979745843,
+        0.5621868406147105,
+        0.07904545867451092
       ],
       "sizes": [
-        3,
-        10,
+        6,
+        26,
         5,
-        20,
         31,
-        4,
-        35
+        3,
+        28,
+        12
       ],
       "eligible": false,
-      "score": 0.21955170756594672
+      "score": 0.2229650148495871
     },
     {
       "options": {
@@ -2783,27 +2786,27 @@
         "k": 8,
         "minDF": 2
       },
-      "silhouette": 0.08836727615523104,
-      "stability": 0.36210566432861935,
+      "silhouette": 0.09305132208272487,
+      "stability": 0.4046433147239579,
       "stabilities": [
-        0.4630506909453063,
-        0.42037226985201753,
-        0.3356709839702496,
-        0.47350154650817966,
-        0.11793283036734353
+        0.2359793343769382,
+        0.7428951047901176,
+        0.3833742273865357,
+        0.5872239161151186,
+        0.0737439909510793
       ],
       "sizes": [
-        3,
-        10,
-        5,
-        20,
-        29,
         4,
-        31,
-        6
+        25,
+        5,
+        5,
+        29,
+        3,
+        28,
+        12
       ],
       "eligible": false,
-      "score": 0.2252364702419252
+      "score": 0.2488473184033414
     }
   ]
 }
